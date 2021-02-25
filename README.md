@@ -58,7 +58,7 @@ Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus e
 Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
 - Wortmeldungen während der Q&A-Termine zu den Kursen
 - Wortmeldungen während der Online Praktikumstermine
-- [GitHub Issues](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues) (in diesem Repository), entweder individuell für Probleme oder als Sammlung für Fragen für die Q&A-Termine.
+- [GitHub Issues](https://github.com/hs-furtwangen/GIS-SoSe-2021/issues) (in diesem Repository), entweder individuell für Probleme oder als Sammlung für Fragen für die Q&A-Termine.
 - Über den [GIS/EIA Discord Server](https://discord.gg/KpHqEUF)
 
 Bitte stellen Sie bei den Q&A- und Praktikumsterminen *alle* Fragen, die Sie haben. Handeln Sie *egoistisch* und und stellen Sie sicher, dass Sie selbst alles verstanden haben oder handeln Sie *altruistisch* und stellen Sie die Fragen, die sich niemand anders traut zu stellen.

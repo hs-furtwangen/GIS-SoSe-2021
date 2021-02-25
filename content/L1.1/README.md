@@ -81,7 +81,7 @@ Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 Der Großteil der Veranstaltung wird über GitHub laufen. Zum Ende der Veranstaltung wird es jedoch einen Felix-Kurs geben, um die mündlichen Prüfungstermine zu organisieren.
 
 ### Wo müssen die Abgaben/Aufgaben hochgeladen werden?
-Hierfür gibt es pro Abgabe eine GitHub Issue-Seite: [Issues](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/issues).
+Hierfür gibt es pro Abgabe eine GitHub Issue-Seite: [Issues](https://github.com/hs-furtwangen/GIS-SoSe-2021/issues).
 Es gibt jeweils pro größerem Kapitel einen Issue-Thread (1, 2, 3).
 
 ### Muss ich zu den Terminen kommen, wenn ich keine Hilfe bei den Aufgaben brauche bzw. schon vorher fertig bin?

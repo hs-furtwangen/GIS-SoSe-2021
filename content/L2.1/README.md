@@ -43,7 +43,7 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
 
 - <a href="https://nodejs.org/">NodeJS</a>  
 - [TSLint Erweiterung](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-- [Konfigurations Dateien (*tsconfig* und *tslint*)](https://github.com/hs-furtwangen/GIS-WiSe-2020-2021/tree/master/config_files)
+- [Konfigurations Dateien (*tsconfig* und *tslint*)](https://github.com/hs-furtwangen/GIS-SoSe-2021/tree/master/config_files)
 
 **Terminal Befehle**
 - `npm -v`

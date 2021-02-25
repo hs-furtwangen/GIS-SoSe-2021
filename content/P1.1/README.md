@@ -6,7 +6,7 @@ Richten Sie sich eine vollständige Arbeitsumgebung ein, in dem Sie z.B. folgend
 - Installieren Sie sich *Visual Studio Code* oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich *GIT*
 - Legen Sie – falls noch nicht vorhanden – ein GitHub Konto an  
-- Legen Sie ein Repository mit dem Namen GIS-WiSe-2020-2021 an
+- Legen Sie ein Repository mit dem Namen GIS-SoSe-2021 an
 - Machen Sie sich mit GIT vertraut (wir empfehlen Ihnen die Verwendung einer visuellen Benutzeroberfläche für GIT wie z.B. GitKraken)
 
 ### Aufgabe 2
