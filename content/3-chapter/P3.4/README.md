@@ -10,5 +10,5 @@ Legen Sie eine HTML Seite an, auf der sich folgendes befindet:
 
 #### Lösungshinweise:
 - evtl kann es sinnvoll sein (besonders bei der Bearbeitung der Bonusaufgaben), den Code für die Datenbank auf dem Server in eine eigene Datei auszulagern.
-- Testen Sie auf jeden Fall erstmal alles lokal, dann mit ihrer remote Datenbank, dann mit github pages.
+- Testen Sie auf jeden Fall erstmal alles lokal, dann mit ihrer remote Datenbank, dann mit GitHub Pages.
 - Testen Sie ausgiebig auch andere Datenbank-Funktionalitäten mit Ihrem Node Server, um ein Gefühl dafür zu bekommen, wie der Server mit der Datenbank kommuniziert, welche Rückgabewerte man bekommt, etc.

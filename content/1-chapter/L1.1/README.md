@@ -1,5 +1,9 @@
 ## _V_ **1.1** Grundlagen HTML
 
+- Einführung in die Thematik
+- HTML Basics
+- HTML Bilder und Verweise
+
 ### Einführung in die Thematik
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/00_Einfuehrung.mp4" type="video/mp4"> 
@@ -48,20 +52,5 @@ _Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst e
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+Zusammenfassung von: [&lt;xxx&gt;](https://github.com/xxxx)
 
-### Warum kann ich mich nicht auf Felix anmelden?
-Der Großteil der Veranstaltung wird über GitHub laufen. Zum Ende der Veranstaltung wird es jedoch einen Felix-Kurs geben, um die mündlichen Prüfungstermine zu organisieren.
-
-### Wo müssen die Abgaben/Aufgaben hochgeladen werden?
-Hierfür gibt es pro Abgabe eine GitHub Issue-Seite: [Issues](https://github.com/hs-furtwangen/GIS-SoSe-2021/issues).
-Es gibt jeweils pro größerem Kapitel einen Issue-Thread (1, 2, 3).
-
-### Muss ich zu den Terminen kommen, wenn ich keine Hilfe bei den Aufgaben brauche bzw. schon vorher fertig bin?
-Nein, es besteht keine Anwesenheitspflicht.
-
-### Wie kann ich testen ob GIT auf meinem PC vorhanden ist?
-Der.git-Ordner ist meist versteckt und wird nicht angezeigt. Wenn ihr GitHub Desktop benutzt sollte GIT aber funktionieren.
-
-### Gibt es die Möglichkeit, eine Abgabe nachzubessern?
-Bei den Abgaben gibt es nur die Zustände “bestanden” oder “nicht bestanden”. Da die Aufgaben aber über mehrere Wochen aufgebaut werden, muss die Endabgabe deutlich zu schlecht sein, um durchzufallen. Wer über alle Termine hinweg konsequent mitmacht und seinen eigenen Code versteht, hat wenig zu befürchten.
