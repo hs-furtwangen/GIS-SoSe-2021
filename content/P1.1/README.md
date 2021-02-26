@@ -1,4 +1,4 @@
-## _P_ **1.1** Arbeitsumgebung und Grundlagen HTML
+## _P_ **1.1** Grundlagen HTML
 
 ### Aufgabe 1
 
