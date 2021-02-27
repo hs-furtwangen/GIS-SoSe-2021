@@ -1,5 +1,3 @@
-## _P_ **1.2** HTML Elemente
-
 Diese Aufgabe baut auf der vorherigen Aufgabe des Unterkapitels [P 1.1](../P1.1) auf.
 Sie benötigen für diese Aufgabe noch **weder CSS noch JS** und sollen auch keins benutzen.
 

@@ -1,7 +1,3 @@
-## _V_ **1.3** Grundlagen CSS
-
----
-
 ### Einführung
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4" type="video/mp4"> 

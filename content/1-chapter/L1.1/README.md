@@ -1,9 +1,3 @@
-## _V_ **1.1** Grundlagen HTML
-
-- Einführung in die Thematik
-- HTML Basics
-- HTML Bilder und Verweise
-
 ### Einführung in die Thematik
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/00_Einfuehrung.mp4" type="video/mp4"> 

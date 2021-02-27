@@ -1,7 +1,3 @@
-## _V_ **1.2** HTML Elemente
-
----
-
 ### HTML Audio und Video
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/02_GIS-EIA1-HTML-AV.mp4" type="video/mp4"> 

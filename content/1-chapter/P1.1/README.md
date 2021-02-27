@@ -1,5 +1,3 @@
-## _P_ **1.1** Grundlagen HTML
-
 Erstellen Sie eine stillose Webstite (reines HTML-Dokument **ohne CSS und JS**) zu Ihrer Person die mindestens folgende Elemente enthält:
 - die HTML Basisstruktur mit den HTML Tags [doctype](https://www.w3schools.com/tags/tag_doctype.asp), [html](https://www.w3schools.com/html/html_basic.asp), [head](https://www.w3schools.com/html/html_head.asp), [body](https://www.w3schools.com/tags/tag_body.asp)
 - eine Deklaration der [Zeichenkodierung](https://www.w3schools.com/charsets/ref_html_utf8.asp) und eines [Titels](https://www.w3schools.com/tags/tag_title.asp) - siehe [Überschrift](https://www.w3schools.com/tags/tag_hn.asp) (h tag)

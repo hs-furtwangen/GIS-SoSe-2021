@@ -1,5 +1,3 @@
-## _P_ **1.3** Grundlagen CSS
-
 In dieser Aufgabe wird die Portfolio-Website aus der Aufgabe aus dem Unterkapitel [P 1.2](../P1.2) mit CSS ergänzt, um verschiedene Gestaltungsaspekte zu realisieren.
 
 Erstellen Sie für diese Aufgabe wiederum einen neuen Unterordner (z.B. /Aufgabe-1.3) in Ihrem bestehenden GIT-Repository und erstellen dort eine Kopie Ihrer Portfolio-Webseite aus der vorherigen Aufgabe, an dem Sie nun weiterarbeiten werden.

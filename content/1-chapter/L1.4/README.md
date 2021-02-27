@@ -1,5 +1,3 @@
-## _V_ **1.4** CSS Vertiefung
-
 ### Komplexe Selektoren
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4" type="video/mp4"> 
