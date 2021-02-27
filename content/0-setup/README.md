@@ -5,7 +5,7 @@
     <a href="https://scheuerle.net/lehre/gis/videos/00_Arbeitsumgebung.mp4">Zum Video</a>
 </video>
 
-### Aufgabe
+### Schritt für Schritt
 Richten Sie sich eine vollständige Arbeitsumgebung ein, in dem Sie z.B. folgende Schritte durchführen:
 - Installieren Sie sich *Visual Studio Code* oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich *GIT*
