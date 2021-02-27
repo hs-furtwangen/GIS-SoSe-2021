@@ -1,0 +1,780 @@
+Searching 49 files for "fragen und" (regex, case sensitive)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.1/README.md:
+   26  > - Verwenden Sie nun zum Test die Methode `"post"` im Formular und betätigen Sie den Submit-Button. Versuchen Sie nun mit Hilfe der Entwicklertools die Daten zu finden. Klicken Sie dazu auf den Reiter "Netzwerk" oder "Netzwerkanalyse" und dann auf den Post-Request bei den gelisteten Anfragen.  
+   27  
+   28: **Hinweis**: Versenden Sie niemals sensible Daten (logins, passwörter, etc) über GET Anfragen, da der Inhalt der Anfrage in Klartext in der URL dargestellt wird. GET wird vorallem für harmlose Suchanfragen und andere Dinge verwendet, bei denen die resultierende Seite kopiert / als Lesezeichen gesetzt werden können soll oder bei denen absolut nicht-geheime Daten verschickt/angefragt werden.
+   29  
+   30  ## FormData
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.3/README.md:
+   18  
+   19  ## MongoDB
+   20: 2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die JavaScript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als JavaScript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
+   21  
+   22  > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/P3.4/README.md:
+    6  - zwei Buttons die folgendes auslösen sollen:
+    7    - Versand der im Formular eingegebenen Daten an den Server, welcher die Daten in Ihre remote Datenbank schreibt. (Bonus: leeren Sie das Formular danach)
+    8:   - Anfrage an den Server, die in der Datenbank gespeicherten Daten abzufragen und zurück zu geben. Die zurück gegebenen Daten werden im designierten Ausgabefeld als JSON String angezeigt. (Bonus: Formatieren Sie die zurückgegebenen Daten in sinnvoller Weise)
+    9  - (Bonus: Fügen Sie den ausgegebenen Objekten je einen Button hinzu, welcher es dem Nutzer erlaubt, die Daten wieder aus der Datenbank zu entfernen (natürlich wieder über eine Serveranfrage, welche dann die Daten wieder aus der Datenbank entfernt)).
+   10  
+
+3 matches across 3 files
+
+
+Searching 49 files for "fragen und" (regex)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/README.md:
+    7  ### Ablauf und Materialien
+    8  
+    9: Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
+   10  
+   11  Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
+   ..
+   54  ---
+   55  
+   56: ### Fragen und Probleme
+   57  
+   58  Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.1/README.md:
+   43  ---
+   44  
+   45: ## **?!** Fragen und Antworten
+   46  
+   47  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.2/README.md:
+   38  ---
+   39  
+   40: ## **?!** Fragen und Antworten
+   41  
+   42  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.3/README.md:
+   84  ---
+   85  
+   86: ## **?!** Fragen und Antworten
+   87  
+   88  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.4/README.md:
+   91  ---
+   92  
+   93: ## **?!** Fragen und Antworten
+   94  
+   95  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.1/README.md:
+  551  
+  552  
+  553: ## **?!** Fragen und Antworten
+  554  
+  555  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.2/README.md:
+  715  
+  716  
+  717: ## **?!** Fragen und Antworten
+  718  
+  719  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.3/README.md:
+  333  ---
+  334  
+  335: ## **?!** Fragen und Antworten
+  336  
+  337  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.4/README.md:
+  145  In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
+  146  
+  147: ## **?!** Fragen und Antworten
+  148  
+  149  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.5/README.md:
+   90  ---
+   91  
+   92: ## **?!** Fragen und Antworten
+   93  
+   94  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/P2.1/README.md:
+   59  ### Aufgabe 3 - Fehler erkennen und vermeiden lernen
+   60  
+   61: **a)** Bauen Sie in dem Code von A1 und A2 Fehler ein (s. auch die Arten von Fehlern im [Fragen und Probleme](../../#fragen-und-probleme) Abschnitt) und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
+   62  
+   63  **b)** Tun sie sich mit Komilitonen zusammen und versuchen Sie die Fehler der anderen zu finden un zu lösen.
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.1/README.md:
+   26  > - Verwenden Sie nun zum Test die Methode `"post"` im Formular und betätigen Sie den Submit-Button. Versuchen Sie nun mit Hilfe der Entwicklertools die Daten zu finden. Klicken Sie dazu auf den Reiter "Netzwerk" oder "Netzwerkanalyse" und dann auf den Post-Request bei den gelisteten Anfragen.  
+   27  
+   28: **Hinweis**: Versenden Sie niemals sensible Daten (logins, passwörter, etc) über GET Anfragen, da der Inhalt der Anfrage in Klartext in der URL dargestellt wird. GET wird vorallem für harmlose Suchanfragen und andere Dinge verwendet, bei denen die resultierende Seite kopiert / als Lesezeichen gesetzt werden können soll oder bei denen absolut nicht-geheime Daten verschickt/angefragt werden.
+   29  
+   30  ## FormData
+   ..
+  243  ---
+  244  
+  245: ## **?!** Fragen und Antworten
+  246  
+  247  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.2/README.md:
+  182  ---
+  183  
+  184: ## **?!** Fragen und Antworten
+  185  
+  186  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.3/README.md:
+   18  
+   19  ## MongoDB
+   20: 2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die JavaScript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als JavaScript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
+   21  
+   22  > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
+   ..
+  162  ---
+  163  
+  164: ## **?!** Fragen und Antworten
+  165  
+  166  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.4/README.md:
+   67  ---
+   68  
+   69: ## **?!** Fragen und Antworten
+   70  
+   71  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/P3.4/README.md:
+    6  - zwei Buttons die folgendes auslösen sollen:
+    7    - Versand der im Formular eingegebenen Daten an den Server, welcher die Daten in Ihre remote Datenbank schreibt. (Bonus: leeren Sie das Formular danach)
+    8:   - Anfrage an den Server, die in der Datenbank gespeicherten Daten abzufragen und zurück zu geben. Die zurück gegebenen Daten werden im designierten Ausgabefeld als JSON String angezeigt. (Bonus: Formatieren Sie die zurückgegebenen Daten in sinnvoller Weise)
+    9  - (Bonus: Fügen Sie den ausgegebenen Objekten je einen Button hinzu, welcher es dem Nutzer erlaubt, die Daten wieder aus der Datenbank zu entfernen (natürlich wieder über eine Serveranfrage, welche dann die Daten wieder aus der Datenbank entfernt)).
+   10  
+
+19 matches across 16 files
+
+
+Searching 49 files for "fragen und" (regex)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/README.md:
+    7  ### Ablauf und Materialien
+    8  
+    9: Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
+   10  
+   11  Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
+   ..
+   54  ---
+   55  
+   56: ### Fragen und Probleme
+   57  
+   58  Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.1/README.md:
+   43  ---
+   44  
+   45: ## Fragen und Antworten
+   46  
+   47  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.2/README.md:
+   38  ---
+   39  
+   40: ## **?!** Fragen und Antworten
+   41  
+   42  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.3/README.md:
+   84  ---
+   85  
+   86: ## **?!** Fragen und Antworten
+   87  
+   88  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.4/README.md:
+   91  ---
+   92  
+   93: ## **?!** Fragen und Antworten
+   94  
+   95  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.1/README.md:
+  551  
+  552  
+  553: ## **?!** Fragen und Antworten
+  554  
+  555  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.2/README.md:
+  715  
+  716  
+  717: ## **?!** Fragen und Antworten
+  718  
+  719  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.3/README.md:
+  333  ---
+  334  
+  335: ## **?!** Fragen und Antworten
+  336  
+  337  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.4/README.md:
+  145  In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
+  146  
+  147: ## **?!** Fragen und Antworten
+  148  
+  149  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.5/README.md:
+   90  ---
+   91  
+   92: ## **?!** Fragen und Antworten
+   93  
+   94  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/P2.1/README.md:
+   59  ### Aufgabe 3 - Fehler erkennen und vermeiden lernen
+   60  
+   61: **a)** Bauen Sie in dem Code von A1 und A2 Fehler ein (s. auch die Arten von Fehlern im [Fragen und Probleme](../../#fragen-und-probleme) Abschnitt) und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
+   62  
+   63  **b)** Tun sie sich mit Komilitonen zusammen und versuchen Sie die Fehler der anderen zu finden un zu lösen.
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.1/README.md:
+   26  > - Verwenden Sie nun zum Test die Methode `"post"` im Formular und betätigen Sie den Submit-Button. Versuchen Sie nun mit Hilfe der Entwicklertools die Daten zu finden. Klicken Sie dazu auf den Reiter "Netzwerk" oder "Netzwerkanalyse" und dann auf den Post-Request bei den gelisteten Anfragen.  
+   27  
+   28: **Hinweis**: Versenden Sie niemals sensible Daten (logins, passwörter, etc) über GET Anfragen, da der Inhalt der Anfrage in Klartext in der URL dargestellt wird. GET wird vorallem für harmlose Suchanfragen und andere Dinge verwendet, bei denen die resultierende Seite kopiert / als Lesezeichen gesetzt werden können soll oder bei denen absolut nicht-geheime Daten verschickt/angefragt werden.
+   29  
+   30  ## FormData
+   ..
+  243  ---
+  244  
+  245: ## **?!** Fragen und Antworten
+  246  
+  247  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.2/README.md:
+  182  ---
+  183  
+  184: ## **?!** Fragen und Antworten
+  185  
+  186  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.3/README.md:
+   18  
+   19  ## MongoDB
+   20: 2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die JavaScript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als JavaScript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
+   21  
+   22  > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
+   ..
+  162  ---
+  163  
+  164: ## **?!** Fragen und Antworten
+  165  
+  166  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.4/README.md:
+   67  ---
+   68  
+   69: ## **?!** Fragen und Antworten
+   70  
+   71  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/P3.4/README.md:
+    6  - zwei Buttons die folgendes auslösen sollen:
+    7    - Versand der im Formular eingegebenen Daten an den Server, welcher die Daten in Ihre remote Datenbank schreibt. (Bonus: leeren Sie das Formular danach)
+    8:   - Anfrage an den Server, die in der Datenbank gespeicherten Daten abzufragen und zurück zu geben. Die zurück gegebenen Daten werden im designierten Ausgabefeld als JSON String angezeigt. (Bonus: Formatieren Sie die zurückgegebenen Daten in sinnvoller Weise)
+    9  - (Bonus: Fügen Sie den ausgegebenen Objekten je einen Button hinzu, welcher es dem Nutzer erlaubt, die Daten wieder aus der Datenbank zu entfernen (natürlich wieder über eine Serveranfrage, welche dann die Daten wieder aus der Datenbank entfernt)).
+   10  
+
+19 matches across 16 files
+
+
+Searching 49 files for "fragen und" (regex)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/README.md:
+    7  ### Ablauf und Materialien
+    8  
+    9: Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
+   10  
+   11  Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
+   ..
+   54  ---
+   55  
+   56: ### Fragen und Probleme
+   57  
+   58  Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.1/README.md:
+   43  ---
+   44  
+   45: ## Fragen und Antworten
+   46  
+   47  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.2/README.md:
+   38  ---
+   39  
+   40: ## **?!** Fragen und Antworten
+   41  
+   42  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.3/README.md:
+   84  ---
+   85  
+   86: ## **?!** Fragen und Antworten
+   87  
+   88  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.4/README.md:
+   91  ---
+   92  
+   93: ## **?!** Fragen und Antworten
+   94  
+   95  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.1/README.md:
+  551  
+  552  
+  553: ## **?!** Fragen und Antworten
+  554  
+  555  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.2/README.md:
+  715  
+  716  
+  717: ## **?!** Fragen und Antworten
+  718  
+  719  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.3/README.md:
+  333  ---
+  334  
+  335: ## **?!** Fragen und Antworten
+  336  
+  337  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.4/README.md:
+  145  In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
+  146  
+  147: ## **?!** Fragen und Antworten
+  148  
+  149  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.5/README.md:
+   90  ---
+   91  
+   92: ## **?!** Fragen und Antworten
+   93  
+   94  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/P2.1/README.md:
+   59  ### Aufgabe 3 - Fehler erkennen und vermeiden lernen
+   60  
+   61: **a)** Bauen Sie in dem Code von A1 und A2 Fehler ein (s. auch die Arten von Fehlern im [Fragen und Probleme](../../#fragen-und-probleme) Abschnitt) und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
+   62  
+   63  **b)** Tun sie sich mit Komilitonen zusammen und versuchen Sie die Fehler der anderen zu finden un zu lösen.
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.1/README.md:
+   26  > - Verwenden Sie nun zum Test die Methode `"post"` im Formular und betätigen Sie den Submit-Button. Versuchen Sie nun mit Hilfe der Entwicklertools die Daten zu finden. Klicken Sie dazu auf den Reiter "Netzwerk" oder "Netzwerkanalyse" und dann auf den Post-Request bei den gelisteten Anfragen.  
+   27  
+   28: **Hinweis**: Versenden Sie niemals sensible Daten (logins, passwörter, etc) über GET Anfragen, da der Inhalt der Anfrage in Klartext in der URL dargestellt wird. GET wird vorallem für harmlose Suchanfragen und andere Dinge verwendet, bei denen die resultierende Seite kopiert / als Lesezeichen gesetzt werden können soll oder bei denen absolut nicht-geheime Daten verschickt/angefragt werden.
+   29  
+   30  ## FormData
+   ..
+  243  ---
+  244  
+  245: ## **?!** Fragen und Antworten
+  246  
+  247  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.2/README.md:
+  182  ---
+  183  
+  184: ## **?!** Fragen und Antworten
+  185  
+  186  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.3/README.md:
+   18  
+   19  ## MongoDB
+   20: 2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die JavaScript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als JavaScript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
+   21  
+   22  > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
+   ..
+  162  ---
+  163  
+  164: ## **?!** Fragen und Antworten
+  165  
+  166  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.4/README.md:
+   67  ---
+   68  
+   69: ## **?!** Fragen und Antworten
+   70  
+   71  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/P3.4/README.md:
+    6  - zwei Buttons die folgendes auslösen sollen:
+    7    - Versand der im Formular eingegebenen Daten an den Server, welcher die Daten in Ihre remote Datenbank schreibt. (Bonus: leeren Sie das Formular danach)
+    8:   - Anfrage an den Server, die in der Datenbank gespeicherten Daten abzufragen und zurück zu geben. Die zurück gegebenen Daten werden im designierten Ausgabefeld als JSON String angezeigt. (Bonus: Formatieren Sie die zurückgegebenen Daten in sinnvoller Weise)
+    9  - (Bonus: Fügen Sie den ausgegebenen Objekten je einen Button hinzu, welcher es dem Nutzer erlaubt, die Daten wieder aus der Datenbank zu entfernen (natürlich wieder über eine Serveranfrage, welche dann die Daten wieder aus der Datenbank entfernt)).
+   10  
+
+19 matches across 16 files
+
+
+Searching 49 files for "fragen und" (regex)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/README.md:
+    7  ### Ablauf und Materialien
+    8  
+    9: Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
+   10  
+   11  Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
+   ..
+   54  ---
+   55  
+   56: ### Fragen und Probleme
+   57  
+   58  Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.1/README.md:
+   43  ---
+   44  
+   45: ## Fragen und Antworten
+   46  
+   47  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.2/README.md:
+   38  ---
+   39  
+   40: ## **?!** Fragen und Antworten
+   41  
+   42  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.3/README.md:
+   84  ---
+   85  
+   86: ## **?!** Fragen und Antworten
+   87  
+   88  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.4/README.md:
+   91  ---
+   92  
+   93: ## **?!** Fragen und Antworten
+   94  
+   95  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.1/README.md:
+  551  
+  552  
+  553: ## **?!** Fragen und Antworten
+  554  
+  555  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.2/README.md:
+  715  
+  716  
+  717: ## **?!** Fragen und Antworten
+  718  
+  719  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.3/README.md:
+  333  ---
+  334  
+  335: ## **?!** Fragen und Antworten
+  336  
+  337  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.4/README.md:
+  145  In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
+  146  
+  147: ## **?!** Fragen und Antworten
+  148  
+  149  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.5/README.md:
+   90  ---
+   91  
+   92: ## **?!** Fragen und Antworten
+   93  
+   94  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/P2.1/README.md:
+   59  ### Aufgabe 3 - Fehler erkennen und vermeiden lernen
+   60  
+   61: **a)** Bauen Sie in dem Code von A1 und A2 Fehler ein (s. auch die Arten von Fehlern im [Fragen und Probleme](../../#fragen-und-probleme) Abschnitt) und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
+   62  
+   63  **b)** Tun sie sich mit Komilitonen zusammen und versuchen Sie die Fehler der anderen zu finden un zu lösen.
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.1/README.md:
+   26  > - Verwenden Sie nun zum Test die Methode `"post"` im Formular und betätigen Sie den Submit-Button. Versuchen Sie nun mit Hilfe der Entwicklertools die Daten zu finden. Klicken Sie dazu auf den Reiter "Netzwerk" oder "Netzwerkanalyse" und dann auf den Post-Request bei den gelisteten Anfragen.  
+   27  
+   28: **Hinweis**: Versenden Sie niemals sensible Daten (logins, passwörter, etc) über GET Anfragen, da der Inhalt der Anfrage in Klartext in der URL dargestellt wird. GET wird vorallem für harmlose Suchanfragen und andere Dinge verwendet, bei denen die resultierende Seite kopiert / als Lesezeichen gesetzt werden können soll oder bei denen absolut nicht-geheime Daten verschickt/angefragt werden.
+   29  
+   30  ## FormData
+   ..
+  243  ---
+  244  
+  245: ## **?!** Fragen und Antworten
+  246  
+  247  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.2/README.md:
+  182  ---
+  183  
+  184: ## **?!** Fragen und Antworten
+  185  
+  186  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.3/README.md:
+   18  
+   19  ## MongoDB
+   20: 2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die JavaScript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als JavaScript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
+   21  
+   22  > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
+   ..
+  162  ---
+  163  
+  164: ## **?!** Fragen und Antworten
+  165  
+  166  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.4/README.md:
+   67  ---
+   68  
+   69: ## **?!** Fragen und Antworten
+   70  
+   71  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/P3.4/README.md:
+    6  - zwei Buttons die folgendes auslösen sollen:
+    7    - Versand der im Formular eingegebenen Daten an den Server, welcher die Daten in Ihre remote Datenbank schreibt. (Bonus: leeren Sie das Formular danach)
+    8:   - Anfrage an den Server, die in der Datenbank gespeicherten Daten abzufragen und zurück zu geben. Die zurück gegebenen Daten werden im designierten Ausgabefeld als JSON String angezeigt. (Bonus: Formatieren Sie die zurückgegebenen Daten in sinnvoller Weise)
+    9  - (Bonus: Fügen Sie den ausgegebenen Objekten je einen Button hinzu, welcher es dem Nutzer erlaubt, die Daten wieder aus der Datenbank zu entfernen (natürlich wieder über eine Serveranfrage, welche dann die Daten wieder aus der Datenbank entfernt)).
+   10  
+
+19 matches across 16 files
+
+
+Searching 49 files for "**?!** Fragen und Antworten" (regex)
+
+The repeat operator "*" cannot start a regular expression.  The error occurred while parsing the regular expression fragment: '>>>HERE>>>**?!** Fra'. in regular expression **?!** Fragen und Antworten
+
+0 matches
+
+Searching 49 files for "**?!** Fragen und Antworten" (regex)
+
+The repeat operator "*" cannot start a regular expression.  The error occurred while parsing the regular expression fragment: '>>>HERE>>>**?!** Fra'. in regular expression **?!** Fragen und Antworten
+
+0 matches
+
+Searching 49 files for "** Fragen und Antworten" (regex)
+
+The repeat operator "*" cannot start a regular expression.  The error occurred while parsing the regular expression fragment: '>>>HERE>>>** Fragen '. in regular expression ** Fragen und Antworten
+
+0 matches
+
+Searching 49 files for "* Fragen und Antworten" (regex)
+
+The repeat operator "*" cannot start a regular expression.  The error occurred while parsing the regular expression fragment: '>>>HERE>>>* Fragen u'. in regular expression * Fragen und Antworten
+
+0 matches
+
+Searching 49 files for "/* Fragen und Antworten" (regex)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/README.md:
+    7  ### Ablauf und Materialien
+    8  
+    9: Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
+   10  
+   11  Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.1/README.md:
+   43  ---
+   44  
+   45: ## Fragen und Antworten
+   46  
+   47  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.2/README.md:
+   38  ---
+   39  
+   40: ## **?!** Fragen und Antworten
+   41  
+   42  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.3/README.md:
+   84  ---
+   85  
+   86: ## **?!** Fragen und Antworten
+   87  
+   88  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.4/README.md:
+   91  ---
+   92  
+   93: ## **?!** Fragen und Antworten
+   94  
+   95  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.1/README.md:
+  551  
+  552  
+  553: ## **?!** Fragen und Antworten
+  554  
+  555  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.2/README.md:
+  715  
+  716  
+  717: ## **?!** Fragen und Antworten
+  718  
+  719  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.3/README.md:
+  333  ---
+  334  
+  335: ## **?!** Fragen und Antworten
+  336  
+  337  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.4/README.md:
+  145  In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
+  146  
+  147: ## **?!** Fragen und Antworten
+  148  
+  149  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.5/README.md:
+   90  ---
+   91  
+   92: ## **?!** Fragen und Antworten
+   93  
+   94  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.1/README.md:
+  243  ---
+  244  
+  245: ## **?!** Fragen und Antworten
+  246  
+  247  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.2/README.md:
+  182  ---
+  183  
+  184: ## **?!** Fragen und Antworten
+  185  
+  186  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.3/README.md:
+  162  ---
+  163  
+  164: ## **?!** Fragen und Antworten
+  165  
+  166  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.4/README.md:
+   67  ---
+   68  
+   69: ## **?!** Fragen und Antworten
+   70  
+   71  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+14 matches across 14 files
+
+
+Searching 49 files for "\*\*\?\!\*\* Fragen und Antworten" (regex)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.2/README.md:
+   38  ---
+   39  
+   40: ## **?!** Fragen und Antworten
+   41  
+   42  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.3/README.md:
+   84  ---
+   85  
+   86: ## **?!** Fragen und Antworten
+   87  
+   88  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/1-chapter/L1.4/README.md:
+   91  ---
+   92  
+   93: ## **?!** Fragen und Antworten
+   94  
+   95  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.1/README.md:
+  551  
+  552  
+  553: ## **?!** Fragen und Antworten
+  554  
+  555  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.2/README.md:
+  715  
+  716  
+  717: ## **?!** Fragen und Antworten
+  718  
+  719  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.3/README.md:
+  333  ---
+  334  
+  335: ## **?!** Fragen und Antworten
+  336  
+  337  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.4/README.md:
+  145  In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
+  146  
+  147: ## **?!** Fragen und Antworten
+  148  
+  149  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/2-chapter/L2.5/README.md:
+   90  ---
+   91  
+   92: ## **?!** Fragen und Antworten
+   93  
+   94  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.1/README.md:
+  243  ---
+  244  
+  245: ## **?!** Fragen und Antworten
+  246  
+  247  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.2/README.md:
+  182  ---
+  183  
+  184: ## **?!** Fragen und Antworten
+  185  
+  186  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.3/README.md:
+  162  ---
+  163  
+  164: ## **?!** Fragen und Antworten
+  165  
+  166  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+/Users/schnell/University/Courses/Bachelor/Grundlagen Interaktiver Systeme/2021-SoSe/GIS-SoSe-2021/content/3-chapter/L3.4/README.md:
+   67  ---
+   68  
+   69: ## **?!** Fragen und Antworten
+   70  
+   71  (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
+
+12 matches across 12 files

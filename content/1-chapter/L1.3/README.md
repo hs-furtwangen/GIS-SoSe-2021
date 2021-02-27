@@ -14,7 +14,7 @@ Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus
 **Links im Video**
 
 Übersicht von sämtlichen aktuellen CSS-Anweisungen mit Beispielen git es hier:
-*[https://www.w3schools.com/css/](https://www.w3schools.com/css/)*
+*[https://www.w3schools.com/css/](https://www.w3schools.com/css/){:target="_blank"}*
 
 ---
 
@@ -83,11 +83,11 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm){:target="_blank"}
 
 ### Mein Inhalt ist nicht zentriert. Wie geht das?
 Die Möglichkeiten in CSS Dinge zu zentrieren sind sozusagen endlos. Es gibt Standard-Ansätze wenn man z.B. Text zentrieren möchte (text-align: center). Aber an sich ist es ihnen überlassen wie Sie ihre Inhalte zentrieren. Einige Beispiele wären: “margin: 0 auto” oder ein flexbox-System mit “justify-content: center” bzw. “align-items: center”.

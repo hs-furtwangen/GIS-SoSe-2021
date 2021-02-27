@@ -311,7 +311,7 @@ Neben dem `target` trägt das Event-Objekt auch noch eine Referenz auf das Objek
 Den kompletten Pfad, den das Event durch das DOM nimmt, kann man im Attribut `path` einsehen oder per Skript durch die Methode `composedPath()` ermitteln.
 
 #### Beispiel
-> - Untersuchen Sie die Seite [Phases](https://jirkadelloro.github.io/EIA2-Inverted/X00_Code/L02_Events/Phases/) und lassen Sie den Code laufen.
+> - Untersuchen Sie die Seite [Phases](https://jirkadelloro.github.io/EIA2-Inverted/X00_Code/L02_Events/Phases/){:target="_blank"} und lassen Sie den Code laufen.
 > - Was geschieht bei einem Klick auf den Button, bei einem Klick rechts daneben und bei einem Klick darunter? Warum?
 
 ### Takeaways
@@ -332,8 +332,8 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;Nutzername&gt;](https://github.com/)
+Zusammenfassung von: [&lt;Nutzername&gt;](https://github.com/){:target="_blank"}

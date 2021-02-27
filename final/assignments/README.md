@@ -118,4 +118,4 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 ### TypeScript Dokumentation
 
-[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+[https://www.typescriptlang.org/](https://www.typescriptlang.org/){:target="_blank"}

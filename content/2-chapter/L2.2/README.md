@@ -40,7 +40,7 @@ Zusätzlich zu den stylistischen Guidelines sollen hier auch logische Hilfestell
 
 #### Planung
 
-Dass Planung wichtig ist, ist eine oftmals belächelte Aussage. Auch ich habe immer wieder darüber geschmunzelt, bis ich damit auf die Nase gefallen bin. Inzwischen weiß ich: Kaum irgendetwas ist in der Entwicklung neben dem eigentlichen Verständnis des Ziels und der Sprache so wichtig wie eine Planung der Konzepte. Es ist so wichtig, dass dafür eine ganze Sprache entwickelt wurde, die [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language). Diese deckt in ihren Möglichkeiten jeden erdenklichen Fall ab und wird von Entwicklern auf der ganzen Welt genutzt, um gemeinsam Vorgänge zu erarbeiten, Strukturen zu klassifizieren und vieles mehr. In diesem Kurs haben wir nicht die Zeit, uns damit zu beschäftigen, auch weil es in einem späteren Semester nochmal vermehrt um das Design von Software gehen wird. Darum an dieser Stelle nur der Hinweis auf die Existenz dieser Sprache sowie ein [UML Cheatsheet](UML_TS_EIA.pdf) von Prof. Jirka Dell'Oro Friedl, welches die für dieses Semester wichtigesten UML Elemente Beispielhaft abbildet und erklärt.
+Dass Planung wichtig ist, ist eine oftmals belächelte Aussage. Auch ich habe immer wieder darüber geschmunzelt, bis ich damit auf die Nase gefallen bin. Inzwischen weiß ich: Kaum irgendetwas ist in der Entwicklung neben dem eigentlichen Verständnis des Ziels und der Sprache so wichtig wie eine Planung der Konzepte. Es ist so wichtig, dass dafür eine ganze Sprache entwickelt wurde, die [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language){:target="_blank"}. Diese deckt in ihren Möglichkeiten jeden erdenklichen Fall ab und wird von Entwicklern auf der ganzen Welt genutzt, um gemeinsam Vorgänge zu erarbeiten, Strukturen zu klassifizieren und vieles mehr. In diesem Kurs haben wir nicht die Zeit, uns damit zu beschäftigen, auch weil es in einem späteren Semester nochmal vermehrt um das Design von Software gehen wird. Darum an dieser Stelle nur der Hinweis auf die Existenz dieser Sprache sowie ein [UML Cheatsheet](UML_TS_EIA.pdf) von Prof. Jirka Dell'Oro Friedl, welches die für dieses Semester wichtigesten UML Elemente Beispielhaft abbildet und erklärt.
 
 #### Divide and Conquer
 
@@ -362,7 +362,7 @@ Während `Cat` keinen eigenen Konstruktor definiert und darum automatisch den An
 
 `super.makeSound()` würde in der Katze oder Hunde Klasse `"<undefined Animal Sounds>"` auf der Konsole ausgeben. So ist es also möglich die spezifische Funktionalität der Superklasse beizubehalten / explizit zu verwenden, selbst wenn eine eigene Implementation diese Überschreibt.
 
-> Weitere Informationen zu Klassen in TypeScript finden Sie in der [offiziellen Dokumentation](https://www.typescriptlang.org/docs/handbook/classes.html) (Englisch) oder auch in den [Kursmaterialien zu EIA2](https://jirkadelloro.github.io/EIA2-Inverted/L09_Classes/).
+> Weitere Informationen zu Klassen in TypeScript finden Sie in der [offiziellen Dokumentation](https://www.typescriptlang.org/docs/handbook/classes.html){:target="_blank"} (Englisch) oder auch in den [Kursmaterialien zu EIA2](https://jirkadelloro.github.io/EIA2-Inverted/L09_Classes/){:target="_blank"}.
 
 ##### Polymorphie
 
@@ -674,7 +674,7 @@ So kann dann aus dem Dokument der Canvas wie folgt herausgefunden werden (mehr z
 let canvas: HTMLCanvasElement = <HTMLCanvasElement> document.getElementById("myFirstCanvas");
 ```
 
-Der Canvas stellt einen [CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) zur Verfügung, auf welchem die Zeichenoperationen ausgeführt werden können.
+Der Canvas stellt einen [CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D){:target="_blank"} zur Verfügung, auf welchem die Zeichenoperationen ausgeführt werden können.
 
 ```ts
 let context: CanvasRenderingContext2D = canvas.getContext("2d");
@@ -697,7 +697,7 @@ context.stroke();
 
 Da es zu umfangreich wäre, sämtliche Canvas Funktionalitäten hier zu erläutern, sollten Sie sich selbst damit auseinandersetzen. Hier ist ein [Canvas CheatSheet](HTML5_Canvas_Cheat_Sheet.pdf) das Ihnen dabei helfen soll.
 
-Nutzen Sie auch [https://www.html5canvastutorials.com/](https://www.html5canvastutorials.com/) für weitere Informationen und einfache Schritt für Schritt Anleitungen.
+Nutzen Sie auch [https://www.html5canvastutorials.com/](https://www.html5canvastutorials.com/){:target="_blank"} für weitere Informationen und einfache Schritt für Schritt Anleitungen.
 
 #### Path2D
 
@@ -714,8 +714,8 @@ context.stroke(path);
 ```
 
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;username&gt;](https://github.com/)
+Zusammenfassung von: [&lt;username&gt;](https://github.com/){:target="_blank"}

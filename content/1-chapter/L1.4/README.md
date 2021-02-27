@@ -90,11 +90,11 @@ Eigene Bezierkurve zeichnen:
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm){:target="_blank"}
 
 ### Ist die Abgabe immernoch über FELIX?
 Antwort: Abgaben können aus Datenschutz-rechtlichen Gründen nicht über Github, sondern müssen über FELIX getätigt werden. Der Link dazu: <a href="https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970">Felix</a>

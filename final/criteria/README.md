@@ -11,11 +11,11 @@ Die jeweils maximale Punktzahl kann erreicht werden, wenn ein Kriterium erfüllt
 | Aufgabenstellung       | die Lösung implementiert die in der gewählten Aufgabenstellung (A, B, C) erwähnten Eigenschaften |30|
 | Trennung HTML/CSS/Script/Data | die verschiedenen Aspekte der Lösung sind in verschiedenen Dateien implementiert – Inhalt (HTML), Logik (TS/JS), grafische Gestaltung (CSS), Daten (JSON/DB). |2|
 | HTML Standards         | syntaktisch und semantisch korrektes sowie angemessen gegliedertes HTML |2|
-| kein W3 oder JS Error  | der [W3 Validierer](https://validator.w3.org/) gibt keine Fehlermeldungen für die Lösung aus, außerdem gibt es keine Fehlermeldungen in der Konsole|2|
+| kein W3 oder JS Error  | der [W3 Validierer](https://validator.w3.org/){:target="_blank"} gibt keine Fehlermeldungen für die Lösung aus, außerdem gibt es keine Fehlermeldungen in der Konsole|2|
 | grafische Gestaltung   | die grafische Gestaltung der Anwendung ist gepflegt |2|
 | responsive Design      | die Lösung ist *responsive* (unter Berücksichtigung von 3 verschiedenen Bildschirmgößen für Smartphone, Tablet und Desktop) durch effiziente Nutzung von *Media Queries* |2|
 | CSS Stilvorlage        | die CSS Stilvorlage verwendet mindestens 10 einfache und 6 komplexe sinnvolle CSS-Selektoren |2|
-| Style Guidelines       | die [Coding Style Guidelines](https://hs-furtwangen.github.io/GIS-SoSe-2021/codingstyle/) werden eingehalten |2|
+| Style Guidelines       | die [Coding Style Guidelines](https://hs-furtwangen.github.io/GIS-SoSe-2021/codingstyle/){:target="_blank"} werden eingehalten |2|
 | Local Storage | die Lösung verwendet *LocalStorage*, *SessionStorage* oder *Cookies* um die notwendigen Daten zwischen verschiedenen Seiten auszutauschen |3|
 | NodeJS                 | die Aufgabenstellung wurde mit einem *NodeJS* Server umgesetzt |4|
 | MongoDB                | die persistenten Daten werden in einer *MongoDB* Datenbank gespeichert |3|

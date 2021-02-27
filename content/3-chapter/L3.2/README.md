@@ -2,7 +2,7 @@
 
 ## URL Modul
 
-Für diese Aufgabe benötigen Sie das [<ins>URL Modul</ins>](https://www.w3schools.com/nodejs/nodejs_url.asp) von Node.js. 
+Für diese Aufgabe benötigen Sie das [<ins>URL Modul</ins>](https://www.w3schools.com/nodejs/nodejs_url.asp){:target="_blank"} von Node.js. 
 
 Die Aufgabe des URL Moduls ist es, einen URL (Adresse einer Website oder Unterseite + zusätzliche Attribute) in einzelne, les- und verwendbare Teile aufzusplitten. So können u.a. Anfragen von Nutzern die per GET über eine URL an einen Server verschickt werden besser/einfacher weiterverarbeitet werden. 
 
@@ -24,11 +24,11 @@ export namespace ... {
 ```
 **Achtung:** Wird `import` verwendet, geht TypeScript davon aus, dass ein eigenes, neues Modul erzeugt werden soll und fordert ggf. das Schlüsselwort `export` vor `namespace`, auch wenn es hier eigentlich bedeutungslos ist. Ein Fall ist bekannt bei dem dieses `export` eine Fehlerhafte js Datei erzeugt hat. Wenn das bei Ihnen auch der Fall ist, melden Sie sich bitte.
 
-Viele der Standardmodule, wie `http` und `url`, sind in der [Node-Dokumentation](https://nodejs.org/de/docs/) beschrieben.
+Viele der Standardmodule, wie `http` und `url`, sind in der [Node-Dokumentation](https://nodejs.org/de/docs/){:target="_blank"} beschrieben.
 
 > - Testen Sie nun folgenden Beispielcode auf Ihrem Node.js Server und stellen Sie sicher, dass Sie die aktuelle Version von Node typings installiert haben. Zum Aktualisieren führen Sie einfach `npm install --save-dev @types/node` im Terminal Ihres Servers aus.
 
->**Wo soll ich den Code testen?** Zunächst einmal lokal über einen im Terminal gestarteten node server. Fertige Anwendungen dann nochmal auf Ihrem Heroku Server. Hier finden Sie noch einmal den [Node-Server-Beispielcode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts) aus der letzten Aufgabe der größtenteils Ihrem Heroku Server entsprechen sollte. Für Beispielcode wie den folgenden, bietet es sich auch immer an, eine eigene Datei anzulegen und so ohne die Umstände des eigentlichen Codes ein wenig herumprobieren zu können.
+>**Wo soll ich den Code testen?** Zunächst einmal lokal über einen im Terminal gestarteten node server. Fertige Anwendungen dann nochmal auf Ihrem Heroku Server. Hier finden Sie noch einmal den [Node-Server-Beispielcode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts){:target="_blank"} aus der letzten Aufgabe der größtenteils Ihrem Heroku Server entsprechen sollte. Für Beispielcode wie den folgenden, bietet es sich auch immer an, eine eigene Datei anzulegen und so ohne die Umstände des eigentlichen Codes ein wenig herumprobieren zu können.
 
 ### Import des URL Moduls:
 
@@ -89,7 +89,7 @@ console.log(qdata.monat);
 - Video 2: Komplexeres Request Handling und Antwort an Client zurückschicken
 - Video 3: Antwort des Servers auf dem Client verarbeiten
 
-Um Anfragen von Nutzern auf einem Server verarbeiten zu können, wurde auf dem [<ins>Beispiel-Node-Server</ins>](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts) der letzten Aufgabe folgender Event-Listener installiert:
+Um Anfragen von Nutzern auf einem Server verarbeiten zu können, wurde auf dem [<ins>Beispiel-Node-Server</ins>](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts){:target="_blank"} der letzten Aufgabe folgender Event-Listener installiert:
 
 ```TypeScript
 server.addListener("request", handleRequest);
@@ -134,8 +134,8 @@ Die Methode `POST` in serverseitigen Anfragen zu verwenden bietet einige Vorteil
 
 Die Verarbeitung von POST Anfragen in Node.js ist jedoch nicht ganz einfach. Hier sind zwei hilfreiche Ressourcen, um POST-Anfragen serverseitig verabeiten zu können, ansonsten können Sie sich auch direkt den weiter unten stehenden Beispielcode ansehen.
 
-- [POST Daten ohne extentions auslesen](https://itnext.io/how-to-handle-the-post-request-body-in-node-js-without-using-a-framework-cd2038b93190)
-- [POST Daten mithilfe von Express auslesen](https://stackoverflow.com/questions/4295782/how-to-process-post-data-in-node-js)
+- [POST Daten ohne extentions auslesen](https://itnext.io/how-to-handle-the-post-request-body-in-node-js-without-using-a-framework-cd2038b93190){:target="_blank"}
+- [POST Daten mithilfe von Express auslesen](https://stackoverflow.com/questions/4295782/how-to-process-post-data-in-node-js){:target="_blank"}
 
 > **Hinweis** Der Vollständigkeit halber soll an dieser Stelle nicht unerwähnt bleiben, dass es neben GET und POST noch weitere, teilweise ähnlich funktionierende Serveranfragen gibt, welche für spezielle Anfragen genutzt werden können: HEAD, PUT, PATCH, DELETE, OPTIONS, etc. Will man z.B. wie oben erwähnt eine Löschanweisung an den Server senden, so könnte man dies über POST machen, noch besser wäre es aber, eine DELETE Anfrage zu verwenden. Diese verschiedenen Arten von Anfragen sind auch als das **REST Modell** (Representational State Transfer) bekannt.
 
@@ -181,11 +181,11 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil){:target="_blank"}
 
 ### Erste Frage?
 LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.

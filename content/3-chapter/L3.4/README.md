@@ -50,7 +50,7 @@ orders.insert({...});
 </div>
 
 ### Ausbau 
-> - Um es einfacher zu machen, zwischen lokaler und remote DB zu wechseln, können Sie folgendes tun: Erweiteren Sie ihren Server derart, dass beim Start ein Argument entgegen genommen (z.B. eine der beiden Zeichenketten "local" und "remote") und anhand dessen entschieden wird, ob die lokale oder die Online-Datenbank genutzt wird. ([Info Commandline Argumente Auslesen](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/): Sie brauchen nur die ganz einfachen Basics, und können darum nach dem zweiten Beispiel aufhören zu lesen)
+> - Um es einfacher zu machen, zwischen lokaler und remote DB zu wechseln, können Sie folgendes tun: Erweiteren Sie ihren Server derart, dass beim Start ein Argument entgegen genommen (z.B. eine der beiden Zeichenketten "local" und "remote") und anhand dessen entschieden wird, ob die lokale oder die Online-Datenbank genutzt wird. ([Info Commandline Argumente Auslesen](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/){:target="_blank"}: Sie brauchen nur die ganz einfachen Basics, und können darum nach dem zweiten Beispiel aufhören zu lesen)
 >   - Lassen Sie nun Heroku Ihren Server bauen. Passen Sie dazu die Steuerdatei `package.json` so an, dass der Pfad zum neuen Server eingetragen ist und bei der Startanweisung das Argument mitgegeben wird z.B. 
   ```typescript
   "scripts": {
@@ -66,11 +66,11 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm){:target="_blank"}
 
 ### Aufgrund von MogoDB in GIS-Ordner aktualisiert sich der Live Server ständig?
 Ihr könnt die html-Datei einfach direkt öffnen, da ihr den Live-Server gerade nicht braucht. Für die Endabgabe müsst ihr schauen, dass ihr die DB nicht in denselben Ordner legt, wenn ihr einen Live-Server benutzt.

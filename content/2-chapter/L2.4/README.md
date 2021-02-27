@@ -88,7 +88,7 @@ Da Cookies immer mit der Anfrage an einen Server mitgeschickt werden, haben alle
 
 Diese ganzen Konzepte machen Cookies zwar praktisch wegen der automatischen Löschung, aber sehr umständlich zu setzen und auszulesen. Auch darum wurden in den letzten Jahren weitere Lösungen entwickelt.
 
-[Weitere Informationen und Beispielimplementationen von benötigten Funktionen nur Nutzung von Cookies](https://www.w3schools.com/js/js_cookies.asp).
+[Weitere Informationen und Beispielimplementationen von benötigten Funktionen nur Nutzung von Cookies](https://www.w3schools.com/js/js_cookies.asp){:target="_blank"}.
 
 #### Local Storage
 
@@ -96,7 +96,7 @@ Local Storage ermöglicht es, Key-Value Paare lokal im Cache (Zwischenspeicher) 
 
 Auch hier können nur strings gespeichert werden. Sollen komplexere Daten gespeichert werden, so müssen diese zunächst in einen String konvertiert werden. Glücklicherweise steht uns dazu JSON zur Verfügung.
 
-> **Hinweis**: Wenn Sie localStorage nutzen wollen, muss beim Testen die HTML Datei über einen Liveserver ([VSCode Liveserver Plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)) ausgeführt werden, da der LocalStorage sonst beim Seitenwechsel von einer lokalen Datei zu einer anderen sich selbst wieder löscht.
+> **Hinweis**: Wenn Sie localStorage nutzen wollen, muss beim Testen die HTML Datei über einen Liveserver ([VSCode Liveserver Plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"}) ausgeführt werden, da der LocalStorage sonst beim Seitenwechsel von einer lokalen Datei zu einer anderen sich selbst wieder löscht.
 
 ##### Beispiel
 
@@ -137,15 +137,15 @@ function clickCounter() {
 }
 ```
 
-_(localStorage ist eigentlich überall verwendbar, s. [CanIUse](https://caniuse.com/#feat=mdn-api_window_localstorage), aber auch hier sollte man eine Fallbacklösung haben wenn man eine "richtige" Webseite entwickelt, und wenn es nur ein "Sorry, Ihr Browser ist zu alt" Nachricht ist.)_
+_(localStorage ist eigentlich überall verwendbar, s. [CanIUse](https://caniuse.com/#feat=mdn-api_window_localstorage){:target="_blank"}, aber auch hier sollte man eine Fallbacklösung haben wenn man eine "richtige" Webseite entwickelt, und wenn es nur ein "Sorry, Ihr Browser ist zu alt" Nachricht ist.)_
 
 #### Session Storage
 
 Funktioniert bis auf einen Unterschied genau wie der LocalStorage:  
 In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;username&gt;](https://github.com/)
+Zusammenfassung von: [&lt;username&gt;](https://github.com/){:target="_blank"}

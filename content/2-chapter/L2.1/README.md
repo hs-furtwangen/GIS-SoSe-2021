@@ -26,7 +26,7 @@
     <a href="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_TypeScript.mp4">Zum Video</a>
 </video>
 
-Denken Sie daran, immer wenn Sie Ihren VSCode Editor öffnen, den BuildTask zu starten. Wenn Sie es automatisieren möchten, schauen Sie eigenverantwortlich [hier](https://code.visualstudio.com/docs/editor/tasks) oder [hier](https://marketplace.visualstudio.com/search?term=TypeScript%20Auto%20Compiler&target=VSCode&category=All%20categories&sortBy=Relevance).
+Denken Sie daran, immer wenn Sie Ihren VSCode Editor öffnen, den BuildTask zu starten. Wenn Sie es automatisieren möchten, schauen Sie eigenverantwortlich [hier](https://code.visualstudio.com/docs/editor/tasks){:target="_blank"} oder [hier](https://marketplace.visualstudio.com/search?term=TypeScript%20Auto%20Compiler&target=VSCode&category=All%20categories&sortBy=Relevance){:target="_blank"}.
 
 
 `Strg + Shift + B` für die Build Tasks oder über `Terminal > Buildaufgabe ausführen`. Wählen Sie "watch/Überwachen" um bis Sie VSCode schließen die js Dateien immer übersetzt zu bekommen oder "make/Erstellen" um einmal das gesamte Projekt zu übersetzen.
@@ -42,8 +42,8 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
 **Links im Video**
 
 - <a href="https://nodejs.org/">NodeJS</a>  
-- [TSLint Erweiterung](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-- [Konfigurations Dateien (*tsconfig* und *tslint*)](https://github.com/hs-furtwangen/GIS-SoSe-2021/tree/master/config_files)
+- [TSLint Erweiterung](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin){:target="_blank"}
+- [Konfigurations Dateien (*tsconfig* und *tslint*)](https://github.com/hs-furtwangen/GIS-SoSe-2021/tree/master/config_files){:target="_blank"}
 
 **Terminal Befehle**
 - `npm -v`
@@ -136,7 +136,8 @@ Die größer-als und kleiner-als Operatoren resultieren in einem Boolschen Wert,
 ```js
 console.log("Aal" < "Zebra") // -> true
 ```
-Aber vorsicht, obwohl der Vergleich auf den ersten Blick dem Alphabet entspricht, werden Großbuchstaben immer als kleiner angesehen als Kleinbuchstaben. Zeichen die keine Buchstaben (!, -, etc) sind, werden dabei auch mit einbezogen. Der Grund für diese Sortierung ist, dass strings in JS Zeichen für Zeichen nach der [Unicode Tabelle](https://unicode-table.com/de/) abgearbeitet werden.
+- [Konfigurations Dateien (*tsconfig* und *tslint*)](https://github.com/hs-furtwangen/GIS-SoSe-2021/tree/master/config_files){:target="_blank"}
+Aber vorsicht, obwohl der Vergleich auf den ersten Blick dem Alphabet entspricht, werden Großbuchstaben immer als kleiner angesehen als Kleinbuchstaben. Zeichen die keine Buchstaben (!, -, etc) sind, werden dabei auch mit einbezogen. Der Grund für diese Sortierung ist, dass strings in JS Zeichen für Zeichen nach der [Unicode Tabelle](https://unicode-table.com/de/){:target="_blank"} abgearbeitet werden.
 
 Andere Vergleichende Operatoren sind `>=`, `<=`, `==` und `!=`.
 
@@ -544,14 +545,14 @@ for (let i: number = 0; i < buttons.length; i++) {
 
 ### TypeScript Dokumentation
 
-[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+[https://www.typescriptlang.org/](https://www.typescriptlang.org/){:target="_blank"}
 
 ---
 
 
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;username&gt;](https://github.com/)
+Zusammenfassung von: [&lt;username&gt;](https://github.com/){:target="_blank"}

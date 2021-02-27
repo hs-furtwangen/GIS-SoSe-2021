@@ -23,7 +23,7 @@ function func1(): void {
 **a)** Lesen Sie das obige Programm. Was wird wohl auf der Konsole ausgegeben? Lassen Sie das Programm laufen und experimentieren Sie mit den Namen der Variablen und Funktionen. Welche Variablennamen sind zulässig, welche nicht?  
 
 **b)** Öffnen Sie im Browser den Debugger (neben der Konsole) und setzen Sie einen Breakpoint in Zeile 3 (alternativ können Sie im Code vor Zeile 3 das Schlüsselwort `debugger;` einfügen). Laden Sie dann die Seite neu und gehen Schritt für Schritt durch den Code durch, die Schaltflächen dafür sind normalerweise rechts am Rand:  
-![](https://camo.githubusercontent.com/372a0f981e20eab3064ce57f78bf81a23c9808e2/68747470733a2f2f692e696d6775722e636f6d2f53566e4c5930702e706e67)  
+![](https://camo.githubusercontent.com/372a0f981e20eab3064ce57f78bf81a23c9808e2/68747470733a2f2f692e696d6775722e636f6d2f53566e4c5930702e706e67){:target="_blank"}
 Verfolgen Sie, welcher Codeabschnitt wann ausgeführt wird und in welcher Reihenfolge die Funktionen aufgerufen werden.
 
 
@@ -106,9 +106,9 @@ Inwiefern unterscheiden sich "normale" Variablen wie Zahlen und strings von Funk
 
 **c)** Zählen Sie mithilfe einer `while` Schleife alle Zahlen von 1 bis 100 zusammen und geben Sie das Ergebnis auf der Konsole aus.
 
-**d)** Nutzen Sie eine `for` Schleife um 10 zufällige Zahlen zwischen 0 und 100 auf der Konsole auszugeben. Nutzen Sie dafür [Math.random](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/math.random)
+**d)** Nutzen Sie eine `for` Schleife um 10 zufällige Zahlen zwischen 0 und 100 auf der Konsole auszugeben. Nutzen Sie dafür [Math.random](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/math.random){:target="_blank"}
 
-**e)** Schreiben Sie eine Funktion `factorial` welche eine Zahl `n` entgegen nimmt und als Rückgabewert die [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik)) (`1*2*3*...*n`) dieser Zahl zurück gibt. Nutzen Sie dafür eine Schleife ihrer Wahl (`while, do while, for`). Geben Sie außerdem `1` zurück, wenn `n` kleiner ist als 1.
+**e)** Schreiben Sie eine Funktion `factorial` welche eine Zahl `n` entgegen nimmt und als Rückgabewert die [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik){:target="_blank"}) (`1*2*3*...*n`) dieser Zahl zurück gibt. Nutzen Sie dafür eine Schleife ihrer Wahl (`while, do while, for`). Geben Sie außerdem `1` zurück, wenn `n` kleiner ist als 1.
 
 **f)** Schreiben Sie eine Funktion `leapyears` welche alle Schlatjahre von 1900 bis heute auf der Konsole ausgibt. Ein Jahr ist ein Schaltjahr, wenn die Jahreszahl durch 4, aber nicht durch 100 teilbar ist. Sollte die Jahreszahl durch 400 teilbar sein, handelt es sich dennoch um ein Schaltjahr.
 

@@ -60,7 +60,7 @@ console.log(split(arr, 0, 7);     // Bonus c)
 
 Für diese Aufgabe soll der [Canvas](../L2.2#canvas) genutzt werden.
 
-**a)** Experimentieren Sie ein wenig mit dem Canvas und machen Sie sich damit vertraut. Malen Sie Linien, machen Sie diese Linien farbig oder gekrümmt, malen Sie Kreise, Kurven und Rechtecke und füllen Sie diese mit Farben. Zeichnen Sie damit eine einfache Landschaft (grüner Boden, blauer Himmel mit ein paar Wolken, ein Haus und ein Baum im Bild). Machen Sie Gebrauch von [Html5CanvasTutorials](https://www.html5canvastutorials.com/tutorials/html5-canvas-lines/).
+**a)** Experimentieren Sie ein wenig mit dem Canvas und machen Sie sich damit vertraut. Malen Sie Linien, machen Sie diese Linien farbig oder gekrümmt, malen Sie Kreise, Kurven und Rechtecke und füllen Sie diese mit Farben. Zeichnen Sie damit eine einfache Landschaft (grüner Boden, blauer Himmel mit ein paar Wolken, ein Haus und ein Baum im Bild). Machen Sie Gebrauch von [Html5CanvasTutorials](https://www.html5canvastutorials.com/tutorials/html5-canvas-lines/){:target="_blank"}.
 
 **b)** Entwerfen Sie ein Interface, welches auf sinnvolle Weise ein beliebiges Rechteck Abbilden kann. _Bonus: Machen Sie statt einem Interface eine Klasse und, statt globaler Funktionen denen die Rechtecke übergeben werden in den folgenden Teilaufgaben, Methoden der Klasse selbst._
 
@@ -70,6 +70,6 @@ Für diese Aufgabe soll der [Canvas](../L2.2#canvas) genutzt werden.
 
 **e)** Lassen Sie jedes Mal, wenn die Seite neu geladen wird, einige Rechtecke generieren und zeichnen. Legen Sie die Rechtecke dafür in einem Array an und rufen für jedes im Array vorhandene Rechteck die `drawRect` Funktion auf.
 
-**f)** _Bonus: Nutzen sie die [setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) Funktion um alle 50 Millisekeunden den Canvas neu zu bemalen (Sie können ihn über `context.clearRect()` leeren). Damit es auch interessante Änderungen zu sehen gibt, fügen sie den Rechtecken eine Bewegungsrichtung für beide Achsen hinzu und bewegen Sie diese pro Zyklus um diese Werte._
+**f)** _Bonus: Nutzen sie die [setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp){:target="_blank"} Funktion um alle 50 Millisekeunden den Canvas neu zu bemalen (Sie können ihn über `context.clearRect()` leeren). Damit es auch interessante Änderungen zu sehen gibt, fügen sie den Rechtecken eine Bewegungsrichtung für beide Achsen hinzu und bewegen Sie diese pro Zyklus um diese Werte._
 
 **g)** _Bonus: Ändern Sie ihre Rechteck-Klasse so ab, dass diese von einer neuen, `Zeichenobjekt` Klasse erbt. Lassen Sie außerdem von Zeichenobjekt eine neue Klasse `Kreis` erben, welche statt einem Rechteck einen Kreis zeichnet. Duplizieren Sie keinen (oder so wenig wie möglich) Code und nutzen Sie die Vererbung von Klassen voll aus._

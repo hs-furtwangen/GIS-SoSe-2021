@@ -79,7 +79,7 @@ Diese Collections könnte man auch in einer eigenen Datenbank für das Shop-Ange
 
 ## Installation
 Wie der Server kann auch die Datenbanksoftware als Service im Netz genutzt werden. Ebenso ist es aber sinnvoll, während der Entwicklung lokal testen zu können.
-> - Installieren Sie MongoDB auf ihrer Maschine. Besuchen Sie hierzu das [MongoDB Manual](https://docs.mongodb.com/manual/administration/install-community/) (MongoDB **nicht** als Service und auch **nicht** MongoCompass installieren)
+> - Installieren Sie MongoDB auf ihrer Maschine. Besuchen Sie hierzu das [MongoDB Manual](https://docs.mongodb.com/manual/administration/install-community/){:target="_blank"} (MongoDB **nicht** als Service und auch **nicht** MongoCompass installieren)
 > - Finden Sie den Ordner, in den Sie MongoDB installiert haben. Darin sollten Sie die ausführbaren Programme `mongod` und `mongo` sehen.
 
 Im unteren Beispiel wurde MongoDB in einem Ordner `Test` installiert, die Datenbanken sollen im Ordner `Database` angelegt werden.  
@@ -124,7 +124,7 @@ Die eigentlichen Daten kann man so nicht einsehen, sie werden in einem effizient
 > - Tragen Sie noch weitere Datensätze mit Informationen zu Ihren Kommilitonen oder zu Fantasiestudis ein. Dabei sollte es Datensätze mit teilweise identischen Informationen geben, so wie man sie bei Geschwistern oder Studis mit gleichen Vornamen vorfindet. Sie können dabei weiter die Variable `doc` verwenden und vor jedem Eintrag die Information darin verändern, oder auch Datensätze direkt als Parameter der `insert`-Anweisung angeben, also `db.Students.insert({...})`
 > - Suchen Sie nun mit `db.Students.find({key:value})` nach allen Datensätzen bei denen ein bestimmter Schlüssel `key` einen bestimmten Wert `value` hat.
 
-Nachdem Sie diese Übungen erfolgreich abgeschlossen haben, können Sie nicht nur mit der MongoShell umgehen, sondern haben auch schon die grundlegendsten Anweisungen gelernt, die genauso auch im Code Verwendung finden. Sehr viel weitergehend ist die [Dokumentation](https://docs.mongodb.com/manual/reference/method/). Wenn es nicht richtig geklappt hat, können Sie untenstehendes Video anschauen, indem diese Übungen demonstriert werden. _(Auch hier gilt wieder: Das Video kommt aus dem EIA2 Kurs, darum sind manche Ordnerstrukturen oder Verweise für Sie nicht relevant.)_
+Nachdem Sie diese Übungen erfolgreich abgeschlossen haben, können Sie nicht nur mit der MongoShell umgehen, sondern haben auch schon die grundlegendsten Anweisungen gelernt, die genauso auch im Code Verwendung finden. Sehr viel weitergehend ist die [Dokumentation](https://docs.mongodb.com/manual/reference/method/){:target="_blank"}. Wenn es nicht richtig geklappt hat, können Sie untenstehendes Video anschauen, indem diese Übungen demonstriert werden. _(Auch hier gilt wieder: Das Video kommt aus dem EIA2 Kurs, darum sind manche Ordnerstrukturen oder Verweise für Sie nicht relevant.)_
 
 <div align="center"><video controls width="30%"> 
   <source src="http://games.hs-furtwangen.de/EIA2_Video/L07_V1_MongoShell.mp4" type="video/mp4"> 
@@ -145,7 +145,7 @@ Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von 
   - Klicken Sie auf `Create Cluster`
   - Warten Sie, bis das Cluster erstellt wurde (ca. 1-3 Minuten)
 
-- Folgen Sie jetzt dem `Get Started`-Guide zum Anlegen ihrer Datenbank (Part 1-4). Sie müssen sich noch NICHT über einen eigenen Server darauf verbinden und auch nicht über PyMongo irgendwas anlegen oder so! Über Server darauf programmatisch Zugreifen machen wir nächste Woche. [https://docs.atlas.mongodb.com/getting-started/](https://docs.atlas.mongodb.com/getting-started/) 
+- Folgen Sie jetzt dem `Get Started`-Guide zum Anlegen ihrer Datenbank (Part 1-4). Sie müssen sich noch NICHT über einen eigenen Server darauf verbinden und auch nicht über PyMongo irgendwas anlegen oder so! Über Server darauf programmatisch Zugreifen machen wir nächste Woche. [https://docs.atlas.mongodb.com/getting-started/](https://docs.atlas.mongodb.com/getting-started/){:target="_blank"}
   - Erlauben Sie ihrem Testuser den Read/Write-Zugriff
   - Erlauben Sie in der Whitelist Zugriff von überall mit der IP-Adresse `0.0.0.0/0`
   - Legen Sie **`KEINE`** Beispieldaten an
@@ -161,7 +161,7 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 

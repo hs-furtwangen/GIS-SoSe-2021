@@ -10,7 +10,7 @@ Code sollte sich so gut wie möglich selbst erklären. Dazu sind sprechende Vari
 
 Kommentare sind in diesem Zusammenhang vorallem zur Strukturierung/Abgrenzung des Codes empfohlen, und um die Verständlichkeit zu erhöhen. Kommentare sollten nicht das Offensichtliche wiederholen (s. Bild).
 
-![Cat labeled Cat](https://i.redd.it/iuy9fxt300811.png)
+![Cat labeled Cat](https://i.redd.it/iuy9fxt300811.png){:target="_blank"}
 
 Selbstverständlich kann Code zum besseren eigenen Verständnis kommentiert werden, denken Sie aber daran, dass bei Code Änderungen auch die Kommentare mit gepflegt werden müssen.
 

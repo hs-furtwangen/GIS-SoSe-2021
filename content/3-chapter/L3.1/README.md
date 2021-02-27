@@ -8,7 +8,7 @@ HTML-Formulare (Forms) bieten bereits gänzlich ohne zusätzliche Programmierung
 ### Get
 Bei `method="get"` werden die Daten als Zeichenketten einfach im Klartext an den URL angehängt, mit einem `?` abgetrennt. Die Schlüssel- und Wertepaare sind mit `&` (Et, kaufmännisches Und, Ampersand) voneinander getrennt, die Schlüssel und Werte mit einem `=` verbunden. Der Browser ruft dann diese URL mitsamt Anhang auf, die komplette Zeichenkette erscheint in der Adresszeile.
 > - Surfen Sie im Netz und suchen Sie nach Beispielen für die Datenübertragung in dieser Form, indem Sie die Adressezeile beobachten.
-> - Testen Sie das [HTML-Formularelement](https://www.w3schools.com/html/html_forms.asp) `<form>` mit den Attributen `method="get"` und `action=""`. Der leere Wert bei `action` bedeutet, dass die aktuelle URL erneut genutzt werden soll. Fügen Sie zudem mit
+> - Testen Sie das [HTML-Formularelement](https://www.w3schools.com/html/html_forms.asp){:target="_blank"} `<form>` mit den Attributen `method="get"` und `action=""`. Der leere Wert bei `action` bedeutet, dass die aktuelle URL erneut genutzt werden soll. Fügen Sie zudem mit
 ```html
 <button type="submit">Abschicken</button>
 ```
@@ -100,9 +100,9 @@ Ein Objekt vom Typ `URLSearchParams` lässt sich fast genauso verwenden wie eine
 ## Node.js
 Server allgemein und insbesondere Node.js Server laufen normalerweise nicht in einem Browser. Üblicherweise sind Server auf Maschinen installiert, die in einem Rechenzentrum in lebensfeindlicher (Keller/Halle) Umgebung stehen und die nicht direkt mit der Interaktion mit Usern beschäftigt sind. Einen Browser, der doch vordringlich für die Mensch-Maschine-Kommunikation verantwortlich ist, als Server zu nutzen wäre deshalb nur hinderlich. Daher sind Server meist in niederen Sprachen wie C++, Java usw. programmiert und werden ggf. in ihrer Funktionalität mit Hilfe von Skriptsprachen wie Pearl, CGI oder PHP erweitert. Sie haben oft keine direkte grafische Benutzeroberfläche (GUI) sondern benutzen sog. command line interfaces (CLI)
 
-2009 kam der zu diesem Zeitpunkt 28jährige Student Ryan Dahl auf die Idee, Googles V8-JavaScript-Interpreter außerhalb des Browsers zu nutzen, um verschiedene Module zu erweitern und damit einen Server zu programmieren. Der Einsatz von JavaScript war vor allem motiviert durch Unterstützung der Ereignissteuerung, womit Server nicht durch wartende Prozesse blockiert werden. Ryan schuf damit Node.js, eine Programmierumgebung, mit der es möglich ist, JavaScript, und somit auch kompiliertes TypeScript, außerhalb von Browsern zu nutzen und damit Anwendungen zu entwickeln. VSCode selbst ist eine solche Anwendung! Ryan erklärt Node.js selbst in diesem [Google Talk](https://www.youtube.com/watch?v=F6k8lTrAE2g) (achtung, sehr technisch!)
+2009 kam der zu diesem Zeitpunkt 28jährige Student Ryan Dahl auf die Idee, Googles V8-JavaScript-Interpreter außerhalb des Browsers zu nutzen, um verschiedene Module zu erweitern und damit einen Server zu programmieren. Der Einsatz von JavaScript war vor allem motiviert durch Unterstützung der Ereignissteuerung, womit Server nicht durch wartende Prozesse blockiert werden. Ryan schuf damit Node.js, eine Programmierumgebung, mit der es möglich ist, JavaScript, und somit auch kompiliertes TypeScript, außerhalb von Browsern zu nutzen und damit Anwendungen zu entwickeln. VSCode selbst ist eine solche Anwendung! Ryan erklärt Node.js selbst in diesem [Google Talk](https://www.youtube.com/watch?v=F6k8lTrAE2g){:target="_blank"} (achtung, sehr technisch!)
 
-> **FunFact:** 2018 kündigte Ryan Dahl die Entwicklung von Deno an, mit welchem er Node.js Konkurrenz macht. Unter anderem soll Deno direkt TypeScript-Programme interpretieren, ohne dass daraus zuvor JavaScript-Dateien erzeugt werden müssen. Hier ist Ryans [Github-Profil](https://github.com/ry). Vor knapp einem Monat wurde [Deno](https://deno.land/) Version 1.0 veröffentlicht.
+> **FunFact:** 2018 kündigte Ryan Dahl die Entwicklung von Deno an, mit welchem er Node.js Konkurrenz macht. Unter anderem soll Deno direkt TypeScript-Programme interpretieren, ohne dass daraus zuvor JavaScript-Dateien erzeugt werden müssen. Hier ist Ryans [Github-Profil](https://github.com/ry){:target="_blank"}. Vor knapp einem Monat wurde [Deno](https://deno.land/){:target="_blank"} Version 1.0 veröffentlicht.
 
 Für Sie ist der riesige Vorteil von Node.js, dass Sie keine weitere Programmiersprache lernen müssen, um einen Server zu entwickeln. Ebenso können Sie damit Desktop-Programme für Windows, Mac oder Linux bauen (siehe VSCode). Mit TypeScript und Node.js sind Sie deshalb gut aufgestellt.  
 
@@ -149,27 +149,27 @@ export namespace ... {
 ```
 **Achtung:** Wird `import` verwendet, geht TypeScript davon aus, dass ein eigenes, neues Modul erzeugt werden soll und fordert das Schlüsselwort `export` vor `namespace`, auch wenn es hier bedeutungslos ist.
 
-Auch die Standardmodule, die wahlweise importiert werden wie `http` und `url`, sind in der [Node-Dokumentation](https://nodejs.org/de/docs/) beschrieben.
+Auch die Standardmodule, die wahlweise importiert werden wie `http` und `url`, sind in der [Node-Dokumentation](https://nodejs.org/de/docs/){:target="_blank"} beschrieben.
 
 ## Server Einrichten:
 
 Für diese Aufgabe benötigen Sie einen Server. Da Sie zwar zum Entwickeln lokal arbeiten können, Abgaben (und später Systeme) aber online funktionieren müssen, sollten Sie sich einen online Server besorgen. Hier zwei Vorschläge wie Sie sich kostenlos einen kleinen Server einrichten können:
 
->**Nutzen Sie [Heroku](https://www.heroku.com/) (von uns Empfohlen)** 
+>**Nutzen Sie [Heroku](https://www.heroku.com/){:target="_blank"} (von uns Empfohlen)** 
 
->**Oder nutzen Sie andere Tools wie z. B. die [Studi Cloud](https://bwservices.uni-freiburg.de/)** (komplizierter, unkomfortabler und keine Installationsanleitung, dafür aber völlige Narrenfreiheit auf Ihrem eigenen virtuellen Server und keine Anmeldung auf Drittanbieter Seiten) 
+>**Oder nutzen Sie andere Tools wie z. B. die [Studi Cloud](https://bwservices.uni-freiburg.de/){:target="_blank"}** (komplizierter, unkomfortabler und keine Installationsanleitung, dafür aber völlige Narrenfreiheit auf Ihrem eigenen virtuellen Server und keine Anmeldung auf Drittanbieter Seiten) 
 
 ## Heroku
 Damit der von Ihnen in dieser Aufgabe entwickelte Client von beliebigen Rechnern aus kommunizieren kann, gilt es, ihn in einem Rechenzentrum unterzubringen. Eine Möglichkeit ist es, einen realen oder virtuellen Rechner anzumieten, ihn selbst zu konfigurieren und die erforderliche Software darauf zu installieren etc. Das erfordert einiges an Spezialwissen und teilweise obliegt auch die Wartung, Erweiterung und Aktualisierung in der Verantwortung des Mieters.
 Mittlerweile gibt es aber auch einen großen Markt für "Platform As A Service" (PaaS), bei dem sich der Nutzer nicht um die Infrastruktur kümmern muss, sondern diese einfach nutzen kann. Der Anbieter kümmert sich um die Bereitstellung, Wartung, Skalierung der Plattform. Heroku ist eine solche PaaS, sie findet in diesem Modul Anwendung und ist für einfache Server kostenlos.  
 
-> - Schauen Sie sich das [NewsWatch-Video](https://newswatchtv.com/2018/06/15/heroku-newswatch-review/) zu Heroku an.
+> - Schauen Sie sich das [NewsWatch-Video](https://newswatchtv.com/2018/06/15/heroku-newswatch-review/){:target="_blank"} zu Heroku an.
 
 ### Installation
 -  Öffnen Sie die Seite www.heroku.com
 -  Legen Sie sich ein kostenloses Nutzerkonto an
     -  Primary language: Node.js
--  Klicken Sie auf Ihrer [apps - Seite](https://dashboard.heroku.com/apps) auf "create new app"
+-  Klicken Sie auf Ihrer [apps - Seite](https://dashboard.heroku.com/apps){:target="_blank"} auf "create new app"
     -  Der Name Ihrer App muss einzigartig sein und darf nur kleine Buchstaben nutzen
     -  Wählen Sie die Region Europe
     -  Dann "create app"
@@ -181,7 +181,7 @@ Mittlerweile gibt es aber auch einen großen Markt für "Platform As A Service" 
   -  Wählen Sie Ihr Repository aus
   -  **ggf. muss in Github noch der Zugriff gewährt werden.**
 
-Heroku sollte nun vorbereitet sein um Ihren Code von Ihrem Repository zu pullen und als Web-App laufen zu lassen. Falls Schwierigkeiten beim Einrichten von Heroku auftreten ist hier der offizielle [setup-guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up), ansonsten gilt wie immer: Issues, Discord, Praktikum, etc...
+Heroku sollte nun vorbereitet sein um Ihren Code von Ihrem Repository zu pullen und als Web-App laufen zu lassen. Falls Schwierigkeiten beim Einrichten von Heroku auftreten ist hier der offizielle [setup-guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up){:target="_blank"}, ansonsten gilt wie immer: Issues, Discord, Praktikum, etc...
 
 ### Deployment
 -  Klicken Sie nun im Dashboard oben rechts auf "More" und öffnen Sie "View logs" in einem neuen Browserfenster.
@@ -242,11 +242,11 @@ https://www.typescriptlang.org/
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil){:target="_blank"}
 
 ### Erste Frage?
 LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.

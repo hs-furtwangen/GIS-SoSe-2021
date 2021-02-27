@@ -42,9 +42,9 @@ _Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst e
 
 ---
 
-## **?!** Fragen und Antworten
+## Fragen und Antworten
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
 
-Zusammenfassung von: [&lt;xxx&gt;](https://github.com/xxxx)
+Zusammenfassung von: [&lt;xxx&gt;](https://github.com/xxxx){:target="_blank"}
 
