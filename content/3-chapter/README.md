@@ -1,4 +1,4 @@
-## **3** Server und Datenbanken
+# **3** Server und Datenbanken
 
 In diesem Kapitel soll das Zusammenspiel zwischen Client, Server und Datenbank gelernt und umgesetzt werden. 
 
@@ -8,26 +8,26 @@ Erstellen Sie einen Button auf einer verlinkten Unterseite, der eine Anfrage an 
 
 Erstellen Sie eine weitere Unterseite auf der sich ein Nutzer einloggen kann. Hier wird per Formular die Mail des Nutzers und sein Passwort zum Server geschickt. Der Server überprüft ob es die Kombination aus Passwort und E-Mail gibt und gibt eine entsprechende Nachricht an den Client zurück, der diese dann anzeigt.
 
-### **3.1** Serveranbindung
+## **3.1** Serveranbindung
 
 - Formulare
 - FormData
 - URL
 - NodeJS
 
-### **3.2** Server Request Verarbeitung
+## **3.2** Server Request Verarbeitung
 
 - URL Modul
 - Request Handling
 - (POST Request)  
 
-### **3.3** Datenbanken Grundlagen
+## **3.3** Datenbanken Grundlagen
 
 - Datenbanken Einführung
 - Datenbank lokal
 - Datenbank online
 
-### **3.4** Datenbankzugriff über den Server
+## **3.4** Datenbankzugriff über den Server
 
 - Datenbank und Node.js Kommunikation
 - Pipeline: HTML → Server → Datenbank

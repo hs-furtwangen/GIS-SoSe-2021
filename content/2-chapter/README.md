@@ -1,4 +1,4 @@
-## **2** TypeScript
+# **2** TypeScript
 
 In diesem zweiten großen Abschnitt des Praktikums werden wir uns ganz dem Einstieg und der Entwicklung mit Typescript widmen.
 
@@ -8,7 +8,7 @@ Auf einer weiteren Seite wird das Gesamtbild als eine Kombination der ausgewähl
 Die Auswahlmöglichkeiten sollen dynamisch aus einer JSON-Datei geladen und auf der Seite angezeigt werden. Außerdem muss die Umsetzung so dynamisch sein, dass bei (geringfügigen) Änderungen in der JSON Datei die Seite sich automatisch beim nächsten Laden anpasst. Die Nutzung passender Interfaces (oder Klassen) ist dabei unverzichtbar.  
 Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeichert und die schließlich ausgewählte Kombination der Varianten an einen Server übermittelt und dessen Antwort in geeigneter, nutzerfreundlicher Form auf der Gesamtbild-Seite ausgegeben.
 
-### **2.1** Einstieg JavaScript und TypeScript
+## **2.1** Einstieg JavaScript und TypeScript
 
 - Arbeitsumgebung
 - Variablen
@@ -17,7 +17,7 @@ Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeich
 - Funktionen
 - Schleifen
 
-### **2.2** Weiterführende Konzepte Typescript
+## **2.2** Weiterführende Konzepte Typescript
 
 - Vorgehensweisen und best practices
 - Arrays
@@ -25,7 +25,7 @@ Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeich
 - Objekte
 - Canvas
 
-### **2.3** DOM Manipulation und Eventhandling
+## **2.3** DOM Manipulation und Eventhandling
 
 - DOM Klassenhierarchie  
 - DOM Manipulation
@@ -33,12 +33,12 @@ Der aktuelle Status der Auswahl wird über Local Storage (oder Cookies) gespeich
 - Event Handling
 - Event Listener
 
-### **2.4** JSON und Local Storage
+## **2.4** JSON und Local Storage
 
 - JSON
 - Local Storage / Cookies
 
-### **2.5** Kommunikation
+## **2.5** Kommunikation
 
 - fetch
 - Promise
