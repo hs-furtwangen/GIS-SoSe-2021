@@ -7,7 +7,6 @@ In den Praktikumsabgaben zu diesem Kapitel entsteht eine wohlgestaltete Portofol
 ## **1.1** Grundlagen HTML
 
 - Einführung in die Thematik
-- Vorbereitung / Tools
 - HTML Basics
 - HTML Bilder und Verweise
 
