@@ -1,4 +1,4 @@
-## _P_ **2.4** JSON und Local Storage
+## _P_ **2.4** JSON und LocalStorage
 
 ### Aufgabe 1
 
@@ -7,7 +7,7 @@
 **b)** Speichern Sie die Daten über die ausgwählten Möglichkeiten in den Cache des Browsers, entweder über localStorage, sessionStorage oder Cookies.
 
 **c)** Sorgen Sie dafür, dass jede Kategorie auf einer eigenen Seite auswählbar wird. Versuchen Sie dabei sich an den "Code kopieren ist schlecht" Grundsatz zu halten (vorallem für den TS Code, weniger für den HTML Code). Dafür bieten sich zwei Vorgehensweisen an:
-1. Entweder Sie kopieren die HTML Seiten und finden einen Weg, wie sie dem Typescript miteilen können, welche Seite gerade geöffnet ist / welche Kategorie geladen werden soll oder 
+1. Entweder Sie kopieren die HTML Seiten und finden einen Weg, wie sie dem TypeScript miteilen können, welche Seite gerade geöffnet ist / welche Kategorie geladen werden soll oder 
 2. Sie finden eine Möglichkeit, auf der gleichen Seite die drei Unterschiedlichen Kategorien _eine nach der anderen, und nur eine auf einmal_ anzuzeigen.
 
 **d)** Sofern noch nicht passiert, zeigen Sie auf der Auswahlseite an, welche Teilaspekte bereits in vorherigen Schritten ausgewählt wurden.

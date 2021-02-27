@@ -50,7 +50,7 @@ Ein Skript kann das DOM manipulieren, darin Elemente verändern, hinzufügen ode
 
 - Prof. Rausch verwendet of noch JavaScript in seinen Folien, wobei dann die typescriptspezifischen Typisierungen fehlen, welche von Ihnen ergänzt werden müssen. Meist kann VSCode vorschlagen, um welchen Typ es sich handelt. Hovern Sie dazu mit der Maus über das unterstrichene Wort.
 
->**Achtung:** Die Begriffe Objekt, Element und Knoten können teilweise synonym verwendet werden, es ist aber Vorsicht geboten. 'Alles' in Javascript/TypeScript ist ein Objekt, auch etwas vom Typ `number` oder `string`. Ein Knoten ist ein Objekt mit speziellen Eigenschaften und Fähigkeiten, mit dem sich ein Graph aufbauen lässt. Ein Element wiederum ist ein spezieller Knoten, der Eigenschaften eines HTML-Elementes aufweist.
+>**Achtung:** Die Begriffe Objekt, Element und Knoten können teilweise synonym verwendet werden, es ist aber Vorsicht geboten. 'Alles' in JavaScript/TypeScript ist ein Objekt, auch etwas vom Typ `number` oder `string`. Ein Knoten ist ein Objekt mit speziellen Eigenschaften und Fähigkeiten, mit dem sich ein Graph aufbauen lässt. Ein Element wiederum ist ein spezieller Knoten, der Eigenschaften eines HTML-Elementes aufweist.
 
 Sehen Sie hier einen Ausschnitt aus der DOM Klassenhierarchie:
 
@@ -129,11 +129,11 @@ element.appendChild(p1);
 
 ##### Typassertion
 
-> Oder auch "Lieber Typescript Compiler, ich bin mir sicher bei dem was ich hier tue".
+> Oder auch "Lieber TypeScript Compiler, ich bin mir sicher bei dem was ich hier tue".
 
 Wie in der letzten Woche unter dem Stichwort [Polymorphie](../L2.2/#polymorphie) bereits erklärt, können Instanzen von Subklassen auch in Variablencontainer ihrer Superklasse gespeichert werden.
 
-So können z.B. auch `HTMLInputElement`e in `HTMLElement`en oder sogar `EventTarget`s gespeichert werden. Versucht man dann allerdings, auf die Subklassenspezifischen Attribute zuzugreifen, wird Typescript sich beschweren.
+So können z.B. auch `HTMLInputElement`e in `HTMLElement`en oder sogar `EventTarget`s gespeichert werden. Versucht man dann allerdings, auf die Subklassenspezifischen Attribute zuzugreifen, wird TypeScript sich beschweren.
 
 ```html
 <input type="email" name="email" id="emailInput">
@@ -252,7 +252,7 @@ Damit das System weiß, bei welchem Ereignis welcher Handler aufgerufen werden s
 document.addEventListener("click", handleClick);
 ```
 Der erste Parameter ist lediglich die Zeichenkette, die den Typ des Ereignisses beschreibt, der zweite eine Referenz zum Handler. Erhält das document-Objekt nun ein Event-Objekt vom Typ "click", wird dieses an die Handler-Funktion `handleClick` weitergeschickt. Das `document`-Objekt horcht also jetzt in das System hinein, es wurde ihm hierfür ein "Ohr" installiert, ein sogenannter Listener.
->**Achtung:** Ein häufiger Fehler in Javascript ist, statt der Referenz einen Funktionsaufruf zu implementieren, z.B. mit `addEventListener("click", handleClick())`. Die zusätzliche Klammer bewirkt, dass die Funktion bereits bei der Installation aufgerufen wird und deren zurückgeliefertes Ergebnis als Handler-Referenz installiert wird.
+>**Achtung:** Ein häufiger Fehler in JavaScript ist, statt der Referenz einen Funktionsaufruf zu implementieren, z.B. mit `addEventListener("click", handleClick())`. Die zusätzliche Klammer bewirkt, dass die Funktion bereits bei der Installation aufgerufen wird und deren zurückgeliefertes Ergebnis als Handler-Referenz installiert wird.
 
 Oftmals findet man auch die folgende Schreibweise, gerade wenn man auf ältere Lösungen stößt:
 
@@ -326,7 +326,7 @@ Sie haben gelernt:
 - Wie DOM Elemente selektiert und manipuliert werden können
 - Wie DOM und Events zusammenhängen
 
-### Typescript Dokumentation
+### TypeScript Dokumentation
 
 https://www.typescriptlang.org/
 

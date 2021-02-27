@@ -4,7 +4,7 @@
 
 - Jeder muss eine **eigene Lösung** erarbeiten! Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
-- Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von *HTML*, *CSS*, *Typescript*, *NodeJS* und *MongoDB*.
+- Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von *HTML*, *CSS*, *TypeScript*, *NodeJS* und *MongoDB*.
 
 - Testen Sie die Applikation regelmäßig, ausgiebig und frühzeitig. Lassen Sie auch andere Personen testen um festzustellen, ob die Anwendung bedienbar und fehlertolerant ist. 
 
@@ -19,7 +19,7 @@
 - Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen (siehe [Einführung vom 7. Oktober](../content/L1.1)).
 
 - Laden Sie im Bereich *Prüfungsaufgabe* des FELIX-Kursmoduls der GIS Modulprüfung (siehe oben) eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
-  1. alle **(!)** Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
+  1. alle **(!)** Dateien, die zur Ausführung der Anwendung notwendig sind: JavaScript/TypeScript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
   2. eine kurze (!) Anleitung, wie man die Anwendung ausführt z.B.:
     - Welche Datei muss mit dem NodeJS-Server ausgeführt werden?
     - Welche HTML-Datei im Browser geöffnet?
@@ -116,6 +116,6 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 **Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Email oder Discord Fragen stellen.
 
-### Typescript Dokumentation
+### TypeScript Dokumentation
 
 [https://www.typescriptlang.org/](https://www.typescriptlang.org/)

@@ -1,4 +1,4 @@
-## _P_ **3.3** Datenbanken Grundlagen
+## _P_ **3.3** Grundlagen Datenbanken
 
 ### Aufgabenteil 1 - Mongo Lokal
 Gehen Sie die im Vorlesungsteil beschriebenen Schritte für eine lokale Mongo Installation durch. Testen Sie lokal ausgiebig um sich mit Mongo vertraut zu machen. Legen Sie collections an, füllen Sie sie mit Dokumenten und löschen Sie sie wieder um ein Gefühl für Mongo zu bekommen.

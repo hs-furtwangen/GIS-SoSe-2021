@@ -1,4 +1,4 @@
-## _P_ **2.1** Typescript und Javascript Einstieg
+## _P_ **2.1** Einführung TypeScript (und JavaScript)
 
 Diese Woche dient als Einstieg in die Entwicklung mit einer für Sie neuen Sprache, darum werden wir lediglich die Grundlagen behandeln. In der übernächsten Woche geht es dann an konkretere Umsetzungen für die Kapitelaufgabe.
 
@@ -31,7 +31,7 @@ Verfolgen Sie, welcher Codeabschnitt wann ausgeführt wird und in welcher Reihen
 
 > > Der Name "Bug" stammt Gerüchten nach daher, dass in den ersten elektronischen Rechnern die mechanischen Kontake nicht mehr zusammengedrückt werden konnten, weil ein Käfer seinen Weg in den Zwischenraum gefunden hat, wodurch sich die Maschine verrechnet hat.
 
-> ℹ️ Bei vielen Programmiersprachen ist der Debugger direkt in der IDE (in unserem Fall VSCode) integriert, aber um Javascript Code ausführen zu können benötigt man entweder einen Browser oder einen Server, was das Debuggen deutlich schwieriger macht. Glücklicherweise steht uns in Browsern ein Debugger zur Verfügung.
+> ℹ️ Bei vielen Programmiersprachen ist der Debugger direkt in der IDE (in unserem Fall VSCode) integriert, aber um JavaScript Code ausführen zu können benötigt man entweder einen Browser oder einen Server, was das Debuggen deutlich schwieriger macht. Glücklicherweise steht uns in Browsern ein Debugger zur Verfügung.
 
 **c)** Fügen Sie weitere Funktionen ein, die wie `func1()` jeweils ein Wort ausgeben. func1 kann dafür kopiert und angepasst werden. Rufen Sie die Funktionen in `a1()` so auf, dass der Text "Alles Gute! Alles klar? Alles Logo!" auf der Konsole ausgegeben wird.
 

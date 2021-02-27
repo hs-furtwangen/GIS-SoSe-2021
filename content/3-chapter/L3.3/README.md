@@ -1,4 +1,4 @@
-## _V_ **3.3** Datenbanken Grundlagen
+## _V_ **3.3** Grundlagen Datenbanken
 
 <img src="https://assets.amuniversal.com/b1e4d2d09fcd012f2fe600163e41dd5b">
 <small>Quelle: <a href="https://dilbert.com/strip/1995-11-17">https://dilbert.com/strip/1995-11-17</a></small>  
@@ -17,7 +17,7 @@ NoSQL bzw. dokumentenorientierte Datenbanken adressieren dieses Problem. Die zu 
 Das No in NoSQL bedeutet "Not only", es gibt also auch Systeme, die mit SQL arbeiten können. Dokumentenorientierte Datenbanken sind eine Variante der NoSQL-Datenbanken, es gibt noch andere.
 
 ## MongoDB
-2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die Javascript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als Javascript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
+2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die JavaScript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als JavaScript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
 
 > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
 
@@ -108,7 +108,7 @@ Wenn alles funktioniert, gibt MongoDB einige Meldungen im Terminal aus und unter
 > - Schauen Sie nun den Inhalt des Datenbankordners an. MongoDB hat hier einige Informationen zur Verwaltung ihrer Daten abgelegt.
 
 ## Mongo Shell
-Die eigentlichen Daten kann man so nicht einsehen, sie werden in einem effizienten Format gespeichert, das von Menschen nicht gut interpretiert werden kann. Um schnell und einfach von Hand die Datenbank einzusehen und zu manipulieren, bietet MongoDB einen eigenen Kommandozeileninterpreter an: die MongoShell. Dieser Client kann Javascript interpretieren, sich mit dem laufenden Datenbankserver verbinden, Anweisungen an diesen schicken und dessen Antworten ausgeben.  
+Die eigentlichen Daten kann man so nicht einsehen, sie werden in einem effizienten Format gespeichert, das von Menschen nicht gut interpretiert werden kann. Um schnell und einfach von Hand die Datenbank einzusehen und zu manipulieren, bietet MongoDB einen eigenen Kommandozeileninterpreter an: die MongoShell. Dieser Client kann JavaScript interpretieren, sich mit dem laufenden Datenbankserver verbinden, Anweisungen an diesen schicken und dessen Antworten ausgeben.  
 
 > **Hinweis:** Wenn bei den nächsten Übungen etwas nicht funktionieren sollte, bitte direkt melden. Bis eine Antwort kommt, können Sie mit dem folgenden Video weiter machen...  
 
@@ -116,7 +116,7 @@ Die eigentlichen Daten kann man so nicht einsehen, sie werden in einem effizient
 > - Geben Sie `show dbs` in der Shell ein, es sollten Infos zu den drei internen Datenbanken angezeigt werden.
 > - Legen Sie mit `use Test` eine neue Datenbank mit Namen "Test" an. Die Shell bestätigt "switched to db Test". Test ist nun für die folgenden Befehle die Datenbank, mit der gearbeitet wird.
 > - Geben Sie `show collections` ein. Da noch keine Collections in Test angelegt sind, sollte nichts ausgegeben werden. Tatsächlich wird auch `show dbs` noch nicht die Datenbank Test ausgeben, da diese noch leer ist.
-> - Geben Sie ein `doc = {name: "...", firstname: "...", registration: "..."}` wobei Sie `...` jeweils mit ihrem Nachnamen, Vornamen und ihrer Matrikelnummer ersetzen. Damit erzeugen Sie eine Javascript-Variable namens `doc` und ein Objekt mit Informationen zu Ihnen, auf welches die Variable verweist.
+> - Geben Sie ein `doc = {name: "...", firstname: "...", registration: "..."}` wobei Sie `...` jeweils mit ihrem Nachnamen, Vornamen und ihrer Matrikelnummer ersetzen. Damit erzeugen Sie eine JavaScript-Variable namens `doc` und ein Objekt mit Informationen zu Ihnen, auf welches die Variable verweist.
 > - Mit `db.Students.insert(doc)` fügen Sie nun den mit `doc` referenzierten Datensatz in eine Collection namens "Students" in die aktuelle genutzte Datenbank, also in Test, ein.
 > - Lassen Sie wieder den Überblick über die Datenbanken und über die Collections in der Datenbank Test ausgeben. Test und darin Students sollten nun angezeigt werden. 
 > - Den Inhalt der Collection lassen Sie sich jetzt mit `db.Students.find()` anzeigen. Ihr Datensatz sollte auftauchen, wobei dieser um einen Schlüssel "_id" mit einem zugehörigen Wert erweitert wurde. Jedes Dokument erhält nämlich automatisch eine eindeutige Identifikation. 
@@ -155,7 +155,7 @@ Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von 
   - Klicken Sie auf `Insert Document` und fügen Sie in `Students` ein Dokument ein
   - Experimentieren Sie mit den Icons an dem Dokument
 
-### Typescript Dokumentation
+### TypeScript Dokumentation
 
 https://www.typescriptlang.org/
 

@@ -1,4 +1,4 @@
-## _V_ **3.2** Server Request Verarbeitung
+## _V_ **3.2** Server Request
 
 ## URL Modul
 
@@ -175,7 +175,7 @@ if (_request.method == "POST") {
 Diese Tools sind bereits sehr mächtig und die Grundlage fast jeder App, Webseite u.ä.  
 Mit diesem Wissen könnten Sie jetzt beginnen, ihre eigenen Webapps zu schreiben.
 
-### Typescript Dokumentation
+### TypeScript Dokumentation
 
 https://www.typescriptlang.org/
 

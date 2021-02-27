@@ -1,10 +1,10 @@
-## _V_ **2.1** Typescript und Javascript Einstieg
+## _V_ **2.1** Einführung TypeScript (und JavaScript)
 
 ### Inhaltsverzeichnis
 
-- [Einrichtung Typescript in VSCode](#einrichtung-typescript-in-vscode)
-- [Vorwort JavaScript / Typescript](#vorwort-javascript--typescript)
-- [JavaScript / Typescript Einführung](#javascript--typescript-einführung)
+- [Einrichtung TypeScript in VSCode](#einrichtung-typescript-in-vscode)
+- [Vorwort JavaScript / TypeScript](#vorwort-javascript--typescript)
+- [JavaScript / TypeScript Einführung](#javascript--typescript-einführung)
   - [Zahlen](#zahlen)
   - [Zeichenketten](#zeichenketten)
   - [Boolsche Werte](#boolsche-werte)
@@ -12,7 +12,7 @@
   - [Logische Operatoren](#logische-operatoren)
   - [Leere Werte](#leere-werte)
   - [Konvertierung](#konvertierung)
-- [Typescript Kontrollstrukturen](#typescript-kontrollstrukturen)
+- [TypeScript Kontrollstrukturen](#typescript-kontrollstrukturen)
   - [Funktionen](#funktionen)
   - [Programmablauf und Kontrollstrukturen](#programmablauf-und-kontrollstrukturen)
     - [if / else](#if--else)
@@ -20,13 +20,13 @@
 - [Q&A](#-fragen-und-antworten)
 
 
-### Einrichtung Typescript in VSCode
+### Einrichtung TypeScript in VSCode
 <video controls width="100%"> 
-    <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4" type="video/mp4"> 
-    <a href="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4">Zum Video</a>
+    <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_TypeScript.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_TypeScript.mp4">Zum Video</a>
 </video>
 
-Denken Sie daran, immer wenn Sie Ihren VSCode Editor öffnen, den BuildTask zu starten. Wenn Sie es automatisieren möchten, schauen Sie eigenverantwortlich [hier](https://code.visualstudio.com/docs/editor/tasks) oder [hier](https://marketplace.visualstudio.com/search?term=Typescript%20Auto%20Compiler&target=VSCode&category=All%20categories&sortBy=Relevance).
+Denken Sie daran, immer wenn Sie Ihren VSCode Editor öffnen, den BuildTask zu starten. Wenn Sie es automatisieren möchten, schauen Sie eigenverantwortlich [hier](https://code.visualstudio.com/docs/editor/tasks) oder [hier](https://marketplace.visualstudio.com/search?term=TypeScript%20Auto%20Compiler&target=VSCode&category=All%20categories&sortBy=Relevance).
 
 
 `Strg + Shift + B` für die Build Tasks oder über `Terminal > Buildaufgabe ausführen`. Wählen Sie "watch/Überwachen" um bis Sie VSCode schließen die js Dateien immer übersetzt zu bekommen oder "make/Erstellen" um einmal das gesamte Projekt zu übersetzen.
@@ -54,7 +54,7 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
   - falls es dabei in Powershell Probleme gibt, Powershell als Administrator ausführen, den folgenden Befehl ausführen und mit J/Y bestätigen.  
   `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
 
-### Vorwort JavaScript / Typescript
+### Vorwort JavaScript / TypeScript
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4">Zum Video</a>
@@ -62,7 +62,7 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
 
 *[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_JSTS_Vorwort.pdf){:target="_blank"}*
 
-### JavaScript / Typescript Einführung
+### JavaScript / TypeScript Einführung
 
 JavaScript ist die primäre Sprache wenn es darum geht, in einem Browser / auf einer Webseite Code auzuführen. 1995 eingeführt für den Netscape Browser wurde sie bald weit verbreitet eingesetzt und ist heute in den Top 10 der meistgenutzten Sprachen Weltweit. Ursprünglich auch nur als Frontend (Nutzerseite) Sprache entwickelt, kann Sie heute auch als Backend (Serverseite, Datenbanken) eingesetzt werden.
 
@@ -70,12 +70,12 @@ JS wird stetig weiterentwickelt. Der im Video angesprochene ECMAScript Standard 
 
 Es gibt Menschen, die schlimme Dinge über JavaScript sagen. Und die meisten dieser Dinge sind wahr. JS akzeptiert beinahe alles was man ihm an den Kopf wirft, interpretiert und konvertiert es dann aber in oft unerwarteten / ungewollten Arten und Weisen, was sich auf die beinahe lächerliche Freizügigkeit der Sprache zurückführen lässt. Die Idee dahinter ist es, den Enstieg für Neulinge einfacher zu machen. Leider hat dies häufig den gegenteiligen Effekt, da die Fehlerfindung in den eigenen Systemen dadurch deutlich erschwert wird. Diese Freiheiten haben aber natürlich auch Vorteile, allerdings muss man bereits eine hohe Menge an Wissen haben, um diese Freiheiten sinnvoll einsetzen zu können.
 
-Typescript ist einer der erfolgreichsten Versuche, diese Nachteile und Hürden zu kompensieren, ohne die Vorteile der Sprache zu schmälern. Aus diesem Grund werden wir in dieser Vorlesung ausschließlich mit Typescript arbeiten.
+TypeScript ist einer der erfolgreichsten Versuche, diese Nachteile und Hürden zu kompensieren, ohne die Vorteile der Sprache zu schmälern. Aus diesem Grund werden wir in dieser Vorlesung ausschließlich mit TypeScript arbeiten.
 
 #### Beispiel
 
 Schauen Sie sich den folgenden Code zunächst einfach nur an. Fällt ihnen irgendetwas seltsames auf, erwarten Sie irgendwelche Fehlermeldungen? Versuchen Sie vorherzusagen, was auf der Konsole ausgegeben würde.  
-Nun können sie über F12 in ihrem Browser die Konsole öffnen und (in reinem Javascript) die Befehle ausführen. Stimmen Ihre Erwartungen mit dem Ergebnis überein? Kopieren Sie den Code anschließend in eine .ts Datei.
+Nun können sie über F12 in ihrem Browser die Konsole öffnen und (in reinem JavaScript) die Befehle ausführen. Stimmen Ihre Erwartungen mit dem Ergebnis überein? Kopieren Sie den Code anschließend in eine .ts Datei.
 
 ```javascript
 console.log(true + true);
@@ -88,7 +88,7 @@ console.log('5' - 1);
 console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());
 ```
 
-Bei einigen dieser Anweisungen sollte der Typescript Compiler Ihnen Fehler anzeigen. Zum Glück, denn diese Anweisungen sind allesamt legitimer Javascript Code bei denen JS einfach wild hin und her konvertiert und sorgen für die seltsamsten Ergebnisse. Typescript schützt uns vor diesem seltsam anmutenden Verhalten. Kommentieren Sie die Fehlerhaften Zeilen aus und lassen Sie den übersetzten Code im Browser ausführen.
+Bei einigen dieser Anweisungen sollte der TypeScript Compiler Ihnen Fehler anzeigen. Zum Glück, denn diese Anweisungen sind allesamt legitimer JavaScript Code bei denen JS einfach wild hin und her konvertiert und sorgen für die seltsamsten Ergebnisse. TypeScript schützt uns vor diesem seltsam anmutenden Verhalten. Kommentieren Sie die Fehlerhaften Zeilen aus und lassen Sie den übersetzten Code im Browser ausführen.
 
 ---
 
@@ -101,7 +101,7 @@ Bei einigen dieser Anweisungen sollte der Typescript Compiler Ihnen Fehler anzei
 
 #### Zahlen
 
-Zahlen, der Typ `number` in Typescript, stellen alle möglichen (nicht-imaginären) Zahlen dar. Sowohl Ganzzahlen (integer in Java) als auch Gleitkommazahlen (float / double in Java) werden darüber abgebildet. Für eine `number` wird 64bit Speicherplatz bereitgestellt. Das erste Bit wird genutzt zur Speicherung des Vorzeichens, dadurch können ganzzahlige Werte bis zu astronomischen +/- 2^63 (~9 Trillionen) gespeichert und berechnet werden, ohne dass man an Grenzen stößt und so exakte Werte berechnen kann. Bei Gleitkommazahlen sieht die Sache etwas komplizierter aus, da diese eine andere Darstellungsform nutzen müssen, was zu Genauigkeitsverlusten führen kann. Genauso wie man die Kreiszahl Pi nicht mit einer endlichen Anzahl von Zeichen exakt beschreiben kann, verlieren viele Zahlen etwas Genauigkeit wenn wir nur 64 bits zur Verfügung haben um diese abzubilden. Das ist in den meisten Fällen aber kein Problem, da die Näherungswerte immernoch genau genug sind.
+Zahlen, der Typ `number` in TypeScript, stellen alle möglichen (nicht-imaginären) Zahlen dar. Sowohl Ganzzahlen (integer in Java) als auch Gleitkommazahlen (float / double in Java) werden darüber abgebildet. Für eine `number` wird 64bit Speicherplatz bereitgestellt. Das erste Bit wird genutzt zur Speicherung des Vorzeichens, dadurch können ganzzahlige Werte bis zu astronomischen +/- 2^63 (~9 Trillionen) gespeichert und berechnet werden, ohne dass man an Grenzen stößt und so exakte Werte berechnen kann. Bei Gleitkommazahlen sieht die Sache etwas komplizierter aus, da diese eine andere Darstellungsform nutzen müssen, was zu Genauigkeitsverlusten führen kann. Genauso wie man die Kreiszahl Pi nicht mit einer endlichen Anzahl von Zeichen exakt beschreiben kann, verlieren viele Zahlen etwas Genauigkeit wenn wir nur 64 bits zur Verfügung haben um diese abzubilden. Das ist in den meisten Fällen aber kein Problem, da die Näherungswerte immernoch genau genug sind.
 
 Zahlen können als Ganzzahl (`10`), Kommazahl (mit einem Punkt als Trennzeichen `3.1415`) oder in wissenschaftlicher Notation (`2.98e8` = 2.98 * 10^8 = 298'000'000) geschrieben werden.
 
@@ -111,7 +111,7 @@ In JS gibt es drei **spezielle Zahlen**. Die ersten beiden sind `Infinity` und `
 
 #### Zeichenketten
 
-Zeichenketten, `string` in Typescript, repräsentieren Text und werden angelegt indem Text innerhalb von Anführungszeichen eingeschlossen wird. Dabei gibt es drei Möglichkeiten:
+Zeichenketten, `string` in TypeScript, repräsentieren Text und werden angelegt indem Text innerhalb von Anführungszeichen eingeschlossen wird. Dabei gibt es drei Möglichkeiten:
 1. `''` Das einzelne Anführungszeichen
 2. `""` Das doppelte Anführungszeichen (in diesem Kurs bevorzugt)
 3. `` ` ` `` Der "Backtick". Hat besondere Funktionen, welche die anderen beiden nicht haben:
@@ -121,7 +121,7 @@ Zeichenketten, `string` in Typescript, repräsentieren Text und werden angelegt 
 Strings können nicht Multipliziert, Dividiert oder Subtrahiert werden, aber Addieren funkioniert. `"G" + "I" + "S" -> "GIS"`
 
 #### Boolsche Werte
-Wahrheitswete, `boolean` in Typescript, sind entweder `true` oder `false`, 1 oder 0, an oder aus. Diese an sich können schon sinnvoll sein, werden aber oft bei Vergleichen gebraucht.
+Wahrheitswete, `boolean` in TypeScript, sind entweder `true` oder `false`, 1 oder 0, an oder aus. Diese an sich können schon sinnvoll sein, werden aber oft bei Vergleichen gebraucht.
 
 #### Vergleiche
 
@@ -190,11 +190,11 @@ console.log("" === false) // -> false
 console.log(false === false) // -> true 
 ```
 
-**Typescript sorgt auch hier dafür, dass wir uns um diesen Fall keine Sorgen machen müssen indem es uns vor solchen Konvertierungen warnt, es soll aber der Vollständigkeit und dem Verständnis halber erwähnt werden.**
+**TypeScript sorgt auch hier dafür, dass wir uns um diesen Fall keine Sorgen machen müssen indem es uns vor solchen Konvertierungen warnt, es soll aber der Vollständigkeit und dem Verständnis halber erwähnt werden.**
 
 ---
 
-### Typescript Kontrollstrukturen
+### TypeScript Kontrollstrukturen
 
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4" type="video/mp4"> 
@@ -542,7 +542,7 @@ for (let i: number = 0; i < buttons.length; i++) {
 }
 ```
 
-### Typescript Dokumentation
+### TypeScript Dokumentation
 
 [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 

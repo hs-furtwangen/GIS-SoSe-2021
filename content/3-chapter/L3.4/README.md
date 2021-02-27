@@ -1,4 +1,4 @@
-## _V_ **3.4** Datenbankzugriff über Server
+## _V_ **3.4** Datenbank und Server
 
 ### MongoDB in Node
 Bisher wurde die Datenbank noch direkt über die MongoShell angesprochen. Damit wir aber die Datenbank ohne manuelles Zutun verwenden können, müssen wir diese mit unserem Node.JS Server verbinden. Was bisher von Hand mit der MongoShell erledigt wurde, soll also das Node.js-Programm bewerkstelligen. Hierzu muss Node zunächst um die entsprechenden Module für die Arbeit mit MongoDB erweitert werden. Führen Sie also die Kommandos `npm install @types/mongodb` sowie `npm install mongodb` auf der obersten Ebene ihres GIS-Projektes / Repositories aus. 
@@ -60,7 +60,7 @@ orders.insert({...});
 > - Implementieren Sie eine Funktion retrieveOrders, welche mit `orders.find()` alle Bestellungen ausliest und ein Array von `Orders` zurückliefert. Nutzen Sie dazu die asynchrone Funktion `toArray()` des von `find()` zurückgegebenen Cursor-Objektes.
 > - Implementieren Sie eine Erweiterung der Funktion `handleRequest`, so dass retrieveOrders aufgerufen und das Ergebnis als (JSON-)Zeichenkette in die Serverantwort eingefügt wird, wenn der Server dazu aufgefordert wird, z.B. mit dem Query-String `command=retrieve`, oder unter einem eigenen Pfad `/retrieve`. Eine Clientsoftware könnte damit die Datensätze abrufen.
 
-### Typescript Dokumentation
+### TypeScript Dokumentation
 
 https://www.typescriptlang.org/
 

@@ -1,4 +1,4 @@
-# **3** Server und Datenbanken
+# **3** Server und Daten
 
 In diesem Kapitel soll das Zusammenspiel zwischen Client, Server und Datenbank gelernt und umgesetzt werden. 
 
@@ -15,19 +15,19 @@ Erstellen Sie eine weitere Unterseite auf der sich ein Nutzer einloggen kann. Hi
 - URL
 - NodeJS
 
-## **3.2** Server Request Verarbeitung
+## **3.2** Server Request
 
 - URL Modul
 - Request Handling
 - (POST Request)  
 
-## **3.3** Datenbanken Grundlagen
+## **3.3** Grundlagen Datenbanken
 
 - Datenbanken Einführung
 - Datenbank lokal
 - Datenbank online
 
-## **3.4** Datenbankzugriff über den Server
+## **3.4** Datenbank und Server
 
 - Datenbank und Node.js Kommunikation
 - Pipeline: HTML → Server → Datenbank

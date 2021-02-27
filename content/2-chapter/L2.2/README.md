@@ -1,4 +1,4 @@
-## _V_ **2.2** Weiterführende Konzepte Typescript
+## _V_ **2.2** Mehr TypeScript (Weiterführende Konzepte)
 
 ### Inhaltsverzeichnis
 
@@ -17,7 +17,7 @@
     - [Vererbung](#vererbung)
     - [Polymorphie](#polymorphie)
     - [instanceof](#instanceof)
-- [Weitere Typescript Konzepte](#weitere-typescript-konzepte)
+- [Weitere TypeScript Konzepte](#weitere-typescript-konzepte)
   - [Namespaces](#namespaces)
   - [Optionale Parameter](#optionale-parameter)
   - [Rest Parameter](#rest-parameter)
@@ -105,7 +105,7 @@ console.log(numberArray.length); // 3
 
 `.splice()` entfernt (und ersetzt) Elemente aus dem Array
 
-> Die Offenheit von JS erlaubt es, jede Art von Variable in ein Array zu speichern (heterogen), selbst andere Arrays. Und während letzteres praktisch ist, um _mehrdimensionale Arrays_ anzulegen, so ist ersteres in Typescript nicht erlaubt.
+> Die Offenheit von JS erlaubt es, jede Art von Variable in ein Array zu speichern (heterogen), selbst andere Arrays. Und während letzteres praktisch ist, um _mehrdimensionale Arrays_ anzulegen, so ist ersteres in TypeScript nicht erlaubt.
 
 ```ts
 let a: number[] = [42, true, "Hallo"]   //JS: okay, TS: error
@@ -141,7 +141,7 @@ console.log(a["wert1"]); // true
 
 Interfaces erlauben aber noch mehr als nur Arrays zu definieren. Sie können jede Form von eigenem Datentyp definieren, und so die Entwicklungszeit und das Programm als ganzes deutlich verbessern.
 
-Dabei werden im Interface feste Namen für verschiedene Attribute festgelegt, welche dann auch so vom Typescript compiler eingefordert werden. Attribute sind Variablen, die einem bestimmten Objekt zugeordnet sind. Sie können über die Punktnotation abgefragt werden.
+Dabei werden im Interface feste Namen für verschiedene Attribute festgelegt, welche dann auch so vom TypeScript compiler eingefordert werden. Attribute sind Variablen, die einem bestimmten Objekt zugeordnet sind. Sie können über die Punktnotation abgefragt werden.
 
 > Da wir mit interfaces sozusagen unsere eigenen Komplexen Typen definieren, sollten diese groß geschrieben werden.
 
@@ -262,7 +262,7 @@ let d: Dog = new Dog("Bello", 3);
 
 ##### Zugriffsmodifikatoren
 
-In den meisten Objektorientierten Sprachen gibt es Zugriffsmodifikatoren welche steuern sollen, wer auf gewisse Attribute und Variablen Zugriff hat. So auch in Typescript.
+In den meisten Objektorientierten Sprachen gibt es Zugriffsmodifikatoren welche steuern sollen, wer auf gewisse Attribute und Variablen Zugriff hat. So auch in TypeScript.
 
 `private` nur die Klasse selbst hat Zugriff.
 
@@ -362,7 +362,7 @@ Während `Cat` keinen eigenen Konstruktor definiert und darum automatisch den An
 
 `super.makeSound()` würde in der Katze oder Hunde Klasse `"<undefined Animal Sounds>"` auf der Konsole ausgeben. So ist es also möglich die spezifische Funktionalität der Superklasse beizubehalten / explizit zu verwenden, selbst wenn eine eigene Implementation diese Überschreibt.
 
-> Weitere Informationen zu Klassen in Typescript finden Sie in der [offiziellen Dokumentation](https://www.typescriptlang.org/docs/handbook/classes.html) (Englisch) oder auch in den [Kursmaterialien zu EIA2](https://jirkadelloro.github.io/EIA2-Inverted/L09_Classes/).
+> Weitere Informationen zu Klassen in TypeScript finden Sie in der [offiziellen Dokumentation](https://www.typescriptlang.org/docs/handbook/classes.html) (Englisch) oder auch in den [Kursmaterialien zu EIA2](https://jirkadelloro.github.io/EIA2-Inverted/L09_Classes/).
 
 ##### Polymorphie
 
@@ -396,7 +396,7 @@ console.log(c instanceof DomesticAnimal); // true
 console.log(d instanceof DomesticAnimal); // true
 ```
 
-### Weitere Typescript Konzepte
+### Weitere TypeScript Konzepte
 #### Namespaces
 
 Alle Dateien in einem TS Projekt werden als "global bekannt" angesehen. Da das gesamte Repository als ein großes Projekt angesehen wird, ist jede `.ts` Datei Teil des globalen Namensraums. Das bedeutet wiederum, dass ein Variablenname immer nur einmal vorkommen kann.
@@ -429,7 +429,7 @@ namespace Aufgabe2 {
 
 Will man auf die Variablen / Interfaces / Klassen / etc. anderer Dateien zugreifen, so kann man dies explizit tun, indem man die zu verwendende Variable mit `export` markiert. So ist diese automatisch in anderen Dateien mit dem gleichen Namespace verfügbar und kann außerdem in anderen Namensräumen importiert werden.
 
-> ⚠️ Ggf. muss man auch den namespace mit einem export markieren. In anderen Fällen sorgt eben dies für eine Fehlermeldung. Dies hängt von der lokalen Typescriptversion ab und kann bei jedem Computer unterschiedlich sein.
+> ⚠️ Ggf. muss man auch den namespace mit einem export markieren. In anderen Fällen sorgt eben dies für eine Fehlermeldung. Dies hängt von der lokalen TypeScriptversion ab und kann bei jedem Computer unterschiedlich sein.
 
 > Bei dieser Nutzung mehrerer Dateien muss auf die import Reihenfolge in der HTML Datei geachtet werden, damit die Daten der ersten Datei vorliegen um in der zweiten Datei verwendet zu werden.
 
@@ -452,7 +452,7 @@ Auf diese so exportierten Variablen kann über die Objekt-Punkt-Notation zugegri
 
 #### Optionale Parameter
 
-Während Javascript willentlich ignorant über die Menge an übergebenen und erwarteten Paramtern hinwegsieht, ist Typescript da deutlich restriktiver.
+Während JavaScript willentlich ignorant über die Menge an übergebenen und erwarteten Paramtern hinwegsieht, ist TypeScript da deutlich restriktiver.
 
 ```js
 function square(x) {
@@ -470,7 +470,7 @@ function print(x, y){
 print("hi") //-> Gibt folgendes auf der Konsole aus: "hi" undefined
 ```
 
-Dies verhindert Typescript standardmäßig, und haut dem Entwickler auf die Finger wenn eine falsche Anzahl an Parametern übergeben werden. Allerdings hat diese Vorgehensweise auch Vorteile, darum gibt es in Typescript die Möglichkeit einen Parameter als "optional" zu markieren: `?:`. Dabei müssen optionale Parameter sich stets am Ende der Parameterliste befinden.
+Dies verhindert TypeScript standardmäßig, und haut dem Entwickler auf die Finger wenn eine falsche Anzahl an Parametern übergeben werden. Allerdings hat diese Vorgehensweise auch Vorteile, darum gibt es in TypeScript die Möglichkeit einen Parameter als "optional" zu markieren: `?:`. Dabei müssen optionale Parameter sich stets am Ende der Parameterliste befinden.
 
 ```ts
 function minus(a: number, b?: number): number {

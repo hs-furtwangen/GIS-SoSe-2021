@@ -15,7 +15,7 @@ Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stof
 ##### Weitere Hinweise:
 - Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.
 - Falls Sie das Praktikum bereits in einem vorherigen Semester bestanden haben, müssen Sie nur die Prüfungsabgabe abgeben und nicht die Zwischenaufgaben.
-- Die Inhalte sind nur in HTML und CSS gleich zu vorherigen Semestern / Professoren. Typescript und Node.js sind vermutlich anders.
+- Die Inhalte sind nur in HTML und CSS gleich zu vorherigen Semestern / Professoren. TypeScript und Node.js sind vermutlich anders.
 
 ---
 

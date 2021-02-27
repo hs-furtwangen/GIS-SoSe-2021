@@ -1,6 +1,6 @@
-## _P_ **3.2** Server Request Verarbeitung
+## _P_ **3.2** Server Request
 
-Ändern Sie den Servercode dahingehend, dass er statt einfach nur einem URL Bounce die in der URL (im query Teil / über eine GET Anfrage) übergebenen Variablen und Werte zunächst in ein Javascript Objekt / Assoziatives Array umwandelt, bzw diese aus der URL ausließt (s. `Url.parse()`). Geben Sie nun unter verschiedenen Pfaden die Informationen auf verschidene Weisen zurück:
+Ändern Sie den Servercode dahingehend, dass er statt einfach nur einem URL Bounce die in der URL (im query Teil / über eine GET Anfrage) übergebenen Variablen und Werte zunächst in ein JavaScript Objekt / Assoziatives Array umwandelt, bzw diese aus der URL ausließt (s. `Url.parse()`). Geben Sie nun unter verschiedenen Pfaden die Informationen auf verschidene Weisen zurück:
 
 - unter `/html` formatieren Sie die übergebenen Daten gut lesbar als HTML Text/Code. Dieser zurückgegebene HTML Code soll nun auf der Formularseite einfach als Antwort des Servers in die Seite ohne weitere Formatierungen eingebunden werden.
 - unter `/json` formatieren Sie die übergebenen Daten als JSON Objekt und geben das zurück. Auf der Formularseite parsen Sie dieses in ein JS Objekt und geben dieses auf der Konsole aus. Vergleichen Sie (mit bloßem Auge) das Objekt welches Sie zurück bekommen haben mit dem Objekt das sie los geschickt haben. Wenn die Objekte gleich sind, haben Sie alles richtig gemacht.

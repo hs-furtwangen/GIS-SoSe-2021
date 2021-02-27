@@ -1,4 +1,4 @@
-## _P_ **2.3** DOM Manipulation und Event Handling
+## _P_ **2.3** DOM und Events
 
 ### Aufgabe 1
 

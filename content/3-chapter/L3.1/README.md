@@ -28,7 +28,7 @@ Bei `method="post"` werden die Daten als eigenes Datenpaket versand und sind nic
 **Hinweis**: Versenden Sie niemals sensible Daten (logins, passwörter, etc) über GET Anfragen, da der Inhalt der Anfrage in Klartext in der URL dargestellt wird. GET wird vorallem für harmlose Suchanfragen und andere Dinge verwendet, bei denen die resultierende Seite kopiert / als Lesezeichen gesetzt werden können soll oder bei denen absolut nicht-geheime Daten verschickt/angefragt werden.
 
 ## FormData
-Javascript stellt einen einfachen Mechanismus zur Verfügung um Formularelemente automatisch auszuwerten und auf die Ergebnisse zuzugreifen. Hierzu müssen die Formularelemente in der DOM-Laufzeithierarchie einem `form`-Element untergeordnet sein. Wird bei der Erzeugung eines Objekts des Typs `FormData` nun ein Verweis auf auf dieses `form`-Element übergeben, so werden deren Werte der `name`- und `value`-Attribute als Schlüssel-Werte-Paare zur Verfügung gestellt.
+JavaScript stellt einen einfachen Mechanismus zur Verfügung um Formularelemente automatisch auszuwerten und auf die Ergebnisse zuzugreifen. Hierzu müssen die Formularelemente in der DOM-Laufzeithierarchie einem `form`-Element untergeordnet sein. Wird bei der Erzeugung eines Objekts des Typs `FormData` nun ein Verweis auf auf dieses `form`-Element übergeben, so werden deren Werte der `name`- und `value`-Attribute als Schlüssel-Werte-Paare zur Verfügung gestellt.
 ```typescript
 let formData: FormData = new FormData(document.forms[0]);
 ```
@@ -81,7 +81,7 @@ Der Query-String stellt nun die eigentlichen Nutzdaten dar, die bei der synchron
 ---
 
 ## Daten asynchron senden
-Um also Daten per Get mit Fetch zu senden, muss lediglich der URL um den Query-String erweitert werden. Wie dieser String zustande kommt ist irrelevant, hier kann man beliebig kreativ werden. Sofern die Daten aus einem Formular aber bereits vorliegen, ist es einfach möglich, ihn aus einem FormData-Objekt zu generieren. Hierbei hilft ein weiteres Standard-Javascript-Objekt: URLSearchParams
+Um also Daten per Get mit Fetch zu senden, muss lediglich der URL um den Query-String erweitert werden. Wie dieser String zustande kommt ist irrelevant, hier kann man beliebig kreativ werden. Sofern die Daten aus einem Formular aber bereits vorliegen, ist es einfach möglich, ihn aus einem FormData-Objekt zu generieren. Hierbei hilft ein weiteres Standard-JavaScript-Objekt: URLSearchParams
 ```typescript
 let url: string = "https://whatever.server/path/file";
 let query: URLSearchParams = new URLSearchParams(<any>formData);
@@ -100,9 +100,9 @@ Ein Objekt vom Typ `URLSearchParams` lässt sich fast genauso verwenden wie eine
 ## Node.js
 Server allgemein und insbesondere Node.js Server laufen normalerweise nicht in einem Browser. Üblicherweise sind Server auf Maschinen installiert, die in einem Rechenzentrum in lebensfeindlicher (Keller/Halle) Umgebung stehen und die nicht direkt mit der Interaktion mit Usern beschäftigt sind. Einen Browser, der doch vordringlich für die Mensch-Maschine-Kommunikation verantwortlich ist, als Server zu nutzen wäre deshalb nur hinderlich. Daher sind Server meist in niederen Sprachen wie C++, Java usw. programmiert und werden ggf. in ihrer Funktionalität mit Hilfe von Skriptsprachen wie Pearl, CGI oder PHP erweitert. Sie haben oft keine direkte grafische Benutzeroberfläche (GUI) sondern benutzen sog. command line interfaces (CLI)
 
-2009 kam der zu diesem Zeitpunkt 28jährige Student Ryan Dahl auf die Idee, Googles V8-Javascript-Interpreter außerhalb des Browsers zu nutzen, um verschiedene Module zu erweitern und damit einen Server zu programmieren. Der Einsatz von Javascript war vor allem motiviert durch Unterstützung der Ereignissteuerung, womit Server nicht durch wartende Prozesse blockiert werden. Ryan schuf damit Node.js, eine Programmierumgebung, mit der es möglich ist, Javascript, und somit auch kompiliertes TypeScript, außerhalb von Browsern zu nutzen und damit Anwendungen zu entwickeln. VSCode selbst ist eine solche Anwendung! Ryan erklärt Node.js selbst in diesem [Google Talk](https://www.youtube.com/watch?v=F6k8lTrAE2g) (achtung, sehr technisch!)
+2009 kam der zu diesem Zeitpunkt 28jährige Student Ryan Dahl auf die Idee, Googles V8-JavaScript-Interpreter außerhalb des Browsers zu nutzen, um verschiedene Module zu erweitern und damit einen Server zu programmieren. Der Einsatz von JavaScript war vor allem motiviert durch Unterstützung der Ereignissteuerung, womit Server nicht durch wartende Prozesse blockiert werden. Ryan schuf damit Node.js, eine Programmierumgebung, mit der es möglich ist, JavaScript, und somit auch kompiliertes TypeScript, außerhalb von Browsern zu nutzen und damit Anwendungen zu entwickeln. VSCode selbst ist eine solche Anwendung! Ryan erklärt Node.js selbst in diesem [Google Talk](https://www.youtube.com/watch?v=F6k8lTrAE2g) (achtung, sehr technisch!)
 
-> **FunFact:** 2018 kündigte Ryan Dahl die Entwicklung von Deno an, mit welchem er Node.js Konkurrenz macht. Unter anderem soll Deno direkt TypeScript-Programme interpretieren, ohne dass daraus zuvor Javascript-Dateien erzeugt werden müssen. Hier ist Ryans [Github-Profil](https://github.com/ry). Vor knapp einem Monat wurde [Deno](https://deno.land/) Version 1.0 veröffentlicht.
+> **FunFact:** 2018 kündigte Ryan Dahl die Entwicklung von Deno an, mit welchem er Node.js Konkurrenz macht. Unter anderem soll Deno direkt TypeScript-Programme interpretieren, ohne dass daraus zuvor JavaScript-Dateien erzeugt werden müssen. Hier ist Ryans [Github-Profil](https://github.com/ry). Vor knapp einem Monat wurde [Deno](https://deno.land/) Version 1.0 veröffentlicht.
 
 Für Sie ist der riesige Vorteil von Node.js, dass Sie keine weitere Programmiersprache lernen müssen, um einen Server zu entwickeln. Ebenso können Sie damit Desktop-Programme für Windows, Mac oder Linux bauen (siehe VSCode). Mit TypeScript und Node.js sind Sie deshalb gut aufgestellt.  
 
@@ -236,7 +236,7 @@ Jetzt müssen Sie lediglich noch die url-Variable in Ihrer Clientsoftware anpass
 -  Testen Sie Ihren Heroku-Server vom Client aus, sowohl vom lokalen Fileserver aus, wie auch über GitHub Pages.
 -  Achten Sie dabei auf das Log-Fenster von Heroku
 
-### Typescript Dokumentation
+### TypeScript Dokumentation
 
 https://www.typescriptlang.org/
 
