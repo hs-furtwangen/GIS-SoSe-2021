@@ -1,4 +1,4 @@
-## _V_ **3.4** Datenbank und Server
+## 3.4 Datenbank und Server
 
 ### MongoDB in Node
 Bisher wurde die Datenbank noch direkt über die MongoShell angesprochen. Damit wir aber die Datenbank ohne manuelles Zutun verwenden können, müssen wir diese mit unserem Node.JS Server verbinden. Was bisher von Hand mit der MongoShell erledigt wurde, soll also das Node.js-Programm bewerkstelligen. Hierzu muss Node zunächst um die entsprechenden Module für die Arbeit mit MongoDB erweitert werden. Führen Sie also die Kommandos `npm install @types/mongodb` sowie `npm install mongodb` auf der obersten Ebene ihres GIS-Projektes / Repositories aus. 

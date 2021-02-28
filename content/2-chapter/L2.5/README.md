@@ -1,4 +1,4 @@
-## _V_ **2.5** Kommunikation
+## 2.5 Kommunikation
 
 ### Inhaltsverzeichnis
 

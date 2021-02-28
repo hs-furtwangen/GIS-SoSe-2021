@@ -1,4 +1,4 @@
-## _V_ **2.3** DOM Manipulation und Event Handling
+## 2.3 DOM Manipulation und Event Handling
 
 ### Inhaltsverzeichnis
 

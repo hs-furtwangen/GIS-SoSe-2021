@@ -1,4 +1,4 @@
-## _V_ **3.2** Server Request
+## 3.2 Server Request
 
 ## URL Modul
 

@@ -1,4 +1,4 @@
-## _V_ **2.4** JSON und Local Storage
+## 2.4 JSON und Local Storage
 
 ### Inhaltsverzeichnis
 - [JSON](#json)

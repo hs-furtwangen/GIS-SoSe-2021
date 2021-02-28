@@ -1,4 +1,4 @@
-## _V_ **3.1** Serveranbindung
+## 3.1 Serveranbindung
 
 In Aufgabe P2.5 haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron und Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
 

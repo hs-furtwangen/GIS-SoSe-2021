@@ -1,4 +1,4 @@
-## _V_ **3.3** Grundlagen Datenbanken
+## 3.3 Grundlagen Datenbanken
 
 <img src="https://assets.amuniversal.com/b1e4d2d09fcd012f2fe600163e41dd5b">
 <small>Quelle: <a href="https://dilbert.com/strip/1995-11-17">https://dilbert.com/strip/1995-11-17</a></small>  

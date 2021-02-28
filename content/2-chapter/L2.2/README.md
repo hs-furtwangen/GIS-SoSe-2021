@@ -1,4 +1,4 @@
-## _V_ **2.2** Mehr TypeScript (Weiterführende Konzepte)
+## 2.2 Mehr TypeScript (Weiterführende Konzepte)
 
 ### Inhaltsverzeichnis
 

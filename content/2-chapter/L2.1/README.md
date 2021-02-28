@@ -1,4 +1,4 @@
-## _V_ **2.1** Einführung TypeScript (und JavaScript)
+## 2.1 Einführung TypeScript (und JavaScript)
 
 ### Inhaltsverzeichnis
 
