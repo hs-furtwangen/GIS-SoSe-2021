@@ -1,6 +1,6 @@
-## _P_ **3.1** Serveranbindung
+<!-- # Praktukumsaufgabe 3.1 -->
 
-### Teilaufgabe 1
+## Teilaufgabe 1
 
 Entwickeln Sie mit HTML Formularen eine einfache HTML Seite (z.B. ein Login, eine Addresseingabe, etc.) und lassen sie dieses Formular automatisch auf `https://gis-example.herokuapp.com` über GET verlinken.
 
@@ -8,7 +8,7 @@ Experimentieren Sie mit verschiedenen Input Elementen und den daraus erzeugten W
 
 Folgen Sie außerdem der Erklärung zur Entwicklung mit NodeJS und setzen Sie sich einen online Server auf. Kopieren Sie als Server Code zunächst den **Code des Beispielservers**. Sonst (bei z.B. einer leeren js Datei) wird ihr Heroku Server ständig die Datei starten und erwarten, dass sie weiterläuft, da sie sich aber direkt beendet (weil es ja nichts auszuführen gibt, bzw nichts gibt was auf irgendetwas anderes wartet), denkt er die Anwendung würde crashen.
 
-## Beispielserver Code:
+### Beispielserver Code:
 ```ts
 import * as Http from "http";
 
@@ -39,7 +39,7 @@ export namespace P_3_1Server {
 ```
 
 
-### Teilaufgabe 2
+## Teilaufgabe 2
 
 Schauen Sie sich den **Code des Beispielservers** an, versuchen Sie zu verstehen was passiert und übernehmen Sie ihn in Ihr Repository. Kommentieren Sie sich die einzelnen Zeilen und beschreiben Sie, was was tut. Passen Sie den Request Handler so an, dass der query/path string nicht nur auf der Webseite, sondern auch in der Konsole des Servers ausgegeben wird.
 

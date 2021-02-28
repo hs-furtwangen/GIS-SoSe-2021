@@ -1,6 +1,6 @@
-## _P_ **2.4** JSON und LocalStorage
+<!-- # Praktukumsaufgabe 2.4 -->
 
-### Aufgabe 1
+## Aufgabe 1
 
 **a)** Konvertieren Sie die Variable in der `data.ts` Datei, in der Sie zuvor die Daten gespeichert haben, in einen JSON string und schreiben Sie eine Funktion in Ihrem Hauptprogramm, welches die Daten aus dem JSON String in ein Objekt ihres Interfaces / ihrer Klasse konvertiert. An dieser Stelle sollte die Seite wieder genau so funktionieren wie die Woche davor.
 
@@ -13,6 +13,6 @@
 **d)** Sofern noch nicht passiert, zeigen Sie auf der Auswahlseite an, welche Teilaspekte bereits in vorherigen Schritten ausgewählt wurden.
 
 
-### Aufgabe 2
+## Aufgabe 2
 
 Entwickeln Sie eine weitere Seite, auf die nachdem (je) ein Element aus allen Kategorieren ausgewählt wurde weitergeleitet wird. Auf dieser Seite sollte die grafische Darstellung zusammengeführt werden. Nutzen Sie dazu die Daten die Sie im Browser Cache abgelegt haben sowie die Daten aus der `daten.ts` Datei.

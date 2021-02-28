@@ -1,4 +1,4 @@
-## _P_ **3.2** Server Request
+<!-- # Praktukumsaufgabe 3.2 -->
 
 Ändern Sie den Servercode dahingehend, dass er statt einfach nur einem URL Bounce die in der URL (im query Teil / über eine GET Anfrage) übergebenen Variablen und Werte zunächst in ein JavaScript Objekt / Assoziatives Array umwandelt, bzw diese aus der URL ausließt (s. `Url.parse()`). Geben Sie nun unter verschiedenen Pfaden die Informationen auf verschidene Weisen zurück:
 

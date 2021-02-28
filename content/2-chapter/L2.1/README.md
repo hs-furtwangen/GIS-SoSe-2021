@@ -1,30 +1,14 @@
-## 2.1 Einführung TypeScript (und JavaScript)
+<!-- # 2.1 Einführung TypeScript (und JavaScript) -->
 
-### Inhaltsverzeichnis
-
-- [Einrichtung TypeScript in VSCode](#einrichtung-typescript-in-vscode)
-- [Vorwort JavaScript / TypeScript](#vorwort-javascript--typescript)
-- [JavaScript / TypeScript Einführung](#javascript--typescript-einführung)
-  - [Zahlen](#zahlen)
-  - [Zeichenketten](#zeichenketten)
-  - [Boolsche Werte](#boolsche-werte)
-  - [Vergleiche](#vergleiche)
-  - [Logische Operatoren](#logische-operatoren)
-  - [Leere Werte](#leere-werte)
-  - [Konvertierung](#konvertierung)
-- [TypeScript Kontrollstrukturen](#typescript-kontrollstrukturen)
-  - [Funktionen](#funktionen)
-  - [Programmablauf und Kontrollstrukturen](#programmablauf-und-kontrollstrukturen)
-    - [if / else](#if--else)
-    - [Schleifen](#schleifen)
-- [Q&A](#-fragen-und-antworten)
-
-
-### Einrichtung TypeScript in VSCode
+## Einrichtung TypeScript in VSCode
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_TypeScript.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_TypeScript.mp4">Zum Video</a>
 </video>
+
+**[NodeJS](https://nodejs.org){:target="_blank"}**
+**[TSLint Erweiterung](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin){:target="_blank"}**
+**[Konfigurations Dateien (*tsconfig* und *tslint*)](https://github.com/hs-furtwangen/GIS-SoSe-2021/tree/master/config_files){:target="_blank"}**
 
 Denken Sie daran, immer wenn Sie Ihren VSCode Editor öffnen, den BuildTask zu starten. Wenn Sie es automatisieren möchten, schauen Sie eigenverantwortlich [hier](https://code.visualstudio.com/docs/editor/tasks){:target="_blank"} oder [hier](https://marketplace.visualstudio.com/search?term=TypeScript%20Auto%20Compiler&target=VSCode&category=All%20categories&sortBy=Relevance){:target="_blank"}.
 
@@ -33,19 +17,9 @@ Denken Sie daran, immer wenn Sie Ihren VSCode Editor öffnen, den BuildTask zu s
 
 _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit hoch._
 
+Sollte Ihnen VSCode einmal einen Fehler anzeigen bei dem Sie sich sicher sind, dass alles korrekt ist, starten Sie VSCode neu. Sollte der Fehler dann immernoch angezeigt werden, liegt es zu 99.9% doch an ihrem Code. Dieses Problem einer falschen Fehlermeldung ist sehr selten, soll hier aber trotzdem erwähnt werden.
 
-#### Hinweis 
-
-- sollte Ihnen VSCode einmal einen Fehler anzeigen bei dem Sie sich sicher sind, dass alles korrekt ist, starten Sie VSCode neu. Sollte der Fehler dann immernoch angezeigt werden, liegt es zu 99.9% doch an ihrem Code. Dieses Problem einer falschen Fehlermeldung ist sehr selten, soll hier aber trotzdem erwähnt werden.
-
-
-**Links im Video**
-
-- <a href="https://nodejs.org/">NodeJS</a>  
-- [TSLint Erweiterung](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin){:target="_blank"}
-- [Konfigurations Dateien (*tsconfig* und *tslint*)](https://github.com/hs-furtwangen/GIS-SoSe-2021/tree/master/config_files){:target="_blank"}
-
-**Terminal Befehle**
+### Terminal Befehle
 - `npm -v`
 - `npm i -g typescript`
   - falls Sie auf Mac oder Linux sind, müssen Sie eventuell `sudo` vor diesen und den nächsten Befehl schreiben. Dies führt die Befehle mit Administratorrechten aus.
@@ -54,7 +28,9 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
   - falls es dabei in Powershell Probleme gibt, Powershell als Administrator ausführen, den folgenden Befehl ausführen und mit J/Y bestätigen.  
   `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
 
-### Vorwort JavaScript / TypeScript
+---
+
+## Vorwort JavaScript / TypeScript
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4">Zum Video</a>
@@ -62,7 +38,9 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
 
 **[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_JSTS_Vorwort.pdf){:target="_blank"}**
 
-### JavaScript / TypeScript Einführung
+---
+
+## JavaScript / TypeScript Einführung
 
 JavaScript ist die primäre Sprache wenn es darum geht, in einem Browser / auf einer Webseite Code auzuführen. 1995 eingeführt für den Netscape Browser wurde sie bald weit verbreitet eingesetzt und ist heute in den Top 10 der meistgenutzten Sprachen Weltweit. Ursprünglich auch nur als Frontend (Nutzerseite) Sprache entwickelt, kann Sie heute auch als Backend (Serverseite, Datenbanken) eingesetzt werden.
 
@@ -72,7 +50,7 @@ Es gibt Menschen, die schlimme Dinge über JavaScript sagen. Und die meisten die
 
 TypeScript ist einer der erfolgreichsten Versuche, diese Nachteile und Hürden zu kompensieren, ohne die Vorteile der Sprache zu schmälern. Aus diesem Grund werden wir in dieser Vorlesung ausschließlich mit TypeScript arbeiten.
 
-#### Beispiel
+### Beispiel
 
 Schauen Sie sich den folgenden Code zunächst einfach nur an. Fällt ihnen irgendetwas seltsames auf, erwarten Sie irgendwelche Fehlermeldungen? Versuchen Sie vorherzusagen, was auf der Konsole ausgegeben würde.  
 Nun können sie über F12 in ihrem Browser die Konsole öffnen und (in reinem JavaScript) die Befehle ausführen. Stimmen Ihre Erwartungen mit dem Ergebnis überein? Kopieren Sie den Code anschließend in eine .ts Datei.
@@ -90,8 +68,6 @@ console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());
 
 Bei einigen dieser Anweisungen sollte der TypeScript Compiler Ihnen Fehler anzeigen. Zum Glück, denn diese Anweisungen sind allesamt legitimer JavaScript Code bei denen JS einfach wild hin und her konvertiert und sorgen für die seltsamsten Ergebnisse. TypeScript schützt uns vor diesem seltsam anmutenden Verhalten. Kommentieren Sie die Fehlerhaften Zeilen aus und lassen Sie den übersetzten Code im Browser ausführen.
 
----
-
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_JSTS_Einfuehrung.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Einfuehrung.mp4">Zum Video</a>
@@ -99,7 +75,7 @@ Bei einigen dieser Anweisungen sollte der TypeScript Compiler Ihnen Fehler anzei
 
 **[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_JS_Einfuehrung.pdf){:target="_blank"}**
 
-#### Zahlen
+### Zahlen
 
 Zahlen, der Typ `number` in TypeScript, stellen alle möglichen (nicht-imaginären) Zahlen dar. Sowohl Ganzzahlen (integer in Java) als auch Gleitkommazahlen (float / double in Java) werden darüber abgebildet. Für eine `number` wird 64bit Speicherplatz bereitgestellt. Das erste Bit wird genutzt zur Speicherung des Vorzeichens, dadurch können ganzzahlige Werte bis zu astronomischen +/- 2^63 (~9 Trillionen) gespeichert und berechnet werden, ohne dass man an Grenzen stößt und so exakte Werte berechnen kann. Bei Gleitkommazahlen sieht die Sache etwas komplizierter aus, da diese eine andere Darstellungsform nutzen müssen, was zu Genauigkeitsverlusten führen kann. Genauso wie man die Kreiszahl Pi nicht mit einer endlichen Anzahl von Zeichen exakt beschreiben kann, verlieren viele Zahlen etwas Genauigkeit wenn wir nur 64 bits zur Verfügung haben um diese abzubilden. Das ist in den meisten Fällen aber kein Problem, da die Näherungswerte immernoch genau genug sind.
 
@@ -109,7 +85,7 @@ Arithmetische Operationen die auf Zahlen angewandt werden können sind Addition 
 
 In JS gibt es drei **spezielle Zahlen**. Die ersten beiden sind `Infinity` und `-Infinity`, welche positive und negative Unendlichkeit darstellen. Die dritte und wahrscheinlich häufiger genutzte ist `NaN`, was für "not a number" (keine Zahl) steht. Dieses Ergebnis erhält man unter anderem, wenn man versucht mathematischen Schwachsinn zu berechnen (`0 / 0`), oder versucht strings, welche keine Zahlen beinhalten, in Zahlen zu konvertieren (`parseInt("hello")`).
 
-#### Zeichenketten
+### Zeichenketten
 
 Zeichenketten, `string` in TypeScript, repräsentieren Text und werden angelegt indem Text innerhalb von Anführungszeichen eingeschlossen wird. Dabei gibt es drei Möglichkeiten:
 1. `''` Das einzelne Anführungszeichen
@@ -120,10 +96,10 @@ Zeichenketten, `string` in TypeScript, repräsentieren Text und werden angelegt 
 
 Strings können nicht Multipliziert, Dividiert oder Subtrahiert werden, aber Addieren funkioniert. `"G" + "I" + "S" -> "GIS"`
 
-#### Boolsche Werte
+### Boolsche Werte
 Wahrheitswete, `boolean` in TypeScript, sind entweder `true` oder `false`, 1 oder 0, an oder aus. Diese an sich können schon sinnvoll sein, werden aber oft bei Vergleichen gebraucht.
 
-#### Vergleiche
+### Vergleiche
 
 ```js 
 console.log(3 > 2); // -> true
@@ -143,7 +119,7 @@ Andere Vergleichende Operatoren sind `>=`, `<=`, `==` und `!=`.
 
 Der einzige Wert der nicht gleich zu sich selbst ist, ist `NaN`, da dieser per Definition das Ergbnis einer unsinnigen Berechnung ist, und somit nicht gleich zu jeder anderen unsinnigen Berechnung sein kann.
 
-#### Logische Operatoren
+### Logische Operatoren
 
 Verschiedene Operatoren können auch auf Wahrheitswerte direkt angewandt werden. JS/TS stellt dafür drei verschiedene Operatoren zur Verfügung.
 
@@ -165,7 +141,7 @@ console.log(!true) // -> false
 console.log(!false) // -> true
 ``` 
 
-#### Leere Werte
+### Leere Werte
 In JS/TS gibt es zwei spezielle Werte, welche die Abwesenheit von Daten ausdrücken sollen: `null` und `undefined`. Viele Operationen, welche keine bedeutungsvollen Werte zurückliefern (können), liefern `undefined`, einfach weil sie ein Wert liefern _müssen_.
 
 `null` und `undefined` sind dadurch wie sie in JS definiert sind, in den meisten Fällen, besonders in dieser Veranstaltung, austauschbar.
@@ -176,7 +152,7 @@ console.log(null == undefined) // -> true
 
 Das ist praktisch, denn so kann man testen, ob eine Variable mit einem Wert befüllt ist oder nicht.
 
-#### Konvertierung
+### Konvertierung
 Wie in [Beispiel](#beispiel) bereits angesprochen, konvertiert JS gerne alles in alles. Das gilt auch für alle Operatoren, auch Vergleiche. Dadurch kommt es zu solchen Ergebnissen: 
 
 ```js
@@ -195,7 +171,7 @@ console.log(false === false) // -> true
 
 ---
 
-### TypeScript Kontrollstrukturen
+## TypeScript Kontrollstrukturen
 
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4" type="video/mp4"> 
@@ -467,7 +443,9 @@ while (true){
 console.log(x);
 ```
 
-### Scopes / Geltungsbereiche
+---
+
+## Scopes / Geltungsbereiche
 
 Jede Variable (und damit auch Funktion) hat einen Geltungsbereich, in dem auf sie zugegriffen werden kann. Variablen welche außerhalb von Funktionen oder Blöcken (so ziemlich alles, was von `{}` umgeben ist) definiert sind, sind sogenannte globale Variablen und können von überall im Programm aufgerufen und genutzt werden.
 
@@ -543,16 +521,6 @@ for (let i: number = 0; i < buttons.length; i++) {
 }
 ```
 
-### TypeScript Dokumentation
-
-[https://www.typescriptlang.org/](https://www.typescriptlang.org/){:target="_blank"}
-
 ---
 
-
-
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;username&gt;](https://github.com/){:target="_blank"}
+**[TypeScript Dokumentation](https://www.typescriptlang.org/){:target="_blank"}**

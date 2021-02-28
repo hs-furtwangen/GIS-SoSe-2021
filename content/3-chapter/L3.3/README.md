@@ -1,22 +1,22 @@
-## 3.3 Grundlagen Datenbanken
+<!-- # 3.3 Grundlagen Datenbanken -->
 
 <img src="https://assets.amuniversal.com/b1e4d2d09fcd012f2fe600163e41dd5b">
 <small>Quelle: <a href="https://dilbert.com/strip/1995-11-17">https://dilbert.com/strip/1995-11-17</a></small>  
 
-# Datenbanken
+## Datenbanken
 
 Ein Server hält seine Daten grundsätzlich nur so lange vor, wie er läuft. Sobald er heruntergefahren wird (oder abstürzt), gehen die im Arbeitsspeicher und Variablen gespeicherten Daten verloren. Nun könnte man natürlich für jeden zu speichernden Datensatz (wie z.B eine Bestellung in unserem onlineshop) eine Datei anlegen (z. B. JSON), oder alle Daten irgendwie in einer großen Datei sammeln, allerdings sollten diese Daten ja auch schnell manipulierbar, durchsuchbar, analysierbar und vieles mehr sein. Schließlich sollten auch alte Bestellungen irgendwann gelöscht, alle Bestellungen eines bestimmten Kunden herausgesucht oder oder zur Optimierung des Angebots die Häufigkeit der Bestellung einer bestimmten Artikel-Kombination ermittelt werden können. Für all dies müssten wieder entsprechende Algorithmen und Datenstrukturen konzipiert implementiert werden. Da solche Anforderungen bei der Entwicklung interaktiver Anwendungen aber sehr häufig auftreten und oft ähnlich sind, gibt es bereits Standardsoftware, welche Daten speichert, verwaltet und auswertet: Datenbanksysteme!  
 
-## Relationale Datenbanken
+### Relationale Datenbanken
 Seit den 1970er Jahren dominieren relationale Datenbanken, bei denen die Daten in Tabellenstrukturen untergebracht werden und durch Querverweise ein Netz von Tabellen aufgespannt wird, den IT Bereich. Mit der Structured-Query-Language (SQL) wurde eine Abfragesprache entwickelt, mit der komplexe Anweisungen formuliert werden können, welche eine jeweilige Datenbanksoftware dann selbständig ausführt um Daten aus dem Bestand zu liefern oder zu manipulieren. Heute ist insbesondere die Open-Source-Datenbanksoftware MySQL sehr weit im Internet verbreitet.
 > **FunFact:** Dem Namen MySQL wird meist intuitiv die Bedeutung "MeinSQL" zugesprochen. Tatsächlich aber hat der finnische Entwickler Michael Widenius sein 1994 gestartetes Open-Source-Projekt nach seiner Tochter My benannt.
 
-## NoSQL-Datenbanken
+### NoSQL-Datenbanken
 Mit dem durch das Internet stetig wachsenden Datenaufkommen wurde der Bedarf an Skalierungsmöglichkeiten immer größer. Die Leistung und Kapazität einer Datenbank sollte also während des Betriebs durch Einsatz von mehr Hardware einfach vergrößert werden können. Relationale Datenbanksysteme sind aber ursprünglich nicht dafür ausgelegt, die Daten zu verteilen. 
 NoSQL bzw. dokumentenorientierte Datenbanken adressieren dieses Problem. Die zu verwaltenden Daten müssen dabei nicht in starr definierte Tabellenform gebracht werden, sondern jeder Datensatz kann als beliebig strukturiertes Dokument abgelegt werden.  
 Das No in NoSQL bedeutet "Not only", es gibt also auch Systeme, die mit SQL arbeiten können. Dokumentenorientierte Datenbanken sind eine Variante der NoSQL-Datenbanken, es gibt noch andere.
 
-## MongoDB
+### MongoDB
 2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die JavaScript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als JavaScript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
 
 > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
@@ -26,8 +26,10 @@ Wenn auch viele aktuelle Anwendungen im Internet noch von JavaScript, PHP und My
 
 Durch den Einsatz einer Datenbanksoftware ist es nicht mehr erforderlich, eine Datenverwaltung selbst zu entwickeln. Komplexität entsteht nun aber durch die Kommunikation zwischen den Systemen Client, Server und Datenbanksystem.
 
+---
 
-# Allgemeine Datenbankstruktur
+## Allgemeine Datenbankstruktur
+
 ```plaintext
 MongoDB-Instanz (auch ggf. Cluster genannt)
 ├   admin
@@ -77,6 +79,8 @@ Diese Collections könnte man auch in einer eigenen Datenbank für das Shop-Ange
 
 > **Achtung:** Wie also die Informationen in Datenbanken strukturiert sein sollen, ist eine Designentscheidung, die Sie treffen müssen!
 
+---
+
 ## Installation
 Wie der Server kann auch die Datenbanksoftware als Service im Netz genutzt werden. Ebenso ist es aber sinnvoll, während der Entwicklung lokal testen zu können.
 > - Installieren Sie MongoDB auf ihrer Maschine. Besuchen Sie hierzu das [MongoDB Manual](https://docs.mongodb.com/manual/administration/install-community/){:target="_blank"} (MongoDB **nicht** als Service und auch **nicht** MongoCompass installieren)
@@ -107,7 +111,7 @@ Wenn alles funktioniert, gibt MongoDB einige Meldungen im Terminal aus und unter
 
 > - Schauen Sie nun den Inhalt des Datenbankordners an. MongoDB hat hier einige Informationen zur Verwaltung ihrer Daten abgelegt.
 
-## Mongo Shell
+### Mongo Shell
 Die eigentlichen Daten kann man so nicht einsehen, sie werden in einem effizienten Format gespeichert, das von Menschen nicht gut interpretiert werden kann. Um schnell und einfach von Hand die Datenbank einzusehen und zu manipulieren, bietet MongoDB einen eigenen Kommandozeileninterpreter an: die MongoShell. Dieser Client kann JavaScript interpretieren, sich mit dem laufenden Datenbankserver verbinden, Anweisungen an diesen schicken und dessen Antworten ausgeben.  
 
 > **Hinweis:** Wenn bei den nächsten Übungen etwas nicht funktionieren sollte, bitte direkt melden. Bis eine Antwort kommt, können Sie mit dem folgenden Video weiter machen...  
@@ -132,7 +136,9 @@ Nachdem Sie diese Übungen erfolgreich abgeschlossen haben, können Sie nicht nu
 </video>  
 </div>
 
-## Online Service - Eigenes Mongo DB Cluster anlegen
+---
+
+## Online Service (eigenes Mongo DB Cluster anlegen)
 Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von Außen hat niemand darauf Zugriff. Die Bestellungen sollen aber in einer Datenbank gespeichert werden, die ständig und von überall aus erreichbar ist. MongoDB bietet mit Atlas ein eigenes Serviceangebot hierfür.
 
 - Neuen Account und Cluster anlegen
@@ -155,32 +161,6 @@ Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von 
   - Klicken Sie auf `Insert Document` und fügen Sie in `Students` ein Dokument ein
   - Experimentieren Sie mit den Icons an dem Dokument
 
-### TypeScript Dokumentation
-
-https://www.typescriptlang.org/
-
 ---
 
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
-
-### Es wurden oft Header vergessen, was machen die?
-Wir setzen zwei Header: Content-Type bestimmt dabei die Art der Antwort, welche z.B. „text/html“ oder auch „application/json“ sein kann. Access-Control-Allow-Origin legt fest, von welchen Punkten die Antwort gelesen werden darf. Dabei steht das * für alle.
-
-### Was ist Heroku?
-Heroku stellt euch einen Server zur Verfügung. Da dies Freeware ist, gibt es Beschränkungen. Er muss z.B. min 18 Stunden am Tag offline sein. Der auf dem Server laufenden Code kommt von ihrem Github Repository. Um bei Heroku die neue Server Datei auf GitHub zu nutzen, muss man auf Heroku neu Deployen.
-
-### Ersetzen wir jetzt Heroku durch MongoDB?
-Nein. Der Server hört auf den User und schickt dann Anfragen an MongoDB. Auf MongoDB sind dann die Daten gespeichert.
-
-### Lokal testen?
-Ihr sollt auch den Server lokal testen. Genau dafür ist der Live-Server da. Ihr müsst npm start oder node „Pfad“ in die Console schreiben und ggf. noch den Pfad anpassen.
-
-### Double-Dash in der Abfrage auf dem Server?
-Der Double-Dash ist nicht erforderlich und kann geändert werden. Wahrscheinlich habt ihr einfach bei eurem Link einen Dash am Ende und dazu einen Dash beim Anhang von „html“ bzw „json“ an den Pfad angefügt.
-
-### Code Guidelines sind wichtig!
-Haltet die Guidelines ein. In der Endabgabe sind das ganze zwei Punkte für die simple Einhaltung der Guidelines. Auch für später hilft das saubere strukturierte Arbeiten weiter. (Auch nicht nur in der Programmierung!)
+**[TypeScript Dokumentation](https://www.typescriptlang.org/){:target="_blank"}**

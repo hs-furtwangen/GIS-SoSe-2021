@@ -1,15 +1,6 @@
-## 2.4 JSON und Local Storage
+<!-- # 2.4 JSON und Local Storage -->
 
-### Inhaltsverzeichnis
-- [JSON](#json)
-- [Lokaler Speicher](#lokaler-speicher)
-  - [Cookies](#cookies)
-  - [Local Storage](#local-storage)
-  - [Session Storage](#session-storage)
-- [Q&A](#-fragen-und-antworten)
-
-
-### JSON
+## JSON
 
 JSON (Java Script Object Notation) ist eine Syntax um Daten speichern und austauschen zu können und wurde ursprünglich für JavaScript entwickelt, aber wird von vielen anderen Sprachen ebenfalls benutzt. JSON ist ein mit JavaScript-Objektnotation geschrieber Text. JSON ist ein Datenformat in dem Daten für Menschen les- und veränderbar abgespeichert weden.
 
@@ -17,13 +8,13 @@ JSON (Java Script Object Notation) ist eine Syntax um Daten speichern und austau
 - JSON ist leicht zu lesen/verstehen
 - JSON ist sprachübergreifend
 
-#### Daten austauschen
+### Daten austauschen
 Die Daten in JSON liegen in Textform vor, und es kann jedes TS/JavaScript-Objekt in JSON konvertiert und aus JSON geladen werden. JSON kann auch an und von einem Server gesendet werden. Es kann jedes beliebige vom Server empfangene JSON in TS/JavaScript-Objekte umgewandelt werden.
 
 Auf diese Weise kann komfotabel mit den Daten als TS/JavaScript-Objekte gearbeitet werden.
 
 
-#### Daten speichern
+### Daten speichern
 Wenn Sie Daten in einem TS/JS-Objekt gespeichert haben, können Sie das Objekt in einen JSON string konvertieren:
 
 ```ts
@@ -32,7 +23,7 @@ let myJSON: string = JSON.stringify(myObj);
 console.log(myJSON); // '{"name":"John", "age": 31, "city": "New York"}'
 ```
 
-#### Einlesen von Daten
+### Einlesen von Daten
 Wenn Sie Daten im JSON-Format erhalten, können Sie diese in ein TS/JS-Objekt konvertieren:
 
 ```ts
@@ -53,11 +44,13 @@ let myObj: PersonInterface = JSON.parse(myJSON);
 let myPerson: Person = new Person(myObj.name, myObj.age, myObj.city);
 ```
 
-### Lokaler Speicher
+---
+
+## Lokaler Speicher
 
 Oftmals ist es sinnvoll, kleine Datenschnipsel lokal auf dem Gerät des Anwenders zu speichern. Dazu stehen uns drei verschiedene Optionen zur Verfügung.
 
-#### Cookies
+### Cookies
 Cookies sind spätestens seit der DSGVO in aller Munde. Sie werden in Key-Value (Schlüssel-Werte) Paaren im Browser gespeichert Und "gehören" zu einer bestimmten Adresse. Wenn ein Browser dann eine Seite anfragt, werden die Cookies automatisch mitgeschickt, so kann der server die nötigen Daten entgegen nehmen um sich an den Nutzer zu "erinnern".
 
 ```ts
@@ -90,7 +83,7 @@ Diese ganzen Konzepte machen Cookies zwar praktisch wegen der automatischen Lös
 
 [Weitere Informationen und Beispielimplementationen von benötigten Funktionen nur Nutzung von Cookies](https://www.w3schools.com/js/js_cookies.asp){:target="_blank"}.
 
-#### Local Storage
+### Local Storage
 
 Local Storage ermöglicht es, Key-Value Paare lokal im Cache (Zwischenspeicher) des Browsers zu speichern (ist also effektiv ein Art assoziatives Array). So können Daten über meherere Seiten einer Website hinweg einfach zwischengespeichert und wieder eingeladen werden. Die Verwendung von Local Storage ist einfacher als die Verwendung von Cookies, hat aber keine automatische Löschung.
 
@@ -98,7 +91,7 @@ Auch hier können nur strings gespeichert werden. Sollen komplexere Daten gespei
 
 > **Hinweis**: Wenn Sie localStorage nutzen wollen, muss beim Testen die HTML Datei über einen Liveserver ([VSCode Liveserver Plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"}) ausgeführt werden, da der LocalStorage sonst beim Seitenwechsel von einer lokalen Datei zu einer anderen sich selbst wieder löscht.
 
-##### Beispiel
+#### Beispiel
 
 ```ts
 // Wert Speichern
@@ -106,14 +99,13 @@ localStorage.setItem("lastname", "Smith");
 // Wert Laden
 console.log(localStorage.getItem("lastname"));
 ```
-
 ##### Daten wieder aus den LocalStorage löschen
 
 ```ts
 localStorage.removeItem("lastname");
 ```
 
-##### Noch ein Beispiel
+#### Noch ein Beispiel
 
 HTML Teil:
 
@@ -137,15 +129,9 @@ function clickCounter() {
 }
 ```
 
-_(localStorage ist eigentlich überall verwendbar, s. [CanIUse](https://caniuse.com/#feat=mdn-api_window_localstorage){:target="_blank"}, aber auch hier sollte man eine Fallbacklösung haben wenn man eine "richtige" Webseite entwickelt, und wenn es nur ein "Sorry, Ihr Browser ist zu alt" Nachricht ist.)_
+_(localStorage ist eigentlich überall verwendbar (siehe [CanIUse](https://caniuse.com/#feat=mdn-api_window_localstorage){:target="_blank"}), aber auch hier sollte man eine Fallbacklösung haben wenn man eine "richtige" Webseite entwickelt, und wenn es nur ein "Sorry, Ihr Browser ist zu alt" Nachricht ist.)_
 
-#### Session Storage
+### Session Storage
 
 Funktioniert bis auf einen Unterschied genau wie der LocalStorage:  
 In `localStorage` gespeicherte Daten besitzen kein Verfallsdatum, während sie im `sessionStorage` mit Ablauf der Sitzung gelöscht werden. Eine Sitzung endet erst mit dem Schließen des Browsers, sie übersteht das Neuladen und Wiederherstellen einer Webseite. Das Öffnen einer Webseite in einem neuen Tab oder Browserfenster erzeugt jedoch eine neue Sitzung.
-
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;username&gt;](https://github.com/){:target="_blank"}

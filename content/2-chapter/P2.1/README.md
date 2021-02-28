@@ -1,8 +1,8 @@
-## _P_ **2.1** Einführung TypeScript (und JavaScript)
+<!-- # Praktukumsaufgabe 2.1 -->
 
 Diese Woche dient als Einstieg in die Entwicklung mit einer für Sie neuen Sprache, darum werden wir lediglich die Grundlagen behandeln. In der übernächsten Woche geht es dann an konkretere Umsetzungen für die Kapitelaufgabe.
 
-### Aufgabe 1 - Basics
+## Aufgabe 1 - Basics
 
 ```ts
 function a1(): void {
@@ -35,7 +35,7 @@ Verfolgen Sie, welcher Codeabschnitt wann ausgeführt wird und in welcher Reihen
 
 **c)** Fügen Sie weitere Funktionen ein, die wie `func1()` jeweils ein Wort ausgeben. func1 kann dafür kopiert und angepasst werden. Rufen Sie die Funktionen in `a1()` so auf, dass der Text "Alles Gute! Alles klar? Alles Logo!" auf der Konsole ausgegeben wird.
 
-### Aufgabe 2 - Kontinuierliche Variablenmanipulation
+## Aufgabe 2 - Kontinuierliche Variablenmanipulation
 
 ```ts
 
@@ -56,7 +56,7 @@ Schauen Sie sich den obigen Code an und versuchen Sie nur durch lesen zu versteh
 Lassen Sie den Code dann laufen und überprüfen Sie, ob sie richtig liegen. Schauen Sie sich den Programmablauf mit dem Debugger an. Fügen Sie außerdem im Debugger die Variable `i` zu den überwachten Variablen hinzu ("Watch" in Chrome, "Ausdruck beobachten" in Firefox), um deren Änderung einfacher zu verfolgen.
 
 
-### Aufgabe 3 - Fehler erkennen und vermeiden lernen
+## Aufgabe 3 - Fehler erkennen und vermeiden lernen
 
 **a)** Bauen Sie in dem Code von A1 und A2 Fehler ein und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
 
@@ -67,7 +67,7 @@ Lassen Sie den Code dann laufen und überprüfen Sie, ob sie richtig liegen. Sch
 3.) Durch Auskommentieren und Debugger: Wenn das Programm sich übersetzen lässt, aber nicht das richtige Verhalten aufweist, nach und nach Codeschnipsel aus und wieder einkommentieren, bis der Auslöser gefunden ist.  
 4.) Wenn das alles nicht hilft, mit dem vorgegebenen Code vergleichen und die Fehler finden.
 
-### Aufgabe 4 - Gobal vs Lokal
+## Aufgabe 4 - Gobal vs Lokal
 
 ```ts
 let x: string = "Hallo";
@@ -98,7 +98,7 @@ function func3(): void{
 **b)** Erklären Sie einem Komilitonen den Unterschied zwischen globalen Variablen, lokalen Variablen und Übergabeparametern.  
 Inwiefern unterscheiden sich "normale" Variablen wie Zahlen und strings von Funktionen? Inwiefern sind sie gleich?
 
-### Aufgabe 5 - Schleifen, Funktionen und andere Kontrollstrukturen
+## Aufgabe 5 - Schleifen, Funktionen und andere Kontrollstrukturen
 
 **a)** Schreiben Sie eine Funktion `multiply` welche zwei Zahlen als Parameter entgegen nimmt und als Rückgabewert das Ergebnis der Multiplikation der beiden Parameter liefert. Testen Sie Ihre Funktion auf eine geeignete Weise.
 
@@ -112,7 +112,7 @@ Inwiefern unterscheiden sich "normale" Variablen wie Zahlen und strings von Funk
 
 **f)** Schreiben Sie eine Funktion `leapyears` welche alle Schlatjahre von 1900 bis heute auf der Konsole ausgibt. Ein Jahr ist ein Schaltjahr, wenn die Jahreszahl durch 4, aber nicht durch 100 teilbar ist. Sollte die Jahreszahl durch 400 teilbar sein, handelt es sich dennoch um ein Schaltjahr.
 
-### Aufgabe 6 - Mehr Schleifen und Funktionen
+## Aufgabe 6 - Mehr Schleifen und Funktionen
 
 **a)** Schreiben Sie eine Schleife welche auf der Konsole folgende sieben Zeilen ausgibt: 
 ```

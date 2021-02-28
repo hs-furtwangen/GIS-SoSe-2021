@@ -1,10 +1,10 @@
-## _P_ **2.2** Mehr TypeScript
+<!-- # Praktukumsaufgabe 2.2 -->
 
 Nutzen Sie für jede Kaptielaufgabe einen gemeinsamen Namesraum. Es ist außerdem empfehlenswert, Aufgaben welche nicht direkt zur Gesamtaufgabe beitragen, in einem eigenen Namensraum zu verstauen.
 
 Auch diese Woche leisten wir noch keine direkte Vorarbeit zur Kapitelaufgabe, legen aber wichtige Grundsteine dafür.
 
-### Aufgabe 1 - Mehr "langweilige" Konsolenausgaben
+## Aufgabe 1 - Mehr "langweilige" Konsolenausgaben
 
 **a)** Schreiben Sie eine Funktion `min(...)`, welche eine beliebige Anzahl an Übergabeparametern entgegen nimmt und aus allen übergebenen Zahlen das Minimum zurück gibt.
 
@@ -24,7 +24,7 @@ Testen Sie Ihre Funktion mit `50` und `75`. Was passiert bei `-1`? Warum? Könne
 5. Wenn Sie können, ändern Sie das interface in eine Klasse mit Konstruktur. Verschieben Sie außerdem die `showInfo` Funktion innerhalb die Klasse und machen Sie damit eine Methode daraus.
 
 
-### Aufgabe 2 - Arrays
+## Aufgabe 2 - Arrays
 
 > ⚠️ Für die folgende Aufgabe sollen die übergebenen Arrays _nicht verändert werden_, sondern das Ergebnis als neues Array zurückgegeben werden. Lesen Sie dazu im Zweifelsfall nochmal den Abschnitt *Call by reference / call by value* in 2.2) nocheinmal durch.
 
@@ -55,8 +55,7 @@ console.log(split(arr, -1, 2);    // Bonus c)
 console.log(split(arr, 0, 7);     // Bonus c)
 ```
 
-
-### Aufgabe 3 - Endlich was visuelles!
+## Aufgabe 3 - Endlich was visuelles!
 
 Für diese Aufgabe soll der Canvas genutzt werden (siehe *Canvas* in 2.2).
 

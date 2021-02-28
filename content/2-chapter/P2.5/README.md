@@ -1,4 +1,4 @@
-## _P_ **2.5** Kommunikation
+<!-- # Praktukumsaufgabe 2.5 -->
 
 **a)** Ändern Sie ihre `data.ts` Datei so um, dass sie ausschließlich aus den JSON Daten besteht (und damit zur `data.json` wird).
 

@@ -1,4 +1,4 @@
-## 3.1 Serveranbindung
+<!-- # 3.1 Serveranbindung -->
 
 In Aufgabe P2.5 haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron und Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
 
@@ -26,6 +26,8 @@ Bei `method="post"` werden die Daten als eigenes Datenpaket versand und sind nic
 > - Verwenden Sie nun zum Test die Methode `"post"` im Formular und betätigen Sie den Submit-Button. Versuchen Sie nun mit Hilfe der Entwicklertools die Daten zu finden. Klicken Sie dazu auf den Reiter "Netzwerk" oder "Netzwerkanalyse" und dann auf den Post-Request bei den gelisteten Anfragen.  
 
 **Hinweis**: Versenden Sie niemals sensible Daten (logins, passwörter, etc) über GET Anfragen, da der Inhalt der Anfrage in Klartext in der URL dargestellt wird. GET wird vorallem für harmlose Suchanfragen und andere Dinge verwendet, bei denen die resultierende Seite kopiert / als Lesezeichen gesetzt werden können soll oder bei denen absolut nicht-geheime Daten verschickt/angefragt werden.
+
+---
 
 ## FormData
 JavaScript stellt einen einfachen Mechanismus zur Verfügung um Formularelemente automatisch auszuwerten und auf die Ergebnisse zuzugreifen. Hierzu müssen die Formularelemente in der DOM-Laufzeithierarchie einem `form`-Element untergeordnet sein. Wird bei der Erzeugung eines Objekts des Typs `FormData` nun ein Verweis auf auf dieses `form`-Element übergeben, so werden deren Werte der `name`- und `value`-Attribute als Schlüssel-Werte-Paare zur Verfügung gestellt.
@@ -109,15 +111,16 @@ Für Sie ist der riesige Vorteil von Node.js, dass Sie keine weitere Programmier
 > -  Wie können Sie ermitteln, welche Node-Version auf Ihrem Rechner installiert ist?
 > - Stellen Sie sicher, dass Sie eine aktuelle Version haben und führen Sie gegebenenfalls ein Update durch.
 
-## Entwickeln mit Node.js
-### Types
+### Entwickeln mit Node.js
+
+#### Types
 Damit TypeScript bei der Entwicklung einer Node.js-Applikation richtig helfen kann, muss es die neuen Datentypen kennen, die Node mitbringt. Diese installieren Sie wieder einfach per npm auf Ihrer Entwicklungsmaschine (stellen Sie sicher, dass sie sich dabei im Rootverzeichnis ihres Respositories befinden):
 ```
 npm install @types/node
 ```
 Dabei entsteht ein Ordner `node_modules` und eine Datei `package-lock.json`. Letztere können Sie in Ihr Repository übernehmen oder löschen. Im Ordner `node_modules` befinden sich allerdings die Definitionsdateien für TypeScript und später kommen noch weitere Module dazu, die richtig Platz brauchen. Daher sollten Sie diese auf keinen Fall auf Github pushen. Wählen Sie stattdessen im SourceControl-View von VSCode für diesen Ordner die Option "Add File to .gitignore" (z.B. per Rechtsklick). Dann wird sich Git nicht mehr um diesen Ordner kümmern. Alternativ können Sie auch selbst eine Datei mit dem Namen `.gitignore` anlegen und in diese einfach `node_modules` schreiben, damit der gesamte node modules ordner ignoriert wird.
 
-### Run
+#### Run
 Ein Skript mit Node laufen zu lassen ist denkbar einfach. Da auf Ihrer Maschine bereits Node installiert ist (sonst würden VSCode und der TypeScript-Compiler nicht funktionieren) müssen Sie lediglich in einem Terminal
 ```
 node NameDesSkripts.js
@@ -126,18 +129,20 @@ eingeben, wobei NameDesSkripts natürlich mit dem Namen der Skript-Datei zu erse
 
 In unserem Fall ist der Server dann unter `localhost:8100` im Browser zu erreichen.
 
-### Debug
+#### Debug
 In VSCode kann das Skript, in welchem sich gerade der Cursor befindet, auch ganz einfach mit Ctrl+F5 gestartet werden. Dann nämlich läuft der VSCode-Debugger an und verarbeitet das Skript, greift aber nicht ein. Die Skriptausgaben sind in der DEBUG CONSOLE zu finden.  
 
 Mit Tastendruck auf F5 alleine starten Sie den Debugger mit der vollen Funktionalität und können nun wie mit dem Browserdebugger durch das laufende Programm navigieren, Breakpoints setzen und Variablen beobachten.
 
 > **Hinweis**: ggf müssen Sie den ersten Teil zuerst einmal ausführen, bevor der zweite klappt.
 
-### API
+#### API
 Node kommt mit einigen neuen Standardobjekten und Modulen, für GiS brauchen Sie aber nur sehr wenige davon. Die Dokumentation finden Sie im Netz auf https://nodejs.org/de/docs/.  
 Das Objekt `process` beispielsweise liefert Informationen zur Umgebung, in der ein Node-Programm gerade ausgeführt wird. Dafür sind die aus dem Browser bekannten Objekte wie `document` oder `window` natürlich nicht mehr ansprechbar.
 
-## Erweiterungen
+---
+
+### Erweiterungen
 Zusätzlich zu den schon fest eingebauten Modulen, werden auch Standard-Erweiterungen mitgeliefert. Um einen Server zu bauen, brauchen wir dabei das Module `http`. Das Module `url` ist hilfreich um den query-String zu extrahieren und zu interpretieren. Beide Module können mit dem Schlüsselwort `import` geladen und einer Variablen zugewiesen werden, über welche in der Folge auf die Funktionen und Objekte der Module zugegriffen werden kann. Der Asterisk `*` gibt an, dass sämtliche Funktionalität importiert werden soll, hier könnte auch eine Auswahl getroffen werden.
 ```typescript
 import * as Http from "http";
@@ -151,7 +156,9 @@ export namespace ... {
 
 Auch die Standardmodule, die wahlweise importiert werden wie `http` und `url`, sind in der [Node-Dokumentation](https://nodejs.org/de/docs/){:target="_blank"} beschrieben.
 
-## Server Einrichten:
+---
+
+## Server Einrichten
 
 Für diese Aufgabe benötigen Sie einen Server. Da Sie zwar zum Entwickeln lokal arbeiten können, Abgaben (und später Systeme) aber online funktionieren müssen, sollten Sie sich einen online Server besorgen. Hier zwei Vorschläge wie Sie sich kostenlos einen kleinen Server einrichten können:
 
@@ -159,13 +166,14 @@ Für diese Aufgabe benötigen Sie einen Server. Da Sie zwar zum Entwickeln lokal
 
 >**Oder nutzen Sie andere Tools wie z. B. die [Studi Cloud](https://bwservices.uni-freiburg.de/){:target="_blank"}** (komplizierter, unkomfortabler und keine Installationsanleitung, dafür aber völlige Narrenfreiheit auf Ihrem eigenen virtuellen Server und keine Anmeldung auf Drittanbieter Seiten) 
 
-## Heroku
+### Heroku
+
 Damit der von Ihnen in dieser Aufgabe entwickelte Client von beliebigen Rechnern aus kommunizieren kann, gilt es, ihn in einem Rechenzentrum unterzubringen. Eine Möglichkeit ist es, einen realen oder virtuellen Rechner anzumieten, ihn selbst zu konfigurieren und die erforderliche Software darauf zu installieren etc. Das erfordert einiges an Spezialwissen und teilweise obliegt auch die Wartung, Erweiterung und Aktualisierung in der Verantwortung des Mieters.
 Mittlerweile gibt es aber auch einen großen Markt für "Platform As A Service" (PaaS), bei dem sich der Nutzer nicht um die Infrastruktur kümmern muss, sondern diese einfach nutzen kann. Der Anbieter kümmert sich um die Bereitstellung, Wartung, Skalierung der Plattform. Heroku ist eine solche PaaS, sie findet in diesem Modul Anwendung und ist für einfache Server kostenlos.  
 
 > - Schauen Sie sich das [NewsWatch-Video](https://newswatchtv.com/2018/06/15/heroku-newswatch-review/){:target="_blank"} zu Heroku an.
 
-### Installation
+#### Installation
 -  Öffnen Sie die Seite www.heroku.com
 -  Legen Sie sich ein kostenloses Nutzerkonto an
     -  Primary language: Node.js
@@ -183,14 +191,14 @@ Mittlerweile gibt es aber auch einen großen Markt für "Platform As A Service" 
 
 Heroku sollte nun vorbereitet sein um Ihren Code von Ihrem Repository zu pullen und als Web-App laufen zu lassen. Falls Schwierigkeiten beim Einrichten von Heroku auftreten ist hier der offizielle [setup-guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up){:target="_blank"}, ansonsten gilt wie immer: Issues, Discord, Praktikum, etc...
 
-### Deployment
+#### Deployment
 -  Klicken Sie nun im Dashboard oben rechts auf "More" und öffnen Sie "View logs" in einem neuen Browserfenster.
 -  Ordnen Sie das Deploy- und das Logs-Browserfenster nebeneinander auf Ihrem Bildschirm an um die Ausgaben beobachten zu können.
 -  Klicken Sie auf "Deploy Master Branch"
   -  Beobachten Sie die Ausgaben in beiden Fenstern
   -  Wenn Sie alles richtig gemacht haben, erhalten Sie im Deploy-Fenster Fehlermeldungen und Ihre Web-App crasht!
 
-### package.json
+#### package.json
 
 Das Problem ist nämlich, dass Heroku keine Ahnung davon hat, was es eigentlich tun soll. Auf Ihrer Entwicklungsmaschine hatten Sie von Hand die Kommandos gegeben. So wurde Node installiert, der Code kompiliert und der Server unter Node.js gestartet etc. Um das auf Heroku zu machen fehlt Ihnen der direkte Zugang. Es ist aber auch nicht sinnvoll, denn schließlich soll Ihre Server-App auch automatisch starten, und nicht immer von Ihrer Präsenz abhängig sein. Das Build-Log gibt schon darüber Auskunft wie vorzugehen ist.
 ```plaintext
@@ -231,27 +239,12 @@ Ihr Server wird auch gleich gestartet. Mit dem Browser können Sie über die URL
 
 > **Hinweis**: Sie können über "Automatic Deploys" dafür sorgen, dass Heroku sich immer automatisch die neuste Version Ihres Codes herunterlädt, wenn Sie ihn in ihr Repository pushen, dann müssen Sie bei Updates nicht immer manuell neu deployen. Dies kann aber auch von Nachteil sein, wenn man unfertigen Code pusht und so den eigenen Server zerschießt.
 
-## Client
-Jetzt müssen Sie lediglich noch die url-Variable in Ihrer Clientsoftware anpassen, damit diese sich mit dem Heroku-Server unterhält.
+### Client
+
+Jetzt müssen Sie lediglich noch die URL-Variable in Ihrer Clientsoftware anpassen, damit diese sich mit dem Heroku-Server unterhält.
 -  Testen Sie Ihren Heroku-Server vom Client aus, sowohl vom lokalen Fileserver aus, wie auch über GitHub Pages.
 -  Achten Sie dabei auf das Log-Fenster von Heroku
 
-### TypeScript Dokumentation
-
-https://www.typescriptlang.org/
-
 ---
 
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil){:target="_blank"}
-
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
-
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
-
-## ...
+**[TypeScript Dokumentation](https://www.typescriptlang.org/){:target="_blank"}**

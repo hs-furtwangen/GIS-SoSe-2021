@@ -1,3 +1,5 @@
+<!-- Praktukumsaufgabe 1.1 -->
+
 Erstellen Sie eine stillose Webstite (reines HTML-Dokument **ohne CSS und JS**) zu Ihrer Person die mindestens folgende Elemente enthält:
 - die HTML Basisstruktur mit den HTML Tags [doctype](https://www.w3schools.com/tags/tag_doctype.asp){:target="_blank"}, [html](https://www.w3schools.com/html/html_basic.asp){:target="_blank"}, [head](https://www.w3schools.com/html/html_head.asp), [body](https://www.w3schools.com/tags/tag_body.asp){:target="_blank"}
 - eine Deklaration der [Zeichenkodierung](https://www.w3schools.com/charsets/ref_html_utf8.asp){:target="_blank"} und eines [Titels](https://www.w3schools.com/tags/tag_title.asp){:target="_blank"} - siehe [Überschrift](https://www.w3schools.com/tags/tag_hn.asp){:target="_blank"} (h tag)

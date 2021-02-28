@@ -1,15 +1,4 @@
-## 2.5 Kommunikation
-
-### Inhaltsverzeichnis
-
-- [Kommunikation](#kommunikation)
-  - [Synchron](#synchron)
-  - [Asynchron](#asynchron)
-- [Implementation asynchroner Kommunikation](#implementation-asynchroner-kommunikation)
-  - [XMLHttpRequest-Events](#xmlhttprequest-events)
-  - [Fetch und Promises](#fetch-und-promises)
-  - [Async/Await](#asyncawait)
-- [Q&A](#-fragen-und-antworten)
+<!-- # 2.5 Kommunikation -->
 
 ## Kommunikation
 Kommunikation ist der Prozess des Austauschs oder der Übertragung von Information. Dabei werden zwei grundsätzliche Formen derselben unterschieden. 
@@ -33,9 +22,12 @@ Daher hat sich die asynchrone Kommunikation durchgesetzt. Die Kommunikationspart
 
 Damit ist es Webseiten beispielsweise möglich, die Darstellung aufzubauen und Interaktion zur Verfügung zu stellen, während weitere Daten geladen werden. Oder während der Interaktion mit dem Nutzer Daten zu versenden.
 
+---
+
 ## Implementation asynchroner Kommunikation
 
 ### XmlHttpRequest-Events
+
 Bei der asynchronen Kommunikation lässt sich wieder sehr gut die Ereignissteuerung einsetzen. JavaScript bietet hierzu das Standardobjekt / die Standardklasse `XMLHttpRequest` an. Ein solches Objekt kann mit dem Schlüsselwort `new` erzeugt werden. Die Klasse bietet einige Methoden, mit denen recht einfach eine Verbindung zu einem Server aufgebaut und eine Anfrage verschickt werden kann. Während das Objekt die Verbindung verwaltet, erzeugt es bei Statusänderungen entsprechende Events, die wiederum mit dem üblichen Schema von Listeners abgefangen und an die zugehörigen Handlerfunktionen weitergeleitet werden. Auch die vollständige Übertragung der Serverantwort ist eine solche Statusänderung, womit dann die Clientseite einer Server-Client Kommunikation abgebildet werden kann.  
 > Das XML im Namen des Objektes verrät, dass es sich dabei um eine **etwas betagte Technologie** handelt, die 1999, während der Standardisierung von HTML4, von Microsoft veröffentlicht wurde. Sie ist aber weit verbreitet und kommt noch häufig zum Einsatz. [Mehr Infos gibt es hier.](https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest){:target="_blank"}
 
@@ -82,16 +74,6 @@ Achtung: `text()` gibt wieder eine Promise zurück. Nutzen Sie aber auch hier `a
 
 > **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn Sie es also lokal testen wollen, sollten Sie einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt (siehe auch *Hinweise zu LocalStorage* in 2.4).
 
-
-### TypeScript Dokumentation
-
-https://www.typescriptlang.org/
-
 ---
 
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;username&gt;](https://github.com/){:target="_blank"}
-
+**[TypeScript Dokumentation](https://www.typescriptlang.org/){:target="_blank"}**

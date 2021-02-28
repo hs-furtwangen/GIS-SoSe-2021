@@ -1,3 +1,5 @@
+<!-- Praktukumsaufgabe 1.2 -->
+
 Diese Aufgabe baut auf der vorherigen Aufgabe des Unterkapitels P1.1 auf.
 Sie benötigen für diese Aufgabe noch **weder CSS noch JS** und sollen auch keins benutzen.
 

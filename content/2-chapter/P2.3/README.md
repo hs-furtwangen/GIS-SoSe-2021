@@ -1,6 +1,6 @@
-## _P_ **2.3** DOM und Events
+<!-- # Praktukumsaufgabe 2.3 -->
 
-### Aufgabe 1
+## Aufgabe 1
 
 Wiederholen Sie Aufgabe 3 von [letzter Woche](#P2.2). Nutzen Sie aber statt dem Canvas `<div>`s (oder andere DOM Elemente): erzeugen Sie diese dynamisch, setzen Sie die richtige Position und Farbe, etc.
 
@@ -8,7 +8,7 @@ Fügen Sie außerdem ganz am Anfang der Seite zwei Buttons ein und installieren 
 - Der erste Button soll ein weiteres Rechteck hinzufügen.
 - Der zweite Button soll die Seite zurücksetzen.
 
-### Aufgabe 2
+## Aufgabe 2
 
 Lesen Sie, falls noch nicht geschehen, die Kapitelaufgabe durch. Entscheiden Sie sich für ein Thema, das von Ihrer Seite umgesetzt werden soll.
 
@@ -21,7 +21,7 @@ Lesen Sie, falls noch nicht geschehen, die Kapitelaufgabe durch. Entscheiden Sie
 **d)** Machen Sie sich Gedanken darüber, wie die einzelnen Unterseiten aussehen und funktionieren sollen. Fertigen Sie gerne eine Skizze an, um sich selbst bei der Visualisierung zu helfen.
 
 
-### Aufgabe 3
+## Aufgabe 3
 
 Nachdem in Aufgabe 2 nun die Vorarbeit geleistet wurde, sollen Sie in dieser Aufgabe nun eine dieser Unterseiten Umsetzen.
 

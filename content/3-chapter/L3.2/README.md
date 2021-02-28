@@ -1,4 +1,4 @@
-## 3.2 Server Request
+<!-- # 3.2 Server Request -->
 
 ## URL Modul
 
@@ -68,6 +68,8 @@ console.log(qdata.monat);
 
 >**Hinweis** Es ist hilfreich auch den folgenden Absatz zu lesen bevor Sie mit dem Testen auf Ihrem Server anfangen.
 
+---
+
 ## Handle Request
 
 >**Hinweis** Im Praktikum letztes Semester wurde angesprochen, dass Sie zusätzliche Videoressourcen hilfreich fänden. Folgende Videos von Prof. Jirka Dell'Oro Friedel beschäftigen sich mit dieser Thematik und helfen ein besseres Verständnis für die Serverseitige Verarbeitung von `GET` Anfragen aufzubauen, sind jedoch in dem bestehenden Kontext einer anderen Aufgabe eingebettet.
@@ -121,7 +123,9 @@ function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerRes
 ```
 In diesem Beispiel verschickt der Server lediglich die Antwort mit dem Inhalt `"Was geht?"`. Der Header gibt an, dass die Antwort ein mit utf-8 kodierter Text ist, also z.b. kein Bild, und dass sie von jedem geöffnet werden darf. Auch hier bedeutet der Asterisk `*` wieder "alles".
 
-## Post Anfrage Serverseitig auslesen (für Bonusaufgabe relevant)
+---
+
+## Post Request (für Bonusaufgabe relevant)
 
 Dieser Abschnitt ist weder Prüfungsrelevant, noch für die normalen Aufgaben -> Er soll für ein verbessertes Verständnis zu serverseitiger POST-Verarbeitung für alle an der Bonusaufgabe Interessierten geben.
 
@@ -175,22 +179,6 @@ if (_request.method == "POST") {
 Diese Tools sind bereits sehr mächtig und die Grundlage fast jeder App, Webseite u.ä.  
 Mit diesem Wissen könnten Sie jetzt beginnen, ihre eigenen Webapps zu schreiben.
 
-### TypeScript Dokumentation
-
-https://www.typescriptlang.org/
-
 ---
 
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil){:target="_blank"}
-
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
-
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
-
-## ...
+**[TypeScript Dokumentation](https://www.typescriptlang.org/){:target="_blank"}**

@@ -1,48 +1,18 @@
-## 2.2 Mehr TypeScript (Weiterführende Konzepte)
-
-### Inhaltsverzeichnis
-
-- [Vorgehensweisen bei der Programmierung](#vorgehensweisen-bei-der-programmierung)
-  - [Planung](#planung)
-  - [Divide and Conquer](#divide-and-conquer)
-  - [Code Duplizierung ist schlecht](#code-duplizierung-ist-schlecht)
-  - [Zuständigkeiten Trennen](#zuständigkeiten-trennen)
-- [Komplexe Typen](#komplexe-typen)
-  - [Array](#array)
-  - [Assoziatives Array](#assoziatives-array)
-  - [Interface](#interface)
-  - [JavaScript Objekt](#javascript-objekt)
-  - [Klassen](#klassen)
-    - [Zugriffsmodifikatoren](#zugriffsmodifikatoren)
-    - [Vererbung](#vererbung)
-    - [Polymorphie](#polymorphie)
-    - [instanceof](#instanceof)
-- [Weitere TypeScript Konzepte](#weitere-typescript-konzepte)
-  - [Namespaces](#namespaces)
-  - [Optionale Parameter](#optionale-parameter)
-  - [Rest Parameter](#rest-parameter)
-  - [Callstack und Rekursion](#callstack-und-rekursion)
-  - [Call by reference / call by value](#call-by-reference--call-by-value)
-  - [Spezielle for-Schleifen](#spezielle-for-schleifen)
-    - [for..of](#forof)
-    - [for..in](#forin)
-- [Canvas](#canvas)
-  - [Path2D](#path2d)
-- [Q&A](#-fragen-und-antworten)
+<!-- # 2.2 Mehr TypeScript (Weiterführende Konzepte) -->
 
 Diese Woche geht es darum, die in der letzten Woche erlernten Grundlagen von JS/TS zu erweitern, um die ganze Bandbreite an wichtigen Sprach-spezifischen Konzepten zu kennen und anzuwenden.
 
 In diesem Kurs sind gewisse Formatvorgaben bzw. [Codingstyle Guidelines](../../codingstyle){:target="_blank"} einzuhalten. Diese dienen zusammen mit dem TSLinter vorallem der Lesbarkeit und damit dem Verständis sowohl der Studierenden als auch der Prüfer. Sollten Sie diese Guidelines noch nicht gelesen haben, so ist es nun höchste Zeit sich damit vertraut zu machen. Abgaben müssen diesen Regeln entsprechen.
 
-### Vorgehensweisen bei der Programmierung
+## Vorgehensweisen bei der Programmierung
 
 Zusätzlich zu den stylistischen Guidelines sollen hier auch logische Hilfestellungen gegeben werden, welche es einfacher machen sollen, effizienten, effektiven und guten Code zu schreiben.
 
-#### Planung
+### Planung
 
 Dass Planung wichtig ist, ist eine oftmals belächelte Aussage. Auch ich habe immer wieder darüber geschmunzelt, bis ich damit auf die Nase gefallen bin. Inzwischen weiß ich: Kaum irgendetwas ist in der Entwicklung neben dem eigentlichen Verständnis des Ziels und der Sprache so wichtig wie eine Planung der Konzepte. Es ist so wichtig, dass dafür eine ganze Sprache entwickelt wurde, die [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language){:target="_blank"}. Diese deckt in ihren Möglichkeiten jeden erdenklichen Fall ab und wird von Entwicklern auf der ganzen Welt genutzt, um gemeinsam Vorgänge zu erarbeiten, Strukturen zu klassifizieren und vieles mehr. In diesem Kurs haben wir nicht die Zeit, uns damit zu beschäftigen, auch weil es in einem späteren Semester nochmal vermehrt um das Design von Software gehen wird. Darum an dieser Stelle nur der Hinweis auf die Existenz dieser Sprache sowie ein [UML Cheatsheet](UML_TS_EIA.pdf) von Prof. Jirka Dell'Oro Friedl, welches die für dieses Semester wichtigesten UML Elemente Beispielhaft abbildet und erklärt.
 
-#### Divide and Conquer
+### Divide and Conquer
 
 Oder manchmal auch "Divide et impera" (lat.: Teile und herrsche) genannt, ist eine Vorgehensweise in der Softwareentwicklung, bei der man sich von den großen Problemen zu den kleinen durcharbeitet. Dieses Prinzip kann auf jede noch so kleine oder große Aufgabe angewandt werden, und hilft gerade am Anfang eine Übersicht über die benötigten Schritte zu erhalten.
 
@@ -52,24 +22,26 @@ Durch diese Planung und Vorbereitung fallen einem oftmals im Voraus schon potenz
 
 > Hinweis: Die Implementation und der Test einzelner Subsysteme sollte stets isoliert vom Gesamtsystem sein. So können einzelne Teilaspekte auf ihre Funktionalität überprüft werden, ohne dass alles Implementiert sein muss. Testen Sie darum wenn es sein muss jede Zeile die Sie schreiben einzeln, damit Sie sich sicher sein können, dass diese das tut was sie soll.
 
-#### Code Duplizierung ist schlecht
+### Code Duplizierung ist schlecht
 
 Um Code sowohl übersichtlich als auch anpassbar und wartbar zu halten, ist es ratsam, sich wiederholende Anweisungen und Abschnitte in Funktionen zu kapseln, um diese Abschnitte wiederverwenden zu können. Dank Übergabeparametern können Funktionen im Regelfall so modular entwickelt werden, dass sie für alle ähnlichen Anwendungsfälle auch funktionieren.  
 Ähnlich, wenn auch offensichtlicher, verhält es sich mit Schleifen. Niemand würde 10 mal die gleiche Zeile schreiben, wenn man stattdessen eine Schleife nutzen kann. Allerdings ist es natürlich nicht immer so offensichtlich, darum sollte man sowohl bei der Planung als auch bei der Umsetzung immer folgende Faustregel im Kopf haben.
 
 > Faustregel: Statt einen Codeabschnitt zu kopieren, um ihn an anderer Stelle einzufügen und wieder zu verweden, sollte dieser besser in eine Funktion ausgelagert werden, welche - ggf. mit passenden Übergabeparametern versehen - an beiden Stellen aufgerufen werden kann.
 
-#### Zuständigkeiten trennen
+### Zuständigkeiten trennen
 
 Selbst ohne duplizierten oder sich wiederholenden Code ist es oft ratsam, ein großes Programm in mehrere Funktionen zu unterteilen, welche verschiedene Zuständigkeiten haben. So so ist, statt einer 200 Zeilen langen `main` Funktion, es deutlich besser zu lesen, verstehen und warten, wenn man diese auf 10 kleinere, übersichtlichere Funktionen mit klaren Aufgaben verteilt. Wenn man z.B. eine Webseite aus Daten generieren möchte (wie wir das in den kommenden Wochen tun werden), könnte man das aufteilen in eine Funktion welche die Daten einließt, eine welche in der statischen Seite die Interaktivität (EventListener, siehe *2.3 DOM und Events*) verleiht, eine Funktion welche die Daten durchgeht und eine welche die HTML Seitenelemente anlegt und befüllt.
 
 Aufgrund dieses Grundsatzes sollten auch Daten (json, Datenbanken), Struktur (HTML), Darstellung (CSS) und Funktionalität (JS/TS) getrennt werden. So sollten CSS oder JS nicht in der HTML Datei eingbettet werden (auch wenn das möglich ist) oder Dateien, welche ausschließlich Daten beinhalten, von denen die Funktionalität beinhalten getrennt gehalten werden.
 
-### Komplexe Typen
+---
+
+## Komplexe Typen
 
 Neben den einfachen Typen (`number, string, boolean`) hat JS/TS auch komplexe Typen zu bieten, welche einige Besonderheiten aufweisen. Die hier dargestellte Liste zeigt bei weitem nicht alle existierenden / eingebauten Typen auf, sondern lediglich die relevantesten.
 
-#### Array
+### Array
 
 Ein (homogenes) Array erlaubt es, mehrere Elemente des gleichen Typs in einer Art Liste zu speichern. Es wird deklariert indem hinter den zu verwendenden Typ eckige Klammern geschrieben werden. Auch werden die Werte in eckigen Klammern definiert.
 
@@ -115,7 +87,7 @@ let mult: number[][] = [[1, 2, 3], [10, 20, 30], [100, 200, 300]]
 console.log(mult[1][2]); // 30
 ```
 
-#### Assoziatives Array
+### Assoziatives Array
 
 In einem Assoziativen Array wird statt dem automatisch generierten Index eines normalen Arrays der Index / Schlüssel durch den Entwickler selbst bestimmt (im häufigsten Fall ein `string`) und dieser dann mit dem Wert verknüpft. Ein solches assoziatives Array wird in der Regel mit Hilfe geschweifter Klammern erzeugt, wobei innerhalb der Klammern bereits Schlüssel-Werte-Paare angegeben werden können. Die Assoziation wird durch den Doppelpunkt : dargestellt.
 
@@ -137,7 +109,7 @@ let a: MapStringToBoolean = {"wert1": true, "wert2": false};
 console.log(a["wert1"]); // true
 ```
 
-#### Interface
+### Interface
 
 Interfaces erlauben aber noch mehr als nur Arrays zu definieren. Sie können jede Form von eigenem Datentyp definieren, und so die Entwicklungszeit und das Programm als ganzes deutlich verbessern.
 
@@ -167,13 +139,13 @@ interface Dog {
 }
 ```
 
-#### JavaScript Objekt
+### JavaScript Objekt
 
 Ein Objekt ist ein heterogenes assoziatives Array, dem Funktionen anheften. Diese Funktionen können die Elemente des Arrays verändern, ohne dass ihnen Informationen zu dem Objekt mitgegeben werden müssen, denn sie sind ja ein Teil davon und haben Zugriff darauf. Um diese Funktionen von den üblichen zu unterscheiden werden sie Methoden genannt. Ein Objekt verfügt also über Methoden, mit der es sich, oder auch seine Umwelt, verändern kann.
 
 Tatsächlich ist alles in JS im Kern ein Objekt. Selbst die primitiven Datentypen gaukeln nur ihre Primitivität vor, wodurch sie sich einsetzen lassen wie in ‘klassischen’ Programmiersprachen (und so zum Beispiel auch eigene Methoden und Attribute haben können wie `string.length` oder `number.toFixed()`).
 
-#### Klassen
+### Klassen
 
 Klassen sind ein in JS erst kürzlich integriertes Konstrukt, welches dem Ansatz der etablierteren objektorientierten Programmierung folgt. Darum sind diese nicht vollständig in JS integriert worden. Aber TS gibt uns hier die Möglichkeiten, dieses Konstrukt voll zu nutzen.
 
@@ -260,7 +232,7 @@ class Dog {
 let d: Dog = new Dog("Bello", 3);
 ```
 
-##### Zugriffsmodifikatoren
+#### Zugriffsmodifikatoren
 
 In den meisten Objektorientierten Sprachen gibt es Zugriffsmodifikatoren welche steuern sollen, wer auf gewisse Attribute und Variablen Zugriff hat. So auch in TypeScript.
 
@@ -304,7 +276,7 @@ class Dog {
 }
 ```
 
-##### Vererbung
+#### Vererbung
 
 Eine Klasse kann ihre Eigenschaften und Methoden an andere Klassen weitergeben. Oder anders herum formuliert: Eine Klasse kann eine bereits bestehende Klasse um weitere Eigenschaften und Methoden erweitern. Die Klasse, von der geerbt wird, nennt sich dabei **Superklasse**. Die Klasse die erbt, nennt sich **Subklasse**.
 
@@ -364,7 +336,7 @@ Während `Cat` keinen eigenen Konstruktor definiert und darum automatisch den An
 
 > Weitere Informationen zu Klassen in TypeScript finden Sie in der [offiziellen Dokumentation](https://www.typescriptlang.org/docs/handbook/classes.html){:target="_blank"} (Englisch) oder auch in den [Kursmaterialien zu EIA2](https://jirkadelloro.github.io/EIA2-Inverted/L09_Classes/){:target="_blank"}.
 
-##### Polymorphie
+#### Polymorphie
 
 Polymorphie / Polymorphismus (griechisch: Vielgstaltigkeit) ist ein Konzept in der objektorientierten Programmierung das es erlaubt, dass Subklassen auch als Variablen der Superklasse gespeichert werden können.
 
@@ -380,7 +352,7 @@ for(let animal of allAnimals){
 }
 ```
 
-##### instanceof
+#### instanceof
 
 Wenn es nun aber doch wieder wichtig ist, von welcher Klasse eine Variable ist, so kann der (Vergleichs-)Operator `instanceof` genutzt werden.
 
@@ -396,8 +368,11 @@ console.log(c instanceof DomesticAnimal); // true
 console.log(d instanceof DomesticAnimal); // true
 ```
 
-### Weitere TypeScript Konzepte
-#### Namespaces
+---
+
+## Weitere TypeScript Konzepte
+
+### Namespaces
 
 Alle Dateien in einem TS Projekt werden als "global bekannt" angesehen. Da das gesamte Repository als ein großes Projekt angesehen wird, ist jede `.ts` Datei Teil des globalen Namensraums. Das bedeutet wiederum, dass ein Variablenname immer nur einmal vorkommen kann.
 
@@ -450,7 +425,7 @@ namespace Aufgabe2 {
 
 Auf diese so exportierten Variablen kann über die Objekt-Punkt-Notation zugegriffen werden.
 
-#### Optionale Parameter
+### Optionale Parameter
 
 Während JavaScript willentlich ignorant über die Menge an übergebenen und erwarteten Paramtern hinwegsieht, ist TypeScript da deutlich restriktiver.
 
@@ -499,7 +474,7 @@ console.log(power(10))    // -> 100
 console.log(power(2, 6))  // -> 64
 ```
 
-#### Rest Parameter
+### Rest Parameter
 
 Für eine Funktion kann es sinnvoll sein, eine unspezifische Menge an Parametern entgegen zu nehmen. Die Funktion `console.log()` zum Beispiel kann eine beliebige Anzahl von Parametern auf der Konsole ausgeben, während die `Math.max()` Funktion aus beliebig vielen Parametern das Maximum zurück gibt.
 
@@ -514,7 +489,7 @@ function printAll(...outputs): void {
 printAll(1, 2, 3, 4, 5);
 ```
 
-#### Callstack und Rekursion
+### Callstack und Rekursion
 
 Wenn ein Programm ausgeführt wird und dabei von Funktion zu Funktion gesprungen wird, muss gespeichert werden, an welche Stelle der Code zurückkehren muss, wenn eine Funktion beendet wird. Der Ort an welchem diese Information gespeichert wird nennt sich der "Stack". 
 
@@ -556,7 +531,7 @@ function factorial(n: number): number {
 
 Beide Funktionen berechnen die Fakultät (`1*2*3*...*n`) einer Zahl. Die erste Iterativ, die zweite Rekursiv.
 
-#### Call by reference / call by value
+### Call by reference / call by value
 
 Bei den einfachen Typen (number, string, boolean, (void)) wird in JS/TS der _Wert_ direkt in der Variable selbst gespeichert und bei Kopien wird der Wert selbst kopiert, zum Beispiel wenn die Variable in eine andere Variable gespeichert wird oder an eine Funktion übergeben wird.
 
@@ -617,11 +592,11 @@ function appendOne(arr: number[]): number[] {
 
 Dies ist zu beachten, wenn mit komplexen Typen gearbeitet wird, da dies viele unerwartete Nebenwirkungen haben kann.
 
-#### Spezielle for-Schleifen
+### Spezielle for-Schleifen
 
 Neben der bekannten `for (Vorbedingung/Startwert; Laufbedingung; Änderung der Zählvariable / Schrittweite) {}` Variante der for-Schleife gibt es zwei weitere und sehr praktische Varianten, die den häufigen Nutzungsfall abdecken, ein komplexes Objekt mit Schlüssel-Werte Paaren (Arrays, JS Objekte) zu durchlaufen.
 
-##### for..of
+#### for..of
 
 Die for-of Schleife deckt dabei alle iterierbaren Objekte (z.B. Arrays, Listen) ab und gibt die _Werte_ der Liste nacheinander aus.
 
@@ -635,7 +610,7 @@ for(let num of arr){        //keine Typannotation für num
 
 Der Typ der Variable wird implizit aus dem zu iterierenden Objekt übernommen.
 
-##### for..in
+#### for..in
 
 for-in Schleifen iterieren zusätzlich zu den von for-of Schleifen abgedeckten Elementen auch über JS Objekte (und damit letztendlich über alles was ein komplexer Typ ist). Der Unterschied zur for-of Schleife ist aber auch, dass for-in den _Schlüssel_ ausgibt, während for-of den _Wert_ ausgibt.
 
@@ -660,7 +635,9 @@ for (let key in obj) {
 
 Der Typ des Schlüsselwertes den for-in ausgibt, ist immer ein String.
 
-### Canvas
+---
+
+## Canvas
 
 Der Canvas (engl.: Leinwand) ist ein HTML Element, welches es erlaubt auf ihm zu zeichnen und Bilder anzeigen zu lassen. Dieses kann man einfach in sein HTML Dokument einfügen und dann im JS/TS nutzen. Dabei ist es ratsam, dem canvas eine feste ID zu geben, um ihn einfacher aus dem Dokument heraus zu finden. Dem Canvas sollte außerdem eine Höhe und Breite gegben werden.
 
@@ -699,7 +676,7 @@ Da es zu umfangreich wäre, sämtliche Canvas Funktionalitäten hier zu erläute
 
 Nutzen Sie auch [https://www.html5canvastutorials.com/](https://www.html5canvastutorials.com/){:target="_blank"} für weitere Informationen und einfache Schritt für Schritt Anleitungen.
 
-#### Path2D
+### Path2D
 
 Wie man am obigen Codebeispiel sehen kann, müssen beim context zunächst Pfade gestarted und beendet werden, welche dann jeweils gezeichnet (`stroke`) und gefüllt (`fill`) werden können. Statt diese aber auf dem Canvas zu halten und ggf. zu überschreiben (mit `beginPath` wird der enthaltene Pfad gelöscht und ein neuer angelegt), können sie stattdessen in Path2D Objekten angelegt, verwaltet und wiederverwendet werden.
 
@@ -712,10 +689,3 @@ let path: Path2D = new Path2D();
 path.arc(60, 60, 50, 0, 2 * Math.PI);
 context.stroke(path);
 ```
-
-
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;username&gt;](https://github.com/){:target="_blank"}

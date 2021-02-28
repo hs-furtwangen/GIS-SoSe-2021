@@ -116,6 +116,4 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 **Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Email oder Discord Fragen stellen.
 
-### TypeScript Dokumentation
-
-[https://www.typescriptlang.org/](https://www.typescriptlang.org/){:target="_blank"}
+**[TypeScript Dokumentation](https://www.typescriptlang.org/){:target="_blank"}**
