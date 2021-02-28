@@ -1,4 +1,7 @@
-### Einführung
+<!-- # 1.3 Grundlagen CSS -->
+
+## Einführung
+
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4">Zum Video</a>
@@ -11,14 +14,11 @@ CSS (steht für Cascading Style Sheets) ist eine browser-basierte Gestaltungsspr
 
 Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus Eigenschaft und Wert besteht.
 
-**Links im Video**
-
-Übersicht von sämtlichen aktuellen CSS-Anweisungen mit Beispielen git es hier:
-**[https://www.w3schools.com/css/](https://www.w3schools.com/css/){:target="_blank"}**
+**[Übersicht von sämtlichen aktuellen CSS-Anweisungen mit Beispielen](https://www.w3schools.com/css/){:target="_blank"}**
 
 ---
 
-### Eigenschaften
+## Eigenschaften
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4">Zum Video</a>
@@ -31,7 +31,7 @@ Eigenschaften stehen immer in Abhängigkeit zu dem entsprechenden Element, sodas
 
 ---
 
-### Selektoren
+## Selektoren
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4">Zum Video</a>
@@ -43,7 +43,7 @@ Es gibt verschiedene Arten von Selektoren: die drei Haupt-Selektoren sind **Elem
 
 ---
 
-### Kaskadierung und Vererbung
+## Kaskadierung und Vererbung
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4">Zum Video</a>
@@ -55,7 +55,7 @@ Definierte Eigenschaften werden an die (semantisch untergeordneten) Kinderelemen
 
 ---
 
-### Box Model und Maßeinheiten
+## Box Model und Maßeinheiten
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4">Zum Video</a>
@@ -67,7 +67,7 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 
 ---
 
-### Take Aways
+## Take Aways
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4">Zum Video</a>
@@ -80,20 +80,3 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 * Das CSS-Box-Model beschreibt verschiedene Abstandsmaße für Elemente.
 
 **[CSS Cheatsheet zum Herunterladen](./Cheatsheet_CSS.pdf)**
-
----
-
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm){:target="_blank"}
-
-### Mein Inhalt ist nicht zentriert. Wie geht das?
-Die Möglichkeiten in CSS Dinge zu zentrieren sind sozusagen endlos. Es gibt Standard-Ansätze wenn man z.B. Text zentrieren möchte (text-align: center). Aber an sich ist es ihnen überlassen wie Sie ihre Inhalte zentrieren. Einige Beispiele wären: “margin: 0 auto” oder ein flexbox-System mit “justify-content: center” bzw. “align-items: center”.
-
-### Was bedeutet die 800px Beschränkung in der Aufgabe?
-Der Seiteninhalt soll eine maximale Breite von 800px im Browser einnehmen.
-
-### Muss ich meine CSS-Datei immer abspeichern um Veränderungen im Browser zu sehen?
-Sie können für das testen von verschiedenen Properties die Entwicklertools ihres Browsers unter dem Tab Elements nutzen. Dort können Sie Veränderungen der CSS Properties direkt einsehen. Vergessen Sie aber nicht bei einer gefundenen Lösung auch ihre Datei dementsprechend anzupassen.

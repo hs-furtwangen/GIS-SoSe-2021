@@ -1,20 +1,25 @@
-### Komplexe Selektoren
+<!-- # 1.4 Grundlagen CSS -->
+
+## Komplexe Selektoren
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4">Zum Video</a>
 </video>
 
+**[Flukeout Plates](https://flukeout.github.io){:target="_blank"}**
+
 Man kann die grundlegenden CSS-Selektoren, die in der letzten Lektion vorgestellt wurden, auch verketten, um komplexere Selektionen zu machen. So kann entweder auf einzelne, spezielle Elemente konkret zugegriffen oder nur ganz bestimmte Gruppen oder Folgen von Elementen selektiert werden. Mit Pseudoklassen können auch Elemente in ganz bestimmten Zuständen manipuliert werden, wie zum Beispiel bei einem Link der Zustand des Herüberfahrens mit der Maus ("hovern").
 
-**Links im Video**
+---
 
-<a href="https://flukeout.github.io">https://flukeout.github.io</a>
-
-### Positionierung, Flussverhalten und Layout
+## Positionierung, Flussverhalten und Layout
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4">Zum Video</a>
 </video>
+
+**[Float](https://codepen.io/philtim/pen/KrZmdN){:target="_blank"}**
+**[Positionierung](https://codepen.io/philtim/pen/GwyWBP){:target="_blank"}**
 
 Aufgrund der vielen verschiedenen Ausgabegeräte kann das Thema der Positionierung sehr komplex werden, in diesem Video wurden aber die grundlegenden Herangehensweisen erklärt.
 Die Positionierung der Elemente auf einer gerenderten Seite hat oft wenig mit der Position im DOM-Tree zu tun.
@@ -23,19 +28,16 @@ Das Flussverhalten beschreibt das Verhalten der Elemente im Textfluss, sodass ei
 
 Für differenziertere Seiten-Arrangements kann man Eigenschaften, wie Grid oder Flexbox, nutzen.
 
-**Links im Video**
+---
 
-Float:
-<a href="https://codepen.io/philtim/pen/KrZmdN">https://codepen.io/philtim/pen/KrZmdN</a>
-
-Positionierung:
-<a href="https://codepen.io/philtim/pen/GwyWBP">https://codepen.io/philtim/pen/GwyWBP</a>
-
-### Responsive Design
+## Responsive Design
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4">Zum Video</a>
 </video>
+
+**[Responsive Cat](http://roxik.com/cat/){:target="_blank"}**
+**[Responsive Design Check](http://ami.responsivedesign.is/){:target="_blank"}**
 
 Responsive Design heißt, alle (relevanten) Endgerätegrößen zu bedienen, wie Smartphones, Laptops, Tablets, Bildschirme...
 
@@ -43,35 +45,24 @@ Technisch gesehen bedeutet Responsive Design im Web-Kontext, dass die Darstellun
 
 In CSS lässt sich eine **adaptive** (stufenweise) oder **responsive** (stufenlose) Darstellung beispielweise durch Breakpoints und Mediaqueries oder flexible Größen- und Positionierungsanweisungen realisieren.
 
-**Links im Video**
+---
 
-Responsive Cat:
-<a href="http://roxik.com/cat/">http://roxik.com/cat/</a>
-
-Responsive Design Check:
-<a href="http://ami.responsivedesign.is/">http://ami.responsivedesign.is/</a>
-
-### CSS Transition und Animation
+## CSS Transition und Animation
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4">Zum Video</a>
 </video>
 
+**[CSS Transition Beispiel](https://codepen.io/grausch/pen/XWWeZXW){:target="_blank"}**
+**[CSS Animationen](https://codepen.io/ajerez/pen/EaEEOW){:target="_blank"}**
+**[Eigene Bezierkurve zeichnen](http://cubic-bezier.com/){:target="_blank"}**
+
 Mit **Übergängen** (Transitions) und **Animationen** können in Webanwendungen zeitbasierte Effekte genutzt werden, die ein Design lebendig und flüssig wirken lassen oder dem Nutzer auf narrativer Ebene den Interaktionsfluss beschreibt.
 Die Animation von CSS Eigenschaften lässt sich durch viele Parameter steuern, bspw. auch durch die Definition der Beschleunigung der Animation.
 
-**Links im Video**
+---
 
-CSS Transition Beispiel:
-<a href="https://codepen.io/grausch/pen/XWWeZXW">https://codepen.io/grausch/pen/XWWeZXW</a>
-
-CSS Animationen:
-<a href="https://codepen.io/ajerez/pen/EaEEOW">https://codepen.io/ajerez/pen/EaEEOW</a>
-
-Eigene Bezierkurve zeichnen:
-<a href="http://cubic-bezier.com/">http://cubic-bezier.com/</a>
-
-### Take Aways
+## Take Aways
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4">Zum Video</a>
@@ -84,29 +75,7 @@ Eigene Bezierkurve zeichnen:
 
 ---
 
-#### CSS Inspiration
+## CSS Inspiration
 
 [CSS Zen Garden](http://csszengarden.com/), eine Seite welche über 200 verschiedene CSS Styles für den gleichen HTML Inhalt gesammelt hat, zeigt sehr gut die Möglichkeiteb von CSS. Lassen Sie sich inspirieren.
 
----
-
-## Fragen und Antworten
-
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A-Termin)
-
-Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm){:target="_blank"}
-
-### Ist die Abgabe immernoch über FELIX?
-Antwort: Abgaben können aus Datenschutz-rechtlichen Gründen nicht über Github, sondern müssen über FELIX getätigt werden. Der Link dazu: <a href="https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970">Felix</a>
-
-### Sollen wir alle unsere Aufgaben hochladen?
-Nein! Ihr sollt nur die letzte Aufgabe, dieses mal also Aufgabe 1.4 abgeben. Diese muss aber alle Anforderungen der vorherigen Aufgaben enthalten. Mit hochladen ist hiermit das bereitstellen der Links in Felix gemeint.
-
-### Soll ich die Dateien abgeben oder einen Link bereitstellen?
-Sie können im Felix Text-Editor die zwei Links einfügen und abspeichern. Der erste Link sollte zur HTML-Seite führen und der zweite zu dem Ordner in ihrem Repository, in dem ihr Code liegt.
-
-### Meine h1-Inhalte sind zu klein, was kann ich tun?
-Um Größen in Schriften zu verändern, werden hauptsächlich rem, em und pt verwendet.
-
-### Sind Anforderungen mit Sternchen Anforderungen die in der Aufgabe vorhanden sein müssen?
-Alle Lösungen aus den Aufgaben 1.1. - 1.4. sollen in Aufgabe 1.4. zusammen kommen. Das heißt nicht, dass Sie alle Aufgaben einzeln hochladen sollen. Alle Punkte sollten sich in Aufgabe 1.4. wiederfinden.
