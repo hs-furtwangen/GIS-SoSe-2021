@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-$main-color: rgb(101, 142, 34);
+$main-color: rgb(84, 142, 87);
 
 a.internal-link {
   position: relative;
@@ -109,7 +109,7 @@ strong {
     position: relative;
     width: 120%;
     z-index: 1;
-    font-size: 1.82em;
+    font-size: 1.5em;
     color: $main-color;
     padding-top: 4px;
     padding-bottom: 0px;
