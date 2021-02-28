@@ -1,10 +1,8 @@
-## **!** Über diesen Kurs
-
 Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studiengänge MIB und OMB werden gemeinsam von Prof. Dr. Norbert Schnell, Lukas Scheuerle und Andreas Reich in Zusammenarbeit mit Prof. Dr. Gabriel Rausch, Prof. Jirka Dell'Oro-Friedl und Prof. Dr. Stephanie Heintz zusammengestellt und betreut.
 
 ---
 
-### Ablauf und Materialien
+## Ablauf und Materialien
 
 Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
 
@@ -12,14 +10,14 @@ Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stof
 
 **[Zu den Inhalten](content)**
 
-##### Weitere Hinweise:
+### Weitere Hinweise:
 - Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.
 - Falls Sie das Praktikum bereits in einem vorherigen Semester bestanden haben, müssen Sie nur die Prüfungsabgabe abgeben und nicht die Zwischenaufgaben.
 - Die Inhalte sind nur in HTML und CSS gleich zu vorherigen Semestern / Professoren. TypeScript und Node.js sind vermutlich anders.
 
 ---
 
-### Termine
+## Termine
 
 Sie sind dazu angehalten sich jede Woche bis zum **Q&A-Termin am Mittwoch** die Vorlesungsmaterialien des jeweiligen Kapitels zu erarbeiten und die dazugehörige Praktikumsaufgabe zu studieren. Die Q&A-Termine dienen dazu, Unklarheiten zum Unterkapitel der Woche auszuräumen und die dazugehörige Praktikumsaufgabe zu erläutern. Im **Praktikumstermin am Freitag** erhalten Sie Unterstützung bei der Bearbeitung der aktuellen Teilaufgabe der Woche.
 
@@ -37,7 +35,7 @@ Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Onli
 
 ---
 
-### Praktikum und Praktikumsabgaben
+## Praktikum und Praktikumsabgaben
 
 Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Abgaben zu Aufgaben, die jeweils ein Kapitel abschließen. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) am Ende des Abschnitts fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
@@ -47,13 +45,13 @@ Die Abgabe der beiden Links erfolgt im FELIX-Kursmodul [*GIS Praktikumsabgaben u
 
 ---
 
-### Prüfungsaufgabe und mündliche Prüfung
+## Prüfungsaufgabe und mündliche Prüfung
 
 Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Detaillierte Informationen hierzur finden Sie im Abschnitt [*Modulprüfung*](final).
 
 ---
 
-### Fragen und Probleme
+## Fragen und Probleme
 
 Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
 - Wortmeldungen während der Q&A-Termine zu den Kursen
