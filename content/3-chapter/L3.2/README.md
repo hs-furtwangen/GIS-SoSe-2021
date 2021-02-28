@@ -58,7 +58,7 @@ console.log(qdata.monat);
 
 ### Eigenschaften des URL Objektes
 
-> Siehe auch nochmal [das Diagramm zum URL aus A08](../L08/#uniform-resource-locator-url)
+> Siehe auch nochmal das Diagramm zum URL (*Uniform Resource Locator* in 3.1).
 
 ![properties of URL](Properties_URL_Module.png)
 

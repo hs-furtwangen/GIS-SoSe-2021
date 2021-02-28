@@ -70,12 +70,6 @@ em {
       background: none;
       content: "→";
     }
-
-    strong {
-      color: white;
-      padding: 0 4px;
-      background-color: $main-color;
-    }
   }
 }
 
@@ -123,12 +117,6 @@ em {
 
     a {
       color: $main-color;
-    }
-
-    & {
-      strong {
-        background: $main-color;
-      }
     }
   }
 

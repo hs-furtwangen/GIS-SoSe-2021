@@ -315,7 +315,7 @@ function myFunction(_stringParam: string, _numberParam: number): number {
   // function implementation
 }
 ```
-_(Der Unterstrich vor den Parametern folgt den [Codingstyle Guidelines](../../codingstyle) dieses Kurses.)_
+_(Der Unterstrich vor den Parametern folgt den [Codingstyle Guidelines](../../codingstyle){:target="_blank"} dieses Kurses.)_
 
 > Diese Form beschreibt exakt was als Übergabeparameter erwartet wird sowie als Rückgabewert zu erwarten ist. VSCode zeigt diese Form an, wenn man mit der Maus über einen Funktionsnamen hovert. So kann man Informationen über unbekannte Funktionen einholen und diese dann korrekt benutzen.
 

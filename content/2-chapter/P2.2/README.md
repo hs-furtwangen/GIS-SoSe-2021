@@ -26,7 +26,7 @@ Testen Sie Ihre Funktion mit `50` und `75`. Was passiert bei `-1`? Warum? Könne
 
 ### Aufgabe 2 - Arrays
 
-> ⚠️ Für die folgende Aufgabe sollen die übergebenen Arrays _nicht verändert werden_, sondern das Ergebnis als neues Array zurückgegeben werden. Lesen Sie dazu im Zweifelsfall nochmal den Abschnitt [Call by reference / call by value](../L2.2/#call-by-reference--call-by-value) nocheinmal durch.
+> ⚠️ Für die folgende Aufgabe sollen die übergebenen Arrays _nicht verändert werden_, sondern das Ergebnis als neues Array zurückgegeben werden. Lesen Sie dazu im Zweifelsfall nochmal den Abschnitt *Call by reference / call by value* in 2.2) nocheinmal durch.
 
 Die meisten dieser Funktionen sind in einem Array bereits Standardmäßig enthalten. Sie sollen diese Funktionen aber selbstverständlich selbst implementieren. Gehen Sie von number Arrays aus.
 
@@ -58,7 +58,7 @@ console.log(split(arr, 0, 7);     // Bonus c)
 
 ### Aufgabe 3 - Endlich was visuelles!
 
-Für diese Aufgabe soll der [Canvas](../L2.2#canvas) genutzt werden.
+Für diese Aufgabe soll der Canvas genutzt werden (siehe *Canvas* in 2.2).
 
 **a)** Experimentieren Sie ein wenig mit dem Canvas und machen Sie sich damit vertraut. Malen Sie Linien, machen Sie diese Linien farbig oder gekrümmt, malen Sie Kreise, Kurven und Rechtecke und füllen Sie diese mit Farben. Zeichnen Sie damit eine einfache Landschaft (grüner Boden, blauer Himmel mit ein paar Wolken, ein Haus und ein Baum im Bild). Machen Sie Gebrauch von [Html5CanvasTutorials](https://www.html5canvastutorials.com/tutorials/html5-canvas-lines/){:target="_blank"}.
 

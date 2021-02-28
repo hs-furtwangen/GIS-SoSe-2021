@@ -131,7 +131,7 @@ element.appendChild(p1);
 
 > Oder auch "Lieber TypeScript Compiler, ich bin mir sicher bei dem was ich hier tue".
 
-Wie in der letzten Woche unter dem Stichwort [Polymorphie](../L2.2/#polymorphie) bereits erklärt, können Instanzen von Subklassen auch in Variablencontainer ihrer Superklasse gespeichert werden.
+Wie in der letzten Woche unter dem Stichwort *Polymorphie* (siehe 2.2) bereits erklärt, können Instanzen von Subklassen auch in Variablencontainer ihrer Superklasse gespeichert werden.
 
 So können z.B. auch `HTMLInputElement`e in `HTMLElement`en oder sogar `EventTarget`s gespeichert werden. Versucht man dann allerdings, auf die Subklassenspezifischen Attribute zuzugreifen, wird TypeScript sich beschweren.
 
@@ -158,7 +158,7 @@ console.log(input.type); // "email"
 
 So kann nicht nur der Compiler ruhig gestellt werden, sondern es kann auch die eigene Arbeit erleichtern, da mit der richtigen Typisierung auch mehr/bessere/korrekte Vervollständigungsoptionen in VSCode angezeigt werden.
 
-> Dies sollte nur genutzt werden, wenn Sie sich sicher sind, welchen Typen Sie zurück bekommen. Alternativ (und sicherer für die Produktion außerhalb dieser Veranstaltung) wäre eine Prüfung mit [`instanceof`](../L2.2/#instanceof).
+> Dies sollte nur genutzt werden, wenn Sie sich sicher sind, welchen Typen Sie zurück bekommen. Alternativ (und sicherer für die Produktion außerhalb dieser Veranstaltung) wäre eine Prüfung mit `instanceof` (siehe 2.2).
 
 ```ts
 let input: HTMLElement = document.getElementById("textinput");
@@ -272,7 +272,7 @@ Diese Vorgehensweise ist aber **veraltet** und sollte darum **nicht mehr verwend
 Wenn Sie in der Situation sind, dass Sie elementabhängige Übergabeparameter an die Funktion übergeben wollen, gibt es zwei schöne Möglichkeiten, dies mit der neuen Syntax zu lösen:
 
 1. Die Daten über `dataset` statt in den Funktionsaufruf direkt aufs HTML Element speichern und dann in der Funktion auslesen, siehe [Daten in DOM Elementen speichern](#daten-in-dom-elementen-speichern).
-2. Sich die Geltungsbereiche bzw den gespeicherten Kontext von JS zunutze machen, indem man die aufzurufende Funktion innerhalb der Kontextes (z.B. innerhalb der for-Schleife welche die Elemente generiert o.ä.) definiert. Komplizierter zu verstehen aber in vielerlei Hinsicht interessanter, auch weil es allgemein sehr mächtig ist. Siehe [Scopes und Geltungsbereiche](../L2.1/#scopes--geltungsbereiche), Abschnitt "Weiterführende Informationen".
+2. Sich die Geltungsbereiche bzw den gespeicherten Kontext von JS zunutze machen, indem man die aufzurufende Funktion innerhalb der Kontextes (z.B. innerhalb der for-Schleife welche die Elemente generiert o.ä.) definiert. Komplizierter zu verstehen aber in vielerlei Hinsicht interessanter, auch weil es allgemein sehr mächtig ist (siehe 2.1 *Scopes und Geltungsbereiche* und *Weiterführende Informationen*).
 
 ##### Beispiel
 Das Folgende dürfte das wohl primitivste Beispiel sein, dass wir mit dem Eventsystem darstellen können. Eventuell müssen Sie zum Testen dieses Codes das `defer` Attribut des script tags weglassen.

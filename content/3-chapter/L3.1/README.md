@@ -1,6 +1,6 @@
 ## _V_ **3.1** Serveranbindung
 
-In [Aufgabe P 2.5 - Kommunikation](../P2.5) haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron und Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
+In Aufgabe P2.5 haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron und Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
 
 ## Formulare
 HTML-Formulare (Forms) bieten bereits gänzlich ohne zusätzliche Programmierung die Möglichkeit, Daten synchron zu verschicken. Hierzu ist es lediglich erforderlich, dem Form-Tag ein `action`- und ein `method`-Attribut anzufügen, sowie im Formular einen Submit-Button zu integrieren. Der `action`-Wert gibt die URL an, an welche die Daten gehen sollen. Die Daten selbst, also die Werte der Formularelemente, werden bei Betätigung des Submit-Buttons automatisch aufbereitet und verschickt. Wie sie verschickt werden, hängt von der gewählten `method` ab.

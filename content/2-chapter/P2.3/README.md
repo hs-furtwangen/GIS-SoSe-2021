@@ -16,7 +16,7 @@ Lesen Sie, falls noch nicht geschehen, die Kapitelaufgabe durch. Entscheiden Sie
 
 **b)** Entwickeln Sie ein Interface, über das sie die ausgewählten Elemente abspeichern können. Gehen Sie dabei davon aus, dass die Daten der Optionen zur Verfügung stehen.
 
-**c)** Legen Sie die tatsächlichen Daten in einer Variablen an. Legen sie dazu eine Datei `data.ts` an, in der sich lediglich diese Variable mit den Daten befindet (s. [Namespaces](../L2.2#namespaces) zur Unterstützung beim Arbeiten mit Dateien).
+**c)** Legen Sie die tatsächlichen Daten in einer Variablen an. Legen sie dazu eine Datei `data.ts` an, in der sich lediglich diese Variable mit den Daten befindet (siehe *Namespaces* in 2.2) zur Unterstützung beim Arbeiten mit Dateien).
 
 **d)** Machen Sie sich Gedanken darüber, wie die einzelnen Unterseiten aussehen und funktionieren sollen. Fertigen Sie gerne eine Skizze an, um sich selbst bei der Visualisierung zu helfen.
 

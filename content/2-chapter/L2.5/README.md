@@ -80,7 +80,7 @@ Mit dem Schlüsselwort `async` wird eine Funktion als asynchron deklariert, das 
 Achtung: `text()` gibt wieder eine Promise zurück. Nutzen Sie aber auch hier `await`, erhalten Sie als Ergebnis des Ganzen eine Zeichenkette, die Sie einer Variablen vom Typ string zuweisen können. Lassen Sie so den Inhalt der Serverantwort ausgeben. 
 > - Versuchen Sie das gleiche nochmal mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2021/content/L2.5/testjson.json"` und der Funktion `json()` statt `text()`. Was wird hier zurückgegeben?
 
-> **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn Sie es also lokal testen wollen, sollten Sie einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt. Siehe auch den [Hinweise zu LocalStorage](../L2.4#local-storage).
+> **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn Sie es also lokal testen wollen, sollten Sie einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt (siehe auch *Hinweise zu LocalStorage* in 2.4).
 
 
 ### TypeScript Dokumentation

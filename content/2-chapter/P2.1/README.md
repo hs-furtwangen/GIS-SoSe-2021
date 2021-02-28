@@ -58,7 +58,7 @@ Lassen Sie den Code dann laufen und überprüfen Sie, ob sie richtig liegen. Sch
 
 ### Aufgabe 3 - Fehler erkennen und vermeiden lernen
 
-**a)** Bauen Sie in dem Code von A1 und A2 Fehler ein (s. auch die Arten von Fehlern im [Fragen und Probleme](../../#fragen-und-probleme) Abschnitt) und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
+**a)** Bauen Sie in dem Code von A1 und A2 Fehler ein und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
 
 **b)** Tun sie sich mit Komilitonen zusammen und versuchen Sie die Fehler der anderen zu finden un zu lösen.
 
