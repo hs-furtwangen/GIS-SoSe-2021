@@ -1,3 +1,6 @@
+---
+---
+
 @import "{{ site.theme }}";
 
 $main-color: rgb(101, 142, 34);
@@ -20,7 +23,8 @@ a:hover {
 }
 
 .main-content {
-  padding: 1em 0;
+  padding: 0.5em;
+  margin: 0;
 
   p {
     display: block;
@@ -35,7 +39,7 @@ a:hover {
   }
 
   ul,
-  ol 1em
+  ol {
     margin-top: 10px;
 
     li {
@@ -50,7 +54,7 @@ a:hover {
   }
 }
 
-em {
+strong {
   a {
     display: block;
     position: relative;
@@ -58,6 +62,7 @@ em {
     color: #aaa;
     font-size: 1em;
     font-style: normal;
+    font-weight: normal;
     left: 24px;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -110,8 +115,8 @@ em {
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     background: white;
 
     a {

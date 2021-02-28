@@ -10,7 +10,7 @@ Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialie
 
 Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
 
-*[Zu den Inhalten](content)*
+**[Zu den Inhalten](content)**
 
 ##### Weitere Hinweise:
 - Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.

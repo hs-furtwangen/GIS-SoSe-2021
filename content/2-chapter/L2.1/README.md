@@ -60,7 +60,7 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
     <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4">Zum Video</a>
 </video>
 
-*[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_JSTS_Vorwort.pdf){:target="_blank"}*
+**[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_JSTS_Vorwort.pdf){:target="_blank"}**
 
 ### JavaScript / TypeScript Einführung
 
@@ -97,7 +97,7 @@ Bei einigen dieser Anweisungen sollte der TypeScript Compiler Ihnen Fehler anzei
     <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Einfuehrung.mp4">Zum Video</a>
 </video>
 
-*[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_JS_Einfuehrung.pdf){:target="_blank"}*
+**[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_JS_Einfuehrung.pdf){:target="_blank"}**
 
 #### Zahlen
 
@@ -201,7 +201,7 @@ console.log(false === false) // -> true
     <source src="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4">Zum Video</a>
 </video>
-*[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_TS_Kontrollstrukturen.pdf){:target="_blank"}*
+**[Folien zum Herunterladen](https://scheuerle.net/lehre/gis/scripts/05_TS_Kontrollstrukturen.pdf){:target="_blank"}**
 
 **Das Lesen und Schreiben von Code sind unverzichtbar wenn es darum geht, Programmieren zu lernen!** Versuchen Sie darum, nicht über Beispiele schnell hinweg zu lesen, sondern lesen Sie diese Aufmerksam und versuchen Sie, sie zu verstehen, probieren Sie sie ggf. selbst aus. Ähnliches gilt für Übungen im Text sowie Wochen- und Kapitelaufgaben: Gehen Sie nicht davon aus, dass Sie sie verstanden haben, bis sie tatsächlich selbst eine funktionierende Lösung gefunden und getestet haben. Dies ist eventuell zunächst langsam und verwirrend, aber mit etwas Übung haben Sie schnell den Dreh raus.
 
