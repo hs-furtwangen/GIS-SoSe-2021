@@ -89,6 +89,7 @@ strong {
     height: 56px;
     z-index: 1;
     font-size: 42px;
+    font-weight: bold;
     color: white;
     background-color: $main-color;
     padding: 0px 4px;
@@ -109,7 +110,8 @@ strong {
     position: relative;
     width: 120%;
     z-index: 1;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    font-weight: bold;
     color: $main-color;
     padding-top: 4px;
     padding-bottom: 0px;
@@ -128,7 +130,7 @@ strong {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     padding: 0;
-    font-size: 1.25em;
+    font-size: 1.2em;
     color: $main-color;
   }
 

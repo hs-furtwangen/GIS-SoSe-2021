@@ -385,7 +385,7 @@ Es gibt verschiedene Schleifenarten aus denen man sich eine aussuchen kann um se
 
 > ⚠️ Vorsicht vor Schleifen die sich nie beenden. Das kann schon mal den Browser abstürzen lassen.
 
-**While**
+##### While
 
 Whileschleifen wiederholen einen Codeabschnitt so lange, bis die gegebene Bedingung nicht mehr erfüllt ist.
 
@@ -399,7 +399,7 @@ console.log(x);
 
 Sie eignen sich besonders für Schleifen, in denen man nicht direkt im Voraus weiß, wie oft der Code wiederholt werden muss.
 
-**Do While**
+##### Do While
 
 Ähnlich wie die `while` Schleife führt eine do while schleife die Anweisungen so lange aus, bis die Wiederholungsbedingung nicht mehr gegeben ist. Der Unterschied ist jedoch, dass es auf jeden Fall einmal durchgeführt wird.
 
@@ -413,7 +413,7 @@ console.log(yourAge)
 
 Diese eignen sich besonders für Schleifen, welche so lange etwas wiederholen müssen bis es den Vorgaben genügt, dies aber mindestens einmal tun müssen.
 
-**For**
+##### For
 
 Die Forschleife unterscheidet sich in ihrem Aufbau, da sie in ihrem Schleifenkopf statt nur der Laufbedingung auch die Initialbedingung als auch die Änderungsanweisung beinhaltet, getrennt durch `;`. 
 
@@ -425,7 +425,7 @@ for (let i: number = 0; i < 10; i++) {
 
 Forschleifen eigenen sich besonders für Schleifen in denen es eine (im Voraus gegebene) bestimmte Menge and Operationen zu erledigen gibt, z.B. alle Einträge eines Arrays durchzugehen. 
 
-**Spezielle Sprunganweisungen**
+##### Spezielle Sprunganweisungen
 
 - `break`: Beendet die gesamte Schleife
 - `continue`: Beendet nur den aktuellen Schleifendurchlauf und macht mit dem nächsten weiter (sofern die Laufbedingung noch erfüllt ist)
