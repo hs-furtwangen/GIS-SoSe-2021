@@ -8,9 +8,9 @@ Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studi
 
 Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialien sowie einen wöchentlichen online Q&A-Termin mit Fragen und Antworten zu den Vorlesungsinhalten statt (gemeinsam für MIB und OMB). Auch die Praktikumsgruppen werden online betreut.
 
-Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten und durch eine größere Praktikumsabgabe abgeschlossen werden. Die Materialien zu einem ganzen Kapitel sowie die abschließende Aufgabe liegen jeweils zum Anfang eines Abschnitts vollständig vor und sind in Wöchentliche Unterkapitel gegliedert. Die wöchentlichen Praktikumsaufgaben fügen sich schrittweise zur Abgabe am Ende des Kapitels hin.
+Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten, zu denen jede Woche eine Aufgabe abgegeben werden muss.
 
-**[Zu den Inhalten](content)**
+<!-- **[Zu den Inhalten](content)** -->
 
 ### Weitere Hinweise:
 - Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.
@@ -21,35 +21,40 @@ Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stof
 
 ## Termine
 
-Sie sind dazu angehalten sich jede Woche bis zum **Q&A-Termin am Mittwoch** die Vorlesungsmaterialien des jeweiligen Kapitels zu erarbeiten und die dazugehörige Praktikumsaufgabe zu studieren. Die Q&A-Termine dienen dazu, Unklarheiten zum Unterkapitel der Woche auszuräumen und die dazugehörige Praktikumsaufgabe zu erläutern. Im **Praktikumstermin am Freitag** erhalten Sie Unterstützung bei der Bearbeitung der aktuellen Teilaufgabe der Woche.
+Sie sind dazu angehalten sich jede Woche bis zum **Q&A-Termin am Mittwoch** die Vorlesungsmaterialien des jeweiligen Kapitels zu erarbeiten und die dazugehörige Praktikumsaufgabe zu studieren. Die Q&A-Termine dienen dazu, Unklarheiten zum Unterkapitel der Woche auszuräumen und die dazugehörige Praktikumsaufgabe zu erläutern. Im **Praktikumstermin am Donnertag bzw. Freitag** erhalten Sie Unterstützung bei der Bearbeitung der aktuellen Aufgabe der Woche.
 
 Alle Online Termine (Q&A und Praktikum) werden über *alfaview&reg;* abgehalten. Die Beiträge zu den Q&A Terminen werden schriftlich zusammengefasst und im Abschnitt *Q&A* des jeweiligen Kapitels nachträglich veröffentlicht.
 
 Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):  
-- Q&A-Termine zur Vorlesung: Mi, 1. Block (7:45 Uhr) → [Online-Raum DM-03](https://rooms.hs-furtwangen.de/rooms/dm03)
+- Q&A-Termine zur Vorlesung: Mi, 2. Block (9:45 Uhr) → [Online-Raum DM-03](https://rooms.hs-furtwangen.de/rooms/dm03){:target="_blank"}
 - Praktikumstermine
-  - OMB A: Fr, 1. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09){:target="_blank"}
-  - MIB A: Fr, 1. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
+  - MIB A: Do, 5. Block, Andreas Reich → [Online-Raum DM-11](https://rooms.hs-furtwangen.de/rooms/dm11){:target="_blank"}
+  - OMB A: Do, 5. Block, Lukas Scheuerle → [Online-Raum DM-11](https://rooms.hs-furtwangen.de/rooms/dm11){:target="_blank"}
+  - MIB B: Fr, 2. Block, Norbert Schnell → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
   - OMB B: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
-  - MIB B: Fr, 2. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09){:target="_blank"}
-
-⚠ **Sollten die Praktikas nicht übermäßig besucht sein, so dass weniger als 50 Personen daran teilnehmen, finden diese gemeinsam in Raum 15 statt!** ⚠
 
 ---
 
 ## Praktikum und Praktikumsabgaben
 
-Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Abgaben zu Aufgaben, die jeweils ein Kapitel abschließen. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) am Ende des Abschnitts fällig. Verspätete Abgaben können nicht akzeptiert werden.
+Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Kapiteln, in welchen jeweils durch wöchentliche Abgaben Punkte gesammelt werden können. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
-Publizieren Sie Aufgabenlösungen durch einen Links auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel](content/L1.1)).
+Publizieren Sie Aufgabenlösungen durch einen Link auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel Arbeitsumgebung](https://felix.hs-furtwangen.de/auth/RepositoryEntry/4015784382/CourseNode/103149243744626)). Geben Sie diese beiden Links im Felix bei der jeweiligen Aufgabe als Aufgabenlösung ab.
 
-Die Abgabe der beiden Links erfolgt im FELIX-Kursmodul [*GIS Praktikumsabgaben und Modulprüfung WiSe 2020/2021 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3994517970). Bitte beachten Sie dort die *Hinweise zum Praktikum*.
+### Punktesystem
+
+Für jede wöchentliche Aufgabe gibt es maximal 2 Punkte. Diese volle Punktzahl kann erreicht werden, wenn die Abgabe größtenteils in Ordnung ist.  
+Nur 1 Punkt gibt es, wenn die Abgabe deutliche Mängel aufweist, und keinen Punkt bei einer fehlenden oder grob falschen Abgabe.
+
+**In jedem Kapitel darf maximal 1 Punkt fehlen**, um das Praktikum zu bestehen, d.h. Sie brauchen in K1 mindestens 7, in K2 mindestens 9 und in K3 mindestens 7 Punkte.
+
+Haben Sie nicht die volle Punktzahl erhalten, können Sie beim nächsten Praktikum unaufgefordert das Gespräch mit dem Dozenten suchen und ihm im Gespräch Ihre **verbesserte Aufgabe** zu präsentieren. So können Sie sich maximal einen Punkt zurückholen.
 
 ---
 
 ## Prüfungsaufgabe und mündliche Prüfung
 
-Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Detaillierte Informationen hierzur finden Sie im Abschnitt [*Modulprüfung*](final).
+Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Detaillierte Informationen hierzur finden Sie im Abschnitt [*Modulprüfung*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/4015784382/CourseNode/103149243496401).
 
 ---
 
@@ -58,17 +63,15 @@ Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus e
 Für Fragen zum Ablauf der Lehrveranstaltung, den Inhalten und den Praktikumsaufgaben sowie um auf Probleme bezüglich der Lehrveranstaltung aufmerksam zu machen, stehen Ihnen folgene Kanäle zur Verfügung:
 - Wortmeldungen während der Q&A-Termine zu den Kursen
 - Wortmeldungen während der Online Praktikumstermine
-- [GitHub Issues](https://github.com/hs-furtwangen/GIS-SoSe-2021/issues) (in diesem Repository), entweder individuell für Probleme oder als Sammlung für Fragen für die Q&A-Termine.
 - Über den [GIS/EIA Discord Server](https://discord.gg/KpHqEUF){:target="_blank"}
 
-Bitte stellen Sie bei den Q&A- und Praktikumsterminen *alle* Fragen, die Sie haben. Handeln Sie *egoistisch* und und stellen Sie sicher, dass Sie selbst alles verstanden haben oder handeln Sie *altruistisch* und stellen Sie die Fragen, die sich niemand anders traut zu stellen.
+Bitte stellen Sie bei den Q&A- und Praktikumsterminen *alle* Fragen, die Sie haben. Handeln Sie *egoistisch* und stellen Sie sicher, dass Sie selbst alles verstanden haben oder handeln Sie *altruistisch* und stellen Sie die Fragen, die sich niemand anders traut zu stellen. Egal wie, hauptsache Sie fragen.
 
-Ein gutes GitHub Issue zu einem Problem mit Ihrer Aufgabenlösung beinhaltet:
+Eine gute Anfrage zu einem Problem mit Ihrer Aufgabenlösung über Discord beinhaltet:
   - eine klare Beschreibung des Problems, ggf. mit der erhaltenen Fehlermeldungen (Fehlermeldungen wörtlich in den Text kopieren!)
   - einen Link zur (wohlformatierten!) Quelldatei in Ihrem Repository auf *github.com* (Quellcode bitte **nicht** in den Text kopieren!)
   - einen Link zum Ergebnis auf der Seite in Ihren GitHub Pages auf *github.io*
 
-Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 Es gibt vier relevante Arten von Problemen:
 

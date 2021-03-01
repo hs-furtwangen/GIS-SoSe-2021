@@ -20,6 +20,7 @@ Richten Sie sich eine vollständige Arbeitsumgebung ein, in dem Sie z.B. folgend
 - Github Pages zeigt Änderungen nach dem pushen nicht sofort an, da diese zunächst von ihrem Repository verarbeitet werden müssen. Dies kann mehrere Minuten dauern.
 - Gitkraken/Github Desktop zeigt u.U. Dateien an, welche Sie selbst nicht sehen (z.B. `.DS_Store`). Dabei handelt es sich um versteckte Dateien welche das Betriebssystem selbst anlegt. Diese Dateien werden nicht auf dem git gebraucht und können durch das Anlegen einer [.gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore){:target="_blank"} Datei ignoriert werden.
 - GitHub hat seit der Aufnahme des Videos den "Master" Branch in den "Main" Branch umbenannt. Darauf müssen Sie beim Aktivieren von Github Pages achten. Außerdem muss man inzwischen auch den Ordner auswählen, da nutzen Sie einfach "root", also den Hauptordner.
+- **Wenn sie Probleme mit der Einrichtung oder Nutzung von git haben, melden Sie sich bitte frühzeitig! Wer die Weboberfläche von GitHub nutzt, um Dateien hochzuladen, der macht es FALSCH.**
 
 ### Links
 - [Visual Studio Code](https://code.visualstudio.com/){:target="_blank"}
