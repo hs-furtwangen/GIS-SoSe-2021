@@ -4,7 +4,7 @@
 Kommunikation ist der Prozess des Austauschs oder der Übertragung von Information. Dabei werden zwei grundsätzliche Formen derselben unterschieden. 
 
 ### Synchron
-![](Synchron.svg)  
+![](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.5/Synchron.svg)  
 
 Synchron bedeutet "zeitlich gemeinsam". Bei der Kommunikation heißt das allerdings nicht gleichzeitig, sondern "aufeinander abgestimmt". Das bedeutet, dass die Kommunikationspartner aufeinander warten, bis der jeweils andere seine Information übertragen hat und dann ihrerseits mit einer Übertragung beginnen. Das bedeutet zwangsläufig, dass die beteiligten Systeme die Hälfte der zur Verfügung stehenden Zeit mit Warten verbringen. Im Diagram, welches den Kommunikationsalgorithmus eines der Partner darstellt, wird dies mit der kleinen Schleife angedeutet.  
 
@@ -14,7 +14,7 @@ So klein diese Schleife auch erscheint, sie kann ein großes Problem darstellen.
 
 ### Asynchron
 
-![](Asynchron.svg)  
+![](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.5/Asynchron.svg)  
 Daher hat sich die asynchrone Kommunikation durchgesetzt. Die Kommunikationspartner setzen eine oder mehrere Anfragen ab, damit ist ihr Teil zunächst erledigt und sie können sich um andere Aufgaben kümmern. Irgendwann kommt ein Signal, dass eine Antwort auf eine der Anfragen vorliegt. Dieses dient als Startpunkt für einen neuen Prozess, bei dem zunächst die Antwort verarbeitet wird und gegebenenfalls weitere Anfragen verschickt werden.  
 
 > - Sammle Beispiele für asynchrone Kommunikation in deinem eigenen Alltag.
@@ -66,11 +66,11 @@ async function communicate(_url: RequestInfo): Promise<void> {
 }
 ```
 Mit dem Schlüsselwort `async` wird eine Funktion als asynchron deklariert, das bedeutet, dass ihre Ausführung unterbrochen und zu einem späteren Zeitpunkt fortgesetzt werden kann. Genau dies bewirkt das Schlüsselwort `await`, welches daher nur innerhalb von asynchronen Funktionen Sinn ergibt. Sobald `fetch` gestartet wird, wird die Funktion `communicate` zunächst beendet und die Ausführung des Programms bei der nächsten Anweisung nach deren Aufruf fortgesetzt. Sobald aber `fetch` beendet wurde, wird die Funktion `communicate` bei der Anweisung nach dem fetch fortgesetzt. Das heißt also, dass das Hauptprogramm, sofern es noch nicht komplett abgelaufen ist, unterbrochen wird um die Ausgabe der Response in der Konsole zu bewerkstelligen. Danach ist `communicate` tatsächlich am Ende und das Hauptprogramm wird fortgesetzt. Es könnten aber in der Funktion noch weitere `await`s folgen, die wieder entsprechendes Verhalten bewirken. So bläht die weitere Verarbeitung der Response den Code nicht noch wieder durch Callbacks auf.  
-> - Kopieren Sie obenstehenden asynchronen Code und betten Sie ihn in ein neues Programm ein. Lassen Sie vom Hauptprogramm aus die Funktion `communicate` mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2021/content/L2.5/test.txt"` aufrufen. Lassen Sie vor und nach dem Aufruf von `communicate` in der Konsole die Zeichenketten "Start" und "End" ausgeben.
+> - Kopieren Sie obenstehenden asynchronen Code und betten Sie ihn in ein neues Programm ein. Lassen Sie vom Hauptprogramm aus die Funktion `communicate` mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.5/test.txt"` aufrufen. Lassen Sie vor und nach dem Aufruf von `communicate` in der Konsole die Zeichenketten "Start" und "End" ausgeben.
 > - Starten Sie nun das Programm, nachdem Sie es lauffähig implementiert haben. Beschreiben Sie ihre Beobachtung. In welcher Reihenfolge kommen die Ausgaben in der Konsole?
 > - Das ausgegebene Response-Objekt ist komplex und der eigentliche Inhalt der Serverantwort ist noch nicht zu sehen. Erweitern Sie die Funktion `communicate` um eine Zeile, in der Sie die Methode `text()` des Response-Objektes aufrufen.  
 Achtung: `text()` gibt wieder eine Promise zurück. Nutzen Sie aber auch hier `await`, erhalten Sie als Ergebnis des Ganzen eine Zeichenkette, die Sie einer Variablen vom Typ string zuweisen können. Lassen Sie so den Inhalt der Serverantwort ausgeben. 
-> - Versuchen Sie das gleiche nochmal mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2021/content/L2.5/testjson.json"` und der Funktion `json()` statt `text()`. Was wird hier zurückgegeben?
+> - Versuchen Sie das gleiche nochmal mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.5/testjson.json"` und der Funktion `json()` statt `text()`. Was wird hier zurückgegeben?
 
 > **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn Sie es also lokal testen wollen, sollten Sie einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt (siehe auch *Hinweise zu LocalStorage* in 2.4).
 

@@ -5,7 +5,7 @@ Lädt der Browser eine Datei und versucht diese als HTML-Datei zu interpretieren
 
 Dabei wird aus den Elementen in der HTML Datei eine große Baumstruktur aufgebaut, bei der jeder Knoten ein Objekt ist, welcher einen Teil der Struktur repräsentiert, z.B. einen Titel, einen Absatz oder ein Bild.
 
-![DOM Baum Beispiel](dom-tree.png)
+![DOM Baum Beispiel](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.3/dom-tree.png)
 
 > Erzeugen Sie eine einfache Textdatei mit der Endung ".txt" im Dateinamen und schreiben Sie einige Worte hinein, auch mit mehreren Leerzeichenfolgen, Umlauten und Tabulatoren. Laden Sie diese Datei im Browser und schauen Sie sich in den Entwicklertools die Seitenstruktur an (Tab links neben Console)   
 
@@ -28,7 +28,7 @@ Ein Skript kann das DOM manipulieren, darin Elemente verändern, hinzufügen ode
 
 Sehen Sie hier einen Ausschnitt aus der DOM Klassenhierarchie:
 
-![Schaubild](DOM-Classhierachy.svg)
+![Schaubild](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.3/DOM-Classhierachy.svg)
 
 ### Baumstruktur
 Das DOM lässt sich als Graph mit Knoten, die mit Kanten verbunden sind, darstellen.
@@ -155,14 +155,14 @@ Sie können das DOM untersuchen und sich dessen Eigenschaften ausgeben lassen:
 
 #### DOM in Chrome untersuchen
 
-![Dom in Chrome untersuchen](Chrome_DOM_Properties.PNG)
+![Dom in Chrome untersuchen](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.3/Chrome_DOM_Properties.PNG)
 
 #### DOM in Firefox untersuchen
 
-![DOM in Firefox untersuchen](Firefox_DOM_Properties_1.PNG)
-![DOM in Firefox untersuchen](Firefox_DOM_Properties_2.png)
-![DOM in Firefox untersuchen](Firefox_DOM_Properties_3.PNG)
-![DOM in Firefox untersuchen](Firefox_DOM_Properties_4.PNG)
+![DOM in Firefox untersuchen](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.3/Firefox_DOM_Properties_1.PNG)
+![DOM in Firefox untersuchen](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.3/Firefox_DOM_Properties_2.png)
+![DOM in Firefox untersuchen](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.3/Firefox_DOM_Properties_3.PNG)
+![DOM in Firefox untersuchen](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.3/Firefox_DOM_Properties_4.PNG)
 
 ### Daten in DOM Elementen speichern
 

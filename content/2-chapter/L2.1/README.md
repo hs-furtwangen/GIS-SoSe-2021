@@ -1,9 +1,9 @@
 <!-- # 2.1 Einführung TypeScript (und JavaScript) -->
 
-## Einrichtung TypeScript in VSCode
+## Einrichtung Arbeitsumgebung in VSCode für TypeScript
 <video controls width="100%"> 
-    <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_TypeScript.mp4" type="video/mp4"> 
-    <a href="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_TypeScript.mp4">Zum Video</a>
+    <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4">Zum Video</a>
 </video>
 
 **[NodeJS](https://nodejs.org){:target="_blank"}**
@@ -40,7 +40,7 @@ Sollte Ihnen VSCode einmal einen Fehler anzeigen bei dem Sie sich sicher sind, d
 
 ---
 
-## JavaScript / TypeScript Einführung
+## Einführung JavaScript / TypeScript
 
 JavaScript ist die primäre Sprache wenn es darum geht, in einem Browser / auf einer Webseite Code auzuführen. 1995 eingeführt für den Netscape Browser wurde sie bald weit verbreitet eingesetzt und ist heute in den Top 10 der meistgenutzten Sprachen Weltweit. Ursprünglich auch nur als Frontend (Nutzerseite) Sprache entwickelt, kann Sie heute auch als Backend (Serverseite, Datenbanken) eingesetzt werden.
 

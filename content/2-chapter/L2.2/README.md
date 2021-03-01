@@ -2,7 +2,7 @@
 
 Diese Woche geht es darum, die in der letzten Woche erlernten Grundlagen von JS/TS zu erweitern, um die ganze Bandbreite an wichtigen Sprach-spezifischen Konzepten zu kennen und anzuwenden.
 
-In diesem Kurs sind gewisse Formatvorgaben bzw. [Codingstyle Guidelines](../../codingstyle){:target="_blank"} einzuhalten. Diese dienen zusammen mit dem TSLinter vorallem der Lesbarkeit und damit dem Verständis sowohl der Studierenden als auch der Prüfer. Sollten Sie diese Guidelines noch nicht gelesen haben, so ist es nun höchste Zeit sich damit vertraut zu machen. Abgaben müssen diesen Regeln entsprechen.
+In diesem Kurs sind gewisse Formatvorgaben bzw. [Codingstyle Guidelines](https://hs-furtwangen.github.io/GIS-SoSe-2021/codingstyle/){:target="_blank"} einzuhalten. Diese dienen zusammen mit dem TSLinter vorallem der Lesbarkeit und damit dem Verständis sowohl der Studierenden als auch der Prüfer. Sollten Sie diese Guidelines noch nicht gelesen haben, so ist es nun höchste Zeit sich damit vertraut zu machen. Abgaben müssen diesen Regeln entsprechen.
 
 ## Vorgehensweisen bei der Programmierung
 
@@ -10,7 +10,7 @@ Zusätzlich zu den stylistischen Guidelines sollen hier auch logische Hilfestell
 
 ### Planung
 
-Dass Planung wichtig ist, ist eine oftmals belächelte Aussage. Auch ich habe immer wieder darüber geschmunzelt, bis ich damit auf die Nase gefallen bin. Inzwischen weiß ich: Kaum irgendetwas ist in der Entwicklung neben dem eigentlichen Verständnis des Ziels und der Sprache so wichtig wie eine Planung der Konzepte. Es ist so wichtig, dass dafür eine ganze Sprache entwickelt wurde, die [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language){:target="_blank"}. Diese deckt in ihren Möglichkeiten jeden erdenklichen Fall ab und wird von Entwicklern auf der ganzen Welt genutzt, um gemeinsam Vorgänge zu erarbeiten, Strukturen zu klassifizieren und vieles mehr. In diesem Kurs haben wir nicht die Zeit, uns damit zu beschäftigen, auch weil es in einem späteren Semester nochmal vermehrt um das Design von Software gehen wird. Darum an dieser Stelle nur der Hinweis auf die Existenz dieser Sprache sowie ein [UML Cheatsheet](UML_TS_EIA.pdf) von Prof. Jirka Dell'Oro Friedl, welches die für dieses Semester wichtigesten UML Elemente Beispielhaft abbildet und erklärt.
+Dass Planung wichtig ist, ist eine oftmals belächelte Aussage. Auch ich habe immer wieder darüber geschmunzelt, bis ich damit auf die Nase gefallen bin. Inzwischen weiß ich: Kaum irgendetwas ist in der Entwicklung neben dem eigentlichen Verständnis des Ziels und der Sprache so wichtig wie eine Planung der Konzepte. Es ist so wichtig, dass dafür eine ganze Sprache entwickelt wurde, die [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language){:target="_blank"}. Diese deckt in ihren Möglichkeiten jeden erdenklichen Fall ab und wird von Entwicklern auf der ganzen Welt genutzt, um gemeinsam Vorgänge zu erarbeiten, Strukturen zu klassifizieren und vieles mehr. In diesem Kurs haben wir nicht die Zeit, uns damit zu beschäftigen, auch weil es in einem späteren Semester nochmal vermehrt um das Design von Software gehen wird. Darum an dieser Stelle nur der Hinweis auf die Existenz dieser Sprache sowie ein [UML Cheatsheet](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.2/UML_TS_EIA.pdf) von Prof. Jirka Dell'Oro Friedl, welches die für dieses Semester wichtigesten UML Elemente Beispielhaft abbildet und erklärt.
 
 ### Divide and Conquer
 
@@ -549,7 +549,7 @@ let y: number[] = [10, 20, 30]
 let z: number[] = [-5, 10 -30]
 ```
 
-![Call by reference vs call by value](cbv_cbr.png)
+![Call by reference vs call by value](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.2/cbv_cbr.png)
 
 Nun wird der folgende Code ausgeführt. Versuchen Sie nachzuvollziehen, wie es zu der Endsituation kommt.
 
@@ -565,7 +565,7 @@ y[0] = 100;         // (x = y) --> [100, 20, 30]
 console.log(x[0]);  // 100
 ```
 
-![Call by reference vs call by value nach den Änderungen](cbv_cbr_2.png)
+![Call by reference vs call by value nach den Änderungen](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.2/cbv_cbr_2.png)
 
 Gleiches gilt bei Funktionsaufrufen mit Parametern.
 
@@ -672,7 +672,7 @@ context.closePath();
 context.stroke();
 ```
 
-Da es zu umfangreich wäre, sämtliche Canvas Funktionalitäten hier zu erläutern, sollten Sie sich selbst damit auseinandersetzen. Hier ist ein [Canvas CheatSheet](HTML5_Canvas_Cheat_Sheet.pdf) das Ihnen dabei helfen soll.
+Da es zu umfangreich wäre, sämtliche Canvas Funktionalitäten hier zu erläutern, sollten Sie sich selbst damit auseinandersetzen. Hier ist ein [Canvas CheatSheet](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/2-chapter/L2.2/HTML5_Canvas_Cheat_Sheet.pdf) das Ihnen dabei helfen soll.
 
 Nutzen Sie auch [https://www.html5canvastutorials.com/](https://www.html5canvastutorials.com/){:target="_blank"} für weitere Informationen und einfache Schritt für Schritt Anleitungen.
 
