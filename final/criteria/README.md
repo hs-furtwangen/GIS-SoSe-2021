@@ -1,10 +1,10 @@
-### Bewertung der Prüfungsaufgabe
+<!-- # Bewertungskriterien -->
 
 Die Bewertung der Lösungen der Prüfungsaufgabe erfolgt anhand des untenstehenden Kriterienkataloges und Notenschlüssels. Der Katalog listet die verschiedenen Kriterien einer richtigen Lösung auf und gibt die damit verbundene maximale Punktzahl an. 
 
 Die jeweils maximale Punktzahl kann erreicht werden, wenn ein Kriterium erfüllt ist, d.h. wenn der bechriebene Aspekt im Sinne der Aufgabenstellung selbstständig implementiert wurde. Der/die Kandidat/in muss die Implementierung in der mündlichen Prüfung im Detail erläutern können.
 
-#### Kriterienkatalog
+## Kriterienkatalog
 
 | Name                   | Beschreibung | Punkte   |
 |------------------------|--------------|----------|
@@ -24,13 +24,13 @@ Die jeweils maximale Punktzahl kann erreicht werden, wenn ein Kriterium erfüllt
 | REST                   | die Aufgabenstellung wurde mit REST-Schnittstellen umgesetzt |4|
 | | **Gesamt** | **64** |
 
-#### Bonuspunkte
+## Bonuspunkte
 
 Für herausragende Leistungen die z.B. das Umsetzungskonzept, die Implementierung, die grafische Gestaltung, oder andere Besonderheiten einer Lösung betreffen, können bis zu 4 Bonuspunkte vergeben werden.
 
 Ein weiterer Bonuspunkt kann vergeben werden, wenn der Abgabe in angemessener Weise ein selbst erstelltes Meme mit GiS-Bezug beigefügt wird. Kriterien hier sind der Bezug zu GiS, Einzigartigkeit und subjektive Witzigkeit aus Sicht des Prüfers. Das grafische Können fließt nicht in die Vergabe dieses Punktes mit ein. Bedienen Sie sich gerne an etablierten Meme Templates und adaptieren Sie diese für GiS.
 
-#### Notenverteilung
+## Notenverteilung
 
 | Punkte | Note |
 | -  | - |

@@ -1,5 +1,7 @@
 <!-- # Über die Prüfungsabgabe -->
 
+Es stehen Ihnen drei Prüfungsaufgaben zur Wahl, von denen Sie eine bearbeiten müssen.
+
 ## Allgemeine Hinweise
 
 - Jeder muss eine **eigene Lösung** erarbeiten! Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
