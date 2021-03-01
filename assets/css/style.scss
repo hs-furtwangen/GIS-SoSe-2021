@@ -5,6 +5,10 @@
 
 $main-color: rgb(84, 142, 87);
 
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 a.internal-link {
   position: relative;
   color: $main-color;
