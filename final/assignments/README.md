@@ -1,4 +1,4 @@
-<!-- # Über die Prüfungsabgabe -->
+<!-- # Prüfungsaufgaben zur Wahl -->
 
 ## Allgemeine Hinweise zur Prüfungsaufgabe
 
