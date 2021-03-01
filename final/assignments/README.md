@@ -1,6 +1,6 @@
-## **!** Über die Prüfungsabgabe
+<!-- # Über die Prüfungsabgabe -->
 
-### Allgemeine Hinweise zur Prüfungsaufgabe
+## Allgemeine Hinweise zur Prüfungsaufgabe
 
 - Jeder muss eine **eigene Lösung** erarbeiten! Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
@@ -14,7 +14,9 @@
 
 - Fremder Code ist nur unter zwei Voraussetzungen akzeptabel: Zum einen muss dieser klar als Zitat gekennzeichnet sein und eine Quelle angegeben werden, zum anderen müssen Sie trotzdem erklären können, was er tut. Ist ersteres nicht der Fall liegt bei schwereren Verstößen der Verdacht eines Plagiats vor, welcher desaströse Auswirkungen auf Ihr Studium haben könnte.
 
-### Abgabe der Prüfungsaufgabe
+---
+
+## Abgabe der Prüfungsaufgabe
 
 - Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen.
 
@@ -36,11 +38,11 @@
 
 - Der Inhalt der Datenbanken ist nicht abzugeben.
 
-### Prüfungsaufgaben zur Wahl
+## Prüfungsaufgaben zur Wahl
 
 Zur Erinnerung: _Sie müssen nur **eine** dieser drei Aufgaben bearbeiten._
 
-#### Aufgabe A: Online-Verwaltung für den AStA-Verleih
+### Aufgabe A: Online-Verwaltung für den AStA-Verleih
 
 Erstellen Sie ein vereinfachtes Websystem, das es erlaubt den Verleih verschiedener Artikel (Geräte und Gegenstände) des AStA an der Hochschule Furtwangen zu unterstützen.
 Das System soll den Studierenden eine Webseite zur Reservierung von Artikeln zur Verfügung stellen sowie den Mitgliedern des AStA eine Webseite zur Verwaltung der Reservierungen.
@@ -56,7 +58,7 @@ Die Nutzer können dann auf einer zweiten Seite einen Namen angeben und die Rese
 Erstellen Sie eine weitere mit CSS wohlgestaltete Webseite auf der die Mitglieder des AStA einsehen können, welche Artikel momentan *frei*, *reserviert* oder *ausgeliehen* sind.
 Als *reserviert* registrierte Artikel können über diese Seite in den Status *ausgeliehen* versetzt werden und ausgeliehene Artikel – bei Rückgabe – wieder als *frei* registrierte werden, wobei für Artikel, die nicht frei sind, der Name des Nutzers angegeben wird, der sie reserviert oder bereits ausgeliehen hat.
 
-#### Aufgabe B: Twitter für Anfänger
+### Aufgabe B: Twitter für Anfänger
 
 Erstellen Sie ein Twitter-ähnliches Websystem, mit dem registrierte Nutzer kurze Textbeiträge posten und einsehen können.
 Das sehr vereinfachte System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung mit denen Nutzer interagieren können.
@@ -69,7 +71,7 @@ Außerdem kann der Nutzer auf dieser Seite selbst Beiträge (Posts) abschicken, 
 Ein Link auf der Hauptseite führt zur *Follow*-Seite, wo eine Liste aller registrierten Nutzer angezeigt wird.
 Zu jedem Nutzer in der Liste gibt es einen "Folgen/Entfolgen" Button, mit dem die Beiträge des entsprechenden Nutzers abonniert werden können. Ein zweiter Link auf der Hauptseite führt auf die *Profil*-Seite, wo das Profil des Nutzers angepasst werden kann. Zu einem Nutzerprofil gehören mindestens ein Name, ein Studiengang und eine Semesterangabe.
 
-#### Aufgabe C: Moorhuhn Shooter
+### Aufgabe C: Moorhuhn Shooter
 
 Erstellen Sie eine mit CSS wohlgestaltete Webseite mit einem Moorhun-Minigame, dessen Grafik auf dem Canvas-Element beruht.
 
@@ -85,7 +87,9 @@ Die Treffer-Schwierigkeit varriert z.B. mit der Größe und Geschwindigkeit des 
 Nach Ende des Spiels werden die Highscores (die besten 10) auf einer seperaten Seite angezeigt.
 Dazu wird die erreichte Punktzahl mit in einer Datenbank gespeicheten Highscores verglichen und ggf. mit dem eingangs vom Nutzer angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt.
 
-### Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
+---
+
+## Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
 
 Es wird dringend empfohlen ...
 - ... nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was Sie bereits haben als Grundlage, aber nicht als Kopiervorlage. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine, die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).

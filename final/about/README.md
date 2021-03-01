@@ -1,4 +1,4 @@
-## **!** Über die Modulprüfung
+## Über die Modulprüfung
 
 Die Modulprüfung zu GIS besteht aus einer **Prüfungsaufgabe** und einer **mündlichen Prüfung**. Zum Bestehen der Modulprüfung müssen beide Prüfungsteile erfolgreich abgeschlossen werden.
 
