@@ -1,6 +1,6 @@
 <!-- # Über die Prüfungsabgabe -->
 
-## Allgemeine Hinweise zur Prüfungsaufgabe
+## Allgemeine Hinweise
 
 - Jeder muss eine **eigene Lösung** erarbeiten! Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Abgabe der Prüfungsaufgabe
+## Form der Abgabe
 
 - Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen.
 
@@ -40,7 +40,7 @@
 
 ---
 
-## Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
+## Empfehlungen und Tipps zur Lösung
 
 Es wird dringend empfohlen ...
 - ... nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was Sie bereits haben als Grundlage, aber nicht als Kopiervorlage. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine, die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
