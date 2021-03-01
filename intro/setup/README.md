@@ -1,4 +1,4 @@
-## **\*** Vorbereitung der Arbeitsumgebung
+<!-- # Vorbereitung der Arbeitsumgebung -->
 
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/00_Arbeitsumgebung.mp4" type="video/mp4"> 

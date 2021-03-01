@@ -1,3 +1,5 @@
+<!-- Über diesen Kurs -->
+
 Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studiengänge MIB und OMB werden gemeinsam von Prof. Dr. Norbert Schnell, Lukas Scheuerle und Andreas Reich in Zusammenarbeit mit Prof. Dr. Gabriel Rausch, Prof. Jirka Dell'Oro-Friedl und Prof. Dr. Stephanie Heintz zusammengestellt und betreut.
 
 ---
