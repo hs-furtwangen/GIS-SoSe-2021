@@ -10,6 +10,8 @@ Das Node-Modul `mongodb` stellt verschiedene Standardobjekte zur Verfügung, mit
 import * as Mongo from "mongodb";
 ```
 
+---
+
 ## MongoClient
 Stellt, wie zuvor die MongoShell, innerhalb der Node-Umgebung eine Verbindung mit dem Datenbanksystem her. Ein neues MongoClient-Objekt erwartet für seine Erzeugung als Parameter eine URL und gegebenenfalls noch Zusatzoptionen. Die Methode `connect` des Mongo Clients liefert eine Promise, auf deren Erfüllung gewartet werden kann.
 
@@ -18,12 +20,16 @@ let mongoClient: Mongo.MongoClient = new Mongo.MongoClient(_url, options);
 await mongoClient.connect();
 ```
 
+---
+
 ## Collection
 Eine Variable von diesem Typ referenziert direkt eine Collection der Datenbank. Darauf können dann die aus der MongoShell bekannten Operationen ausgeführt werden. 
 ```typescript
 let orders: Mongo.Collection = mongoClient.db("Test").collection("Students");
 orders.insert({...});
 ```
+
+---
 
 ## Implementation
 
@@ -34,6 +40,8 @@ orders.insert({...});
 <a href="http://games.hs-furtwangen.de/EIA2_Video/L07_V3_Implementation.mp4">Video</a>
 </video>    
 </div>
+
+---
 
 ## Test
 > - Starten Sie den Server in einem dritten Terminalfenster. MongoDB sollte den Verbindungsversuch erkennen und eine zweite Connection anzeigen.
@@ -48,6 +56,8 @@ orders.insert({...});
 <a href="http://games.hs-furtwangen.de/EIA2_Video/L07_V4_Test.mp4"><img src="../X01_Appendix/Img/video.jpg" width="25%"/></a>
 </video>    
 </div>
+
+---
 
 ## Ausbau 
 > - Um es einfacher zu machen, zwischen lokaler und remote DB zu wechseln, können Sie folgendes tun: Erweiteren Sie ihren Server derart, dass beim Start ein Argument entgegen genommen (z.B. eine der beiden Zeichenketten "local" und "remote") und anhand dessen entschieden wird, ob die lokale oder die Online-Datenbank genutzt wird. ([Info Commandline Argumente Auslesen](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/){:target="_blank"}: Sie brauchen nur die ganz einfachen Basics, und können darum nach dem zweiten Beispiel aufhören zu lesen)
