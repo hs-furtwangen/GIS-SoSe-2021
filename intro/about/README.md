@@ -10,12 +10,9 @@ Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialie
 
 Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten, zu denen jede Woche eine Aufgabe abgegeben werden muss.
 
-<!-- **[Zu den Inhalten](content)** -->
-
-### Weitere Hinweise:
+### Hinweise
 - Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.
 - Falls Sie das Praktikum bereits in einem vorherigen Semester bestanden haben, müssen Sie nur die Prüfungsabgabe abgeben und nicht die Zwischenaufgaben.
-- Die Inhalte sind nur in HTML und CSS gleich zu vorherigen Semestern / Professoren. TypeScript und Node.js sind vermutlich anders.
 
 ---
 
@@ -28,10 +25,10 @@ Alle Online Termine (Q&A und Praktikum) werden über *alfaview&reg;* abgehalten.
 Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):  
 - Q&A-Termine zur Vorlesung: Mi, 2. Block (9:45 Uhr) → [Online-Raum DM-03](https://rooms.hs-furtwangen.de/rooms/dm03){:target="_blank"}
 - Praktikumstermine
-  - MIB A: Do, 5. Block, Andreas Reich → [Online-Raum DM-11](https://rooms.hs-furtwangen.de/rooms/dm11){:target="_blank"}
-  - OMB A: Do, 5. Block, Lukas Scheuerle → [Online-Raum DM-11](https://rooms.hs-furtwangen.de/rooms/dm11){:target="_blank"}
-  - MIB B: Fr, 2. Block, Norbert Schnell → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
-  - OMB B: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
+  - MIB, Gruppe A: Do, 5. Block, Andreas Reich → [Online-Raum DM-11](https://rooms.hs-furtwangen.de/rooms/dm11){:target="_blank"}
+  - OMB, Gruppe A: Do, 5. Block, Lukas Scheuerle → [Online-Raum DM-11](https://rooms.hs-furtwangen.de/rooms/dm11){:target="_blank"}
+  - MIB, Gruppe B: Fr, 2. Block, Norbert Schnell → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
+  - OMB, Gruppe B: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
 
 ---
 

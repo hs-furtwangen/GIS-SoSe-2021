@@ -14,7 +14,7 @@ Es stehen Ihnen drei Prüfungsaufgaben zur Wahl, von denen Sie eine bearbeiten m
 
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
-- Fremder Code ist nur unter zwei Voraussetzungen akzeptabel: Zum einen muss dieser klar als Zitat gekennzeichnet sein und eine Quelle angegeben werden, zum anderen müssen Sie trotzdem erklären können, was er tut. Ist ersteres nicht der Fall liegt bei schwereren Verstößen der Verdacht eines Plagiats vor, welcher desaströse Auswirkungen auf Ihr Studium haben könnte.
+- Fremder Code ist nur unter zwei Voraussetzungen akzeptabel: Zum einen (1.) muss dieser klar als Zitat gekennzeichnet sein und eine Quelle angegeben werden, zum anderen (2.) müssen Sie trotzdem erklären können, was er tut. Ist ersteres nicht der Fall liegt bei schwereren Verstößen der Verdacht eines Plagiats vor, welcher desaströse Auswirkungen auf Ihr Studium haben könnte.
 
 ---
 
@@ -45,6 +45,7 @@ Es stehen Ihnen drei Prüfungsaufgaben zur Wahl, von denen Sie eine bearbeiten m
 ## Empfehlungen und Tipps zur Lösung
 
 Es wird dringend empfohlen ...
+
 - ... nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was Sie bereits haben als Grundlage, aber nicht als Kopiervorlage. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine, die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
 
 - ... nicht einfach drauf los zu Coden. Nehmen Sie sich die Zeit, machen Sie sich einen Plan und halten Sie diesen Plan in geeigneter Form fest (siehe unten). Vermutlich fallen Ihnen an diesem Punkt schon mögliche Schwierigkeiten (und Lösungen) ein, wodurch Sie dann nicht nachdem Sie schon die Hälfte gecodet haben nochmal alles wegschmeißen müssen. Dies hilft Ihnen auch selbst dabei, Ihre Gedanken zu sortieren und zu organisieren. Dazu können z.B. folgende Überlegungen gehören:
