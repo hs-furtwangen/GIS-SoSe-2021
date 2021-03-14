@@ -43,7 +43,7 @@ Publizieren Sie Aufgabenlösungen durch einen Link auf den Quellcode in einem Un
 Für jede wöchentliche Aufgabe gibt es maximal 2 Punkte. Diese volle Punktzahl kann erreicht werden, wenn die Abgabe größtenteils in Ordnung ist.  
 Nur 1 Punkt gibt es, wenn die Abgabe deutliche Mängel aufweist, und keinen Punkt bei einer fehlenden oder grob falschen Abgabe.
 
-**In jedem Kapitel darf maximal 1 Punkt fehlen**, um das Praktikum zu bestehen, d.h. Sie brauchen in K1 mindestens 7, in K2 mindestens 9 und in K3 mindestens 7 Punkte.
+**In jedem Kapitel darf maximal 1 Punkt fehlen**, um das Praktikum zu bestehen, d.h. Sie brauchen in Kapitel 1 mindestens 7 Punkte, in Kapitel 2 mindestens 9 Punkte und in Kapitel 3 mindestens 7 Punkte.
 
 Haben Sie nicht die volle Punktzahl erhalten, können Sie beim nächsten Praktikum unaufgefordert das Gespräch mit dem Dozenten suchen und ihm im Gespräch Ihre **verbesserte Aufgabe** zu präsentieren. So können Sie sich maximal einen Punkt zurückholen.
 
@@ -51,7 +51,7 @@ Haben Sie nicht die volle Punktzahl erhalten, können Sie beim nächsten Praktik
 
 ## Prüfungsaufgabe und mündliche Prüfung
 
-Die Modulprüfung zu GIS besteht – wie bereits im letzten Semester – aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Detaillierte Informationen hierzur finden Sie im Abschnitt [*Modulprüfung*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/4015784382/CourseNode/103149243496401).
+Die Modulprüfung zu GIS besteht aus einer Prüfungsaufgabe und einer mündlichen Prüfung, die die eigentlich vorgesehene Klausur ersetzen. Nähere Informationen zur Modulprüfung werden im Juni 2021 im Abschnitt *Modulprüfung* veröffentlicht.
 
 ---
 
