@@ -30,22 +30,24 @@ Folgende wöchentlichen Termine sind vorgesehen (mit Links zum Betreten der Onli
   - MIB, Gruppe B: Fr, 2. Block, Norbert Schnell → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
   - OMB, Gruppe B: Fr, 2. Block, Lukas Scheuerle → [Online-Raum DM-15](https://rooms.hs-furtwangen.de/rooms/dm15){:target="_blank"}
 
+Der Praktikumstermin des Kapitels 1.2 wird für die Gruppen B (MIB und OMB) ausnahmsweise auf den Donnerstag, den 1. April im 6. Block (18:15 – 19:45 Uhr) vorgezogen, da er am Karfreitag nicht stattfinden kann.
+
 ---
 
 ## Praktikum und Praktikumsabgaben
 
 Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Kapiteln, in welchen jeweils durch wöchentliche Abgaben Punkte gesammelt werden können. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
-Publizieren Sie Aufgabenlösungen durch einen Link auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages (genaue Erklärungen hierzu finden Sie im [Einführungkapitel Arbeitsumgebung](https://felix.hs-furtwangen.de/auth/RepositoryEntry/4015784382/CourseNode/103149243744626)). Geben Sie diese beiden Links im Felix bei der jeweiligen Aufgabe als Aufgabenlösung ab.
-
-### Punktesystem
+Publizieren Sie Aufgabenlösungen durch einen Link auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages. 
+Geben Sie diese beiden Links bei der jeweiligen Praktikumsaufgabe als Aufgabenlösung ab. 
+Genaue Erklärungen zu *GitHub* und *GitHub Pages* finden Sie im Einführungkapitel über die *Arbeitsumgebung*.
 
 Für jede wöchentliche Aufgabe gibt es maximal 2 Punkte. Diese volle Punktzahl kann erreicht werden, wenn die Abgabe größtenteils in Ordnung ist.  
 Nur 1 Punkt gibt es, wenn die Abgabe deutliche Mängel aufweist, und keinen Punkt bei einer fehlenden oder grob falschen Abgabe.
 
 **In jedem Kapitel darf maximal 1 Punkt fehlen**, um das Praktikum zu bestehen, d.h. Sie brauchen in Kapitel 1 mindestens 7 Punkte, in Kapitel 2 mindestens 9 Punkte und in Kapitel 3 mindestens 7 Punkte.
 
-Haben Sie nicht die volle Punktzahl erhalten, können Sie beim nächsten Praktikum unaufgefordert das Gespräch mit dem Dozenten suchen und ihm im Gespräch Ihre **verbesserte Aufgabe** zu präsentieren. So können Sie sich maximal einen Punkt zurückholen.
+Haben Sie nicht die volle Punktzahl erhalten, können Sie beim nächsten Praktikumstermin unaufgefordert das Gespräch mit dem Dozenten suchen und ihm Ihre **verbesserte Aufgabe** zu präsentieren. So können Sie sich maximal einen Punkt zurückholen. Bei einem Praktikumstermin können allerdings nur die verbesserten Abgaben der vorhegeenden Woche präsentiert werden. Die erreichten Punkte der Wochen davor können nicht mehr verbessert werden.
 
 ---
 
