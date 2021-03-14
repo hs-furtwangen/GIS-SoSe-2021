@@ -1,10 +1,13 @@
 <!-- # Über die Prüfungsabgabe -->
 
-Es stehen Ihnen drei Prüfungsaufgaben zur Wahl, von denen Sie eine bearbeiten müssen.
+Zu diesem ersten Teil der Modulprüfung stehen Ihnen drei Aufgabenstellungen zur Wahl (siehe *Aufgaben zur Wahl*), die Sie selbstständig bearbeiten sollen. Die Lösung der Aufgabe ist im besten Fall eine lauffähige Anwendung, die der jeweiligen Beschreibung genügt (siehe *Über die Prüfungsabgabe*).
 
-## Allgemeine Hinweise
+Die Bewertung der Aufgabenlösungen folgt einem einheitlichen Kriterienkatalog (siehe *Bewertungskriterien*). Sie werden in der mündlichen Prüfung aufgefordert die Details der Implementierung Ihrer Lösung zu erläutern.
 
-- Jeder muss eine **eigene Lösung** erarbeiten! Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
+Bitte beachten Sie folgende Hinweise:
+
+- Da jeder Kandidat selbstständig eine **eigene Lösung** erarbeiten soll, ist Gruppenarbeit nur sehr eingeschränkt möglich und auf allgemeine Aspekte Lösung möglich.
+So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
 - Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von *HTML*, *CSS*, *TypeScript*, *NodeJS* und *MongoDB*.
 
@@ -22,7 +25,7 @@ Es stehen Ihnen drei Prüfungsaufgaben zur Wahl, von denen Sie eine bearbeiten m
 
 - Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen.
 
-- Laden Sie im Bereich *Prüfungsaufgabe* des FELIX-Kursmoduls der GIS Modulprüfung (siehe oben) eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
+- Laden Sie im Bereich *Prüfungsabgabe* eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
   1. alle **(!)** Dateien, die zur Ausführung der Anwendung notwendig sind: JavaScript/TypeScript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
   2. eine kurze (!) Anleitung, wie man die Anwendung ausführt z.B.:
     - Welche Datei muss mit dem NodeJS-Server ausgeführt werden?
