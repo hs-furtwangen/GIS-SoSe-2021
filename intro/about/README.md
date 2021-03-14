@@ -10,9 +10,9 @@ Die Vorlesung findet durch aufgezeichenete Videokapitel, schriftliche Materialie
 
 Die Lehrinhalte des Moduls sind in drei Kapitel aufgeteilt, die jeweils den Stoff von 4 bzw 5 wöchentlichen Vorlesungs- und Praktikumsterminen enthalten, zu denen jede Woche eine Aufgabe abgegeben werden muss.
 
-### Hinweise
-- Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.
-- Falls Sie das Praktikum bereits in einem vorherigen Semester bestanden haben, müssen Sie nur die Prüfungsabgabe abgeben und nicht die Zwischenaufgaben.
+Sowohl bei den Q&A-Terminen als auch im Praktikum besteht keine Anwesenheitspflicht. Es wird aber empfohlen, diese Angebote wahrzunehmen, da dabei auch weiterführende Informationen vermittelt werden.
+
+Falls Sie das Praktikum bereits in einem vorherigen Semester bestanden haben, müssen Sie nur die Prüfungsabgabe abgeben und nicht die Zwischenaufgaben.
 
 ---
 
