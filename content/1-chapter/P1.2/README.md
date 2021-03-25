@@ -3,7 +3,7 @@
 Diese Aufgabe baut auf der vorherigen Aufgabe des Unterkapitels P1.1 auf.
 Sie benötigen für diese Aufgabe noch **weder CSS noch JS** und sollen auch keins benutzen.
 
-In dieser Etape sollen Sie eine Portfolio-Website über Ihre Person anzulegen.
+In dieser Etape sollen Sie eine Portfolio-Website über Ihre Person anlegen.
 Erstellen Sie für diese – sowie auch für alle folgenden Abgabe bitte – einen neuen Ordner an.
 Überschreiben Sie Ihre bisherige Arbeit nicht, sondern kopieren Sie das, was Sie übernhemen wollen, in den neuen Ordner.
 Sie können für die Portfolioseite bestehende Arbeiten von Ihnen nutzten, aber nur wenn Sie den oben genannten Bedingungen genügen und nur schlichtes HTML5 enthalten.
