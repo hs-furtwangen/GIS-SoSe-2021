@@ -6,7 +6,7 @@ Erstellen Sie eine stillose Webstite (reines HTML-Dokument **ohne CSS und JS**) 
 - ein Bild von Ihnen - siehe [Image tag](https://www.w3schools.com/html/html_images.asp) {:target="_blank"}
 - jeweils einen Textabsatz zu Ihrer Person und zu Ihrem Studium - siehe [Überschrift](https://www.w3schools.com/tags/tag_hn.asp){:target="_blank"} (h tag) und [Textblock](https://www.w3schools.com/tags/tag_p.asp){:target="_blank"} (p tag)
 - einen [Link](https://www.w3schools.com/tags/tag_a.asp){:target="_blank"} (a tag) auf eine andere Website ihrer Wahl
-- einen [Link](https://www.w3schools.com/tags/att_a_href.asp){:target="_blank"} (a tag) von einem [Textblock](https://www.w3schools.com/tags/tag_p.asp) (p tag) auf einen anderen ([Anker](https://de.wikipedia.org/wiki/Anker_(HTML){:target="_blank"}) → verwenden Sie dafür das **id**-Attribut in einem anderen HTML Element)
+- einen [Link](https://www.w3schools.com/tags/att_a_href.asp){:target="_blank"} (a tag) von einem [Textblock](https://www.w3schools.com/tags/tag_p.asp) (p tag) auf einen anderen ([Anker](https://de.wikipedia.org/wiki/Anker_(HTML)){:target="_blank"} → verwenden Sie dafür das **id**-Attribut in einem anderen HTML Element)
 
 ### Entwicklungswerkzeuge
 
