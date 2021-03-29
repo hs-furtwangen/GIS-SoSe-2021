@@ -36,7 +36,7 @@ Der Praktikumstermin des Kapitels 1.2 wird für die Gruppen B (MIB und OMB) ausn
 
 ## Praktikum und Praktikumsabgaben
 
-Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Kapiteln, in welchen jeweils durch wöchentliche Abgaben Punkte gesammelt werden können. Die Abgaben sind jeweils bis zum Sonntag (23:59 Uhr) fällig. Verspätete Abgaben können nicht akzeptiert werden.
+Wie oben bereits erwähnt, besteht die Studienleistung zum Praktikum aus drei größeren Kapiteln, in welchen jeweils durch wöchentliche Abgaben Punkte gesammelt werden können. Die Abgaben sind jeweils bis zum Sonntag, 18:00 Uhr fällig. Verspätete Abgaben können nicht akzeptiert werden.
 
 Publizieren Sie Aufgabenlösungen durch einen Link auf den Quellcode in einem Unterordner Ihres GitHub Repositories sowie einen Links auf eine lauffähige Anwendung über die dazugehörigen Github Pages. 
 Geben Sie diese beiden Links bei der jeweiligen Praktikumsaufgabe als Aufgabenlösung ab. 
