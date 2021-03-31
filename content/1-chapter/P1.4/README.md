@@ -2,7 +2,7 @@
 
 In dieser Aufgabe erweitern Sie wiederum Ihre Portofolie-Webseite aus der vorherigen Aufgabe P1.3.
 
-(*) Beachten Sie für diesen letzten Schritt folgende Details:
+Beachten Sie für diesen letzten Schritt folgende Details:
 - verwenden Sie mindestens 6 unterschiedliche komplexe Selektoren
 - bauen Sie CSS Transitionen und/oder Animationen ein
 - die Seiten sollen sich *responsiv* an die Bildschirmdimensionen anpassen (siehe unten)

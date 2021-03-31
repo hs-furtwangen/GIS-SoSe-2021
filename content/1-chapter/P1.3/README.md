@@ -10,7 +10,7 @@ HTML und CSS müssen eng zusammenarbeiten um das gewünschte Ergebnis einfach un
 
 Das Grafikelement für den geforderten Hintergrund finden sie [hier](https://github.com/gabriel-rausch/EIA1-Material/blob/master/L03/task_material/images/bg.png){:target="_blank"}.
 
-(*) Beachten Sie zusätzlich folgende Details:
+Beachten Sie zusätzlich folgende Details:
 - verwenden Sie zur Umsetzung des CSS ein **extern eingebundenes Stylesheet** (kein inline oder *style*-Element)
 - jeder der drei Haupt-Selektoren (Element, ID, Klasse) soll mindestens zweimal vorkommen
 - das Box-Modell soll mindestens einmal angewandt werden
