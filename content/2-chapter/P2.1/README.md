@@ -2,6 +2,8 @@
 
 Diese Woche dient als Einstieg in die Entwicklung mit einer für Sie neuen Sprache, darum werden wir lediglich die Grundlagen behandeln. In der übernächsten Woche geht es dann an konkretere Umsetzungen für die Kapitelaufgabe.
 
+**Halten Sie für alle Aufgaben, in denen Sie keinen eigenen Code schreiben müssen und wo es sinnvoll ist, Ihre Ergebnisse als Kommentar im Code zu der Aufgabe fest, so dass diese für uns als Betreuer nachvollziehbar sind.** Gerne überall anwenden, besonders aber bei den mit (K) gekennzeichneten Aufgaben.
+
 ## Aufgabe 1 - Basics
 
 ```ts
@@ -20,11 +22,11 @@ function func1(): void {
 
 ```
 
-**a)** Lesen Sie das obige Programm. Was wird wohl auf der Konsole ausgegeben? Lassen Sie das Programm laufen und experimentieren Sie mit den Namen der Variablen und Funktionen. Welche Variablennamen sind zulässig, welche nicht?  
+**a)** Lesen Sie das obige Programm. Was wird wohl auf der Konsole ausgegeben? Lassen Sie das Programm laufen und experimentieren Sie mit den Namen der Variablen und Funktionen. Welche Variablennamen sind zulässig, welche nicht? (K)  
 
 **b)** Öffnen Sie im Browser den Debugger (neben der Konsole) und setzen Sie einen Breakpoint in Zeile 3 (alternativ können Sie im Code vor Zeile 3 das Schlüsselwort `debugger;` einfügen). Laden Sie dann die Seite neu und gehen Schritt für Schritt durch den Code durch, die Schaltflächen dafür sind normalerweise rechts am Rand:  
-![](https://camo.githubusercontent.com/372a0f981e20eab3064ce57f78bf81a23c9808e2/68747470733a2f2f692e696d6775722e636f6d2f53566e4c5930702e706e67){:target="_blank"}
-Verfolgen Sie, welcher Codeabschnitt wann ausgeführt wird und in welcher Reihenfolge die Funktionen aufgerufen werden.
+![](https://camo.githubusercontent.com/372a0f981e20eab3064ce57f78bf81a23c9808e2/68747470733a2f2f692e696d6775722e636f6d2f53566e4c5930702e706e67)  
+Verfolgen Sie, welcher Codeabschnitt wann ausgeführt wird und in welcher Reihenfolge die Funktionen aufgerufen werden. (K)
 
 
 > ℹ Ein Debugger dient wie der Name schon vermuten lässt dem Debuggen, dem Entfernen von Bugs, dem Finden und Erkennen von Fehlern. Er erlaubt es einem, ein Programm zu pausieren und dieses dann Zeile für Zeile durchzuführen um den Ablauf und die Änderungen die während des Durchlaufs passieren, nachzuvollziehen. Diese langsame und Schritt für Schritt Vorgehensweise erlaubt es relativ einfach die internen Vorgänge nachzuvollziehen und Fehler in der Logik des Programms zu finden. Er ist also neben Konsolenausgaben das wichtigste und wertvollste Tool zur Fehlererkennung.
@@ -52,19 +54,19 @@ a2();
 
 ```
 
-Schauen Sie sich den obigen Code an und versuchen Sie nur durch lesen zu verstehen was passiert. Was wird auf der Konsole ausgegeben? Wann verändert sich was?  
-Lassen Sie den Code dann laufen und überprüfen Sie, ob sie richtig liegen. Schauen Sie sich den Programmablauf mit dem Debugger an. Fügen Sie außerdem im Debugger die Variable `i` zu den überwachten Variablen hinzu ("Watch" in Chrome, "Ausdruck beobachten" in Firefox), um deren Änderung einfacher zu verfolgen.
+Schauen Sie sich den obigen Code an und versuchen Sie nur durch lesen zu verstehen was passiert. Was wird auf der Konsole ausgegeben? Wann verändert sich was? (K)  
+Lassen Sie den Code dann laufen und überprüfen Sie, ob Sie richtig liegen. Schauen Sie sich den Programmablauf mit dem Debugger an. Fügen Sie außerdem im Debugger die Variable `i` zu den überwachten Variablen hinzu ("Watch" in Chrome, "Ausdruck beobachten" in Firefox), um deren Änderung einfacher zu verfolgen.
 
 
 ## Aufgabe 3 - Fehler erkennen und vermeiden lernen
 
 **a)** Bauen Sie in dem Code von A1 und A2 Fehler ein und studieren Sie die Fehlermeldungen in VSCode. Lässt sich aus den Fehlermeldungen schließen, was falsch ist?
 
-**b)** Tun sie sich mit Komilitonen zusammen und versuchen Sie die Fehler der anderen zu finden un zu lösen.
+**b)** Tun Sie sich mit Komilitonen zusammen und versuchen Sie die Fehler der anderen zu finden un zu lösen.
 
 1.) Durch Codeinspektion: Versuchen durch Lesen die Fehler zu finden.  
 2.) Durch Fehlermeldungen: Die Fehler in VSCode anschauen und versuchen, diese zu verstehen.  
-3.) Durch Auskommentieren und Debugger: Wenn das Programm sich übersetzen lässt, aber nicht das richtige Verhalten aufweist, nach und nach Codeschnipsel aus und wieder einkommentieren, bis der Auslöser gefunden ist.  
+3.) Durch Auskommentieren und Debugger: Wenn das Programm sich übersetzen lässt, aber nicht das richtige Verhalten aufweist, nach und nach Codeschnipsel aus- und wieder einkommentieren, bis der Auslöser gefunden ist.  
 4.) Wenn das alles nicht hilft, mit dem vorgegebenen Code vergleichen und die Fehler finden.
 
 ## Aufgabe 4 - Gobal vs Lokal
@@ -93,10 +95,10 @@ function func3(): void{
 }
 ```
 
-**a)** Betrachten Sie den obigen Code. Was wird er auf der Konsole ausgeben und warum? Lassen Sie ihn anschließend laufen und überprüfen Sie Ihre Annahmen.
+**a)** Betrachten Sie den obigen Code. Was wird er auf der Konsole ausgeben und warum? Lassen Sie ihn anschließend laufen und überprüfen Sie Ihre Annahmen. (K)
 
 **b)** Erklären Sie einem Komilitonen den Unterschied zwischen globalen Variablen, lokalen Variablen und Übergabeparametern.  
-Inwiefern unterscheiden sich "normale" Variablen wie Zahlen und strings von Funktionen? Inwiefern sind sie gleich?
+Inwiefern unterscheiden sich "normale" Variablen wie Zahlen und strings von Funktionen? Inwiefern sind sie gleich? (K)
 
 ## Aufgabe 5 - Schleifen, Funktionen und andere Kontrollstrukturen
 

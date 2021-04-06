@@ -13,7 +13,7 @@ Auch diese Woche leisten wir noch keine direkte Vorarbeit zur Kapitelaufgabe, le
 - 1 ist ungerade
 - Für jede andere Zahl `N` gilt, dass das Ergebnis gleich ist wie `N - 2`  
 
-Testen Sie Ihre Funktion mit `50` und `75`. Was passiert bei `-1`? Warum? Können Sie eine Lösung dafür finden?
+Testen Sie Ihre Funktion mit `50` und `75`. Was passiert bei `-1`? Warum? Können Sie eine Lösung dafür finden? (K)
 
 **c)** Stellen Sie sich vor, Sie sollen ein System für die Hochschule entwickeln, ihre Studierenden abzuspeichern und zu verwalten.
 
@@ -26,7 +26,7 @@ Testen Sie Ihre Funktion mit `50` und `75`. Was passiert bei `-1`? Warum? Könne
 
 ## Aufgabe 2 - Arrays
 
-> ⚠️ Für die folgende Aufgabe sollen die übergebenen Arrays _nicht verändert werden_, sondern das Ergebnis als neues Array zurückgegeben werden. Lesen Sie dazu im Zweifelsfall nochmal den Abschnitt *Call by reference / call by value* in 2.2) nocheinmal durch.
+> ⚠️ Für die folgende Aufgabe sollen die übergebenen Arrays _nicht verändert werden_, sondern das Ergebnis als neues Array zurückgegeben werden. Lesen Sie dazu im Zweifelsfall nochmal den Abschnitt *Call by reference / call by value* in 2.2 noch einmal durch.
 
 Die meisten dieser Funktionen sind in einem Array bereits Standardmäßig enthalten. Sie sollen diese Funktionen aber selbstverständlich selbst implementieren. Gehen Sie von number Arrays aus.
 
@@ -61,7 +61,7 @@ Für diese Aufgabe soll der Canvas genutzt werden (siehe *Canvas* in 2.2).
 
 **a)** Experimentieren Sie ein wenig mit dem Canvas und machen Sie sich damit vertraut. Malen Sie Linien, machen Sie diese Linien farbig oder gekrümmt, malen Sie Kreise, Kurven und Rechtecke und füllen Sie diese mit Farben. Zeichnen Sie damit eine einfache Landschaft (grüner Boden, blauer Himmel mit ein paar Wolken, ein Haus und ein Baum im Bild). Machen Sie Gebrauch von [Html5CanvasTutorials](https://www.html5canvastutorials.com/tutorials/html5-canvas-lines/){:target="_blank"}.
 
-**b)** Entwerfen Sie ein Interface, welches auf sinnvolle Weise ein beliebiges Rechteck Abbilden kann. _Bonus: Machen Sie statt einem Interface eine Klasse und, statt globaler Funktionen denen die Rechtecke übergeben werden in den folgenden Teilaufgaben, Methoden der Klasse selbst._
+**b)** Entwerfen Sie ein Interface, welches auf sinnvolle Weise ein beliebiges Rechteck abbilden kann. _Bonus: Machen Sie statt einem Interface eine Klasse und, statt globaler Funktionen denen die Rechtecke übergeben werden in den folgenden Teilaufgaben, Methoden der Klasse selbst._
 
 **c)** Schreiben Sie eine Funktion `createRect()`, welche Ihnen ohne Übergabeparameter ein zufällig (aber sinnvoll) befülltes Rechteck zurück gibt. _Für die Klasse wäre dies der Konstruktor._
 
