@@ -47,7 +47,7 @@ Nur 1 Punkt gibt es, wenn die Abgabe deutliche Mängel aufweist, und keinen Punk
 
 **In jedem Kapitel darf maximal 1 Punkt fehlen**, um das Praktikum zu bestehen, d.h. Sie brauchen in Kapitel 1 mindestens 7 Punkte, in Kapitel 2 mindestens 9 Punkte und in Kapitel 3 mindestens 7 Punkte.
 
-Haben Sie nicht die volle Punktzahl erhalten, können Sie beim nächsten Praktikumstermin unaufgefordert das Gespräch mit dem Dozenten suchen und ihm Ihre **verbesserte Aufgabe** zu präsentieren. So können Sie sich maximal einen Punkt zurückholen. Bei einem Praktikumstermin können allerdings nur die verbesserten Abgaben der vorhegeenden Woche präsentiert werden. Die erreichten Punkte der Wochen davor können nicht mehr verbessert werden.
+Haben Sie nicht die volle Punktzahl erhalten, können Sie beim nächsten Praktikumstermin unaufgefordert das Gespräch mit dem Dozenten suchen und ihm Ihre **verbesserte Aufgabe** präsentieren. So können Sie sich maximal einen Punkt zurückholen. Bei einem Praktikumstermin können allerdings nur die verbesserten Abgaben der vorangegangenen Woche präsentiert werden. Die erreichten Punkte der Wochen davor können nicht mehr verbessert werden.
 
 ---
 
