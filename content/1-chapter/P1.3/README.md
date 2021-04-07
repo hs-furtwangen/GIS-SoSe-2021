@@ -4,7 +4,7 @@ In dieser Aufgabe wird die Portfolio-Website aus der Aufgabe aus dem Unterkapite
 
 Erstellen Sie für diese Aufgabe wiederum einen neuen Unterordner (z.B. /Aufgabe-1.3) in Ihrem bestehenden GIT-Repository und erstellen dort eine Kopie Ihrer Portfolio-Webseite aus der vorherigen Aufgabe, an dem Sie nun weiterarbeiten werden.
 
-Gestalten Sie ihre Webseite nach freien Stücken, **beachten Sie dabei aber [diese Anmerkungen](https://github.com/gabriel-rausch/EIA1-Material/blob/master/L03/task_material/Anmerkungen.pdf){:target="_blank"}!** Versuchen Sie, ihr Design möglichst ansprechend zu gestalten. Als *mögliche* Vorlage können Sie [diese Designs](https://github.com/gabriel-rausch/EIA1-Material/tree/master/L03/task_material/screenshots){:target="_blank"} hinzuziehen (dies ist nur ein Vorschlag, Sie können ebenso ein eigenes Design entwickeln solange es den Anmerkungen folgt).  
+Gestalten Sie ihre Webseite nach freien Stücken, beachten Sie dabei **unbedingt** aber [diese Anmerkungen](https://github.com/gabriel-rausch/EIA1-Material/blob/master/L03/task_material/Anmerkungen.pdf){:target="_blank"}! Versuchen Sie, ihr Design möglichst ansprechend zu gestalten. Als *mögliche* Vorlage können Sie [diese Designs](https://github.com/gabriel-rausch/EIA1-Material/tree/master/L03/task_material/screenshots){:target="_blank"} hinzuziehen (dies ist nur ein Vorschlag, Sie können ebenso ein eigenes Design entwickeln solange es den Anmerkungen folgt).  
 Scheuen Sie sich nicht vor strukturellen Änderungen ihres HTML Codes, um das Design besser umsetzen zu können. 
 HTML und CSS müssen eng zusammenarbeiten um das gewünschte Ergebnis einfach und effizient zu erreichen.  
 
