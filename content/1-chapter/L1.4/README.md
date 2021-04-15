@@ -2,8 +2,8 @@
 
 ## Komplexe Selektoren
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/01_CSS_Komplexe_Selektoren.mp4">Zum Video</a>
 </video>
 
 **[Flukeout Plates](https://flukeout.github.io){:target="_blank"}**
@@ -14,8 +14,8 @@ Man kann die grundlegenden CSS-Selektoren, die in der letzten Lektion vorgestell
 
 ## Positionierung, Flussverhalten und Layout
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/02_CSS_Flussverhalten_Positionierung.mp4">Zum Video</a>
 </video>
 
 **[Float](https://codepen.io/philtim/pen/KrZmdN){:target="_blank"}**
@@ -32,8 +32,8 @@ Für differenziertere Seiten-Arrangements kann man Eigenschaften, wie Grid oder 
 
 ## Responsive Design
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/03_Responsive_Design.mp4">Zum Video</a>
 </video>
 
 **[Responsive Cat](http://roxik.com/cat/){:target="_blank"}**
@@ -49,8 +49,8 @@ In CSS lässt sich eine **adaptive** (stufenweise) oder **responsive** (stufenlo
 
 ## CSS Transition und Animation
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/04_CSS_Transition_und_Animation.mp4">Zum Video</a>
 </video>
 
 **[CSS Transition Beispiel](https://codepen.io/grausch/pen/XWWeZXW){:target="_blank"}**
@@ -64,8 +64,8 @@ Die Animation von CSS Eigenschaften lässt sich durch viele Parameter steuern, b
 
 ## Take Aways
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L04/05_Take_Aways.mp4">Zum Video</a>
 </video>
 
 - Komplex verkettete Selektoren ermöglichen es, spezifischere Auswahlpfade zu erstellen.

@@ -3,8 +3,8 @@
 ## Einführung
 
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/01_Einstieg_in_CSS.mp4">Zum Video</a>
 </video>
 
 CSS (steht für Cascading Style Sheets) ist eine browser-basierte Gestaltungssprache, mit der Webanwendungen visuell angepasst werden können. CSS-Anweisungen können auf drei Arten eingebunden werden: 
@@ -20,8 +20,8 @@ Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus
 
 ## Eigenschaften
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/02_CSS_Eigenschaften.mp4">Zum Video</a>
 </video>
 
 Die aktuellen Möglichkeiten der visuellen Gestaltung mit CSS sind scheinbar endlos. In diesem Video werden die gängigsten Eigenschaften sowie ein effizienter Workflow mit *Visual Studio Code* vorgestellt und die Funktionen der verschiedenen CSS-Anweisungen erklärt.
@@ -33,8 +33,8 @@ Eigenschaften stehen immer in Abhängigkeit zu dem entsprechenden Element, sodas
 
 ## Selektoren
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/03_CSS_Selektoren.mp4">Zum Video</a>
 </video>
 
 Um CSS-Anweisungen an bestimmte Elemente eines HTML-Dokument zu adressieren, kann man mithilfe von Selektoren auf ein oder mehrere Elemente zugreifen.
@@ -45,8 +45,8 @@ Es gibt verschiedene Arten von Selektoren: die drei Haupt-Selektoren sind **Elem
 
 ## Kaskadierung und Vererbung
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/04_Kaskadierung_und_Vererbung.mp4">Zum Video</a>
 </video>
 
 Das Grundprinzip der Kaskadierung bewirkt eine Reihen- oder Rangfolge, in der Eigenschaften in CSS vererbt werden, denn die einzelnen CSS-Selektoren werden unterschiedlich schwer gewichtet. Es ist hilfreich, diese Regeln zu kennen, um zu verstehen, wann welche Anweisungen umgesetzt werden (bzw. warum nicht) und welche Anweisungen andere überschreiben.
@@ -57,8 +57,8 @@ Definierte Eigenschaften werden an die (semantisch untergeordneten) Kinderelemen
 
 ## Box Model und Maßeinheiten
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/05_CSS_Box_Model_und_Masseinheiten.mp4">Zum Video</a>
 </video>
 
 Das CSS-Box-Model beschreibt, dass alle Elemente im Browser auf Basis einer Box beschrieben werden können, die aus einer bestimmten Größe (Höhe x Breite), einem Innenabstand (**padding**), einem Rahmen (**border**) und einem Außenabstand (**margin**) bestehen.
@@ -69,8 +69,8 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 
 ## Take Aways
 <video controls width="100%"> 
-    <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4" type="video/mp4"> 
-    <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4">Zum Video</a>
+    <source src="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4" type="video/mp4"> 
+    <a href="http://lehre.gabriel-rausch.de/HFU/EIA1_static/L03/06_Take_Aways.mp4">Zum Video</a>
 </video>
 
 * CSS definiert die Darstellung von Inhalten im Browser und kann auf drei Wegen eingebunden werden: Inline, im Head oder als externes Stylesheet.
