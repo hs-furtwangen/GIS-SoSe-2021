@@ -9,6 +9,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+  text-decoration: underline;
+}
+
 a.internal-link {
   position: relative;
   color: $main-color;
@@ -22,7 +26,7 @@ a.internal-link {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   filter: hue-rotate(0.4turn);
 }
 
