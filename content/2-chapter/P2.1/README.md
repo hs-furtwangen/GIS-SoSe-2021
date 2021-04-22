@@ -112,7 +112,7 @@ Inwiefern unterscheiden sich "normale" Variablen wie Zahlen und strings von Funk
 
 **e)** Schreiben Sie eine Funktion `factorial` welche eine Zahl `n` entgegen nimmt und als Rückgabewert die [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik){:target="_blank"}) (`1*2*3*...*n`) dieser Zahl zurück gibt. Nutzen Sie dafür eine Schleife ihrer Wahl (`while, do while, for`). Geben Sie außerdem `1` zurück, wenn `n` kleiner ist als 1.
 
-**f)** Schreiben Sie eine Funktion `leapyears` welche alle Schlatjahre von 1900 bis heute auf der Konsole ausgibt. Ein Jahr ist ein Schaltjahr, wenn die Jahreszahl durch 4, aber nicht durch 100 teilbar ist. Sollte die Jahreszahl durch 400 teilbar sein, handelt es sich dennoch um ein Schaltjahr.
+**f)** Schreiben Sie eine Funktion `leapyears` welche alle Schaltjahre von 1900 bis heute auf der Konsole ausgibt. Ein Jahr ist ein Schaltjahr, wenn die Jahreszahl durch 4, aber nicht durch 100 teilbar ist. Sollte die Jahreszahl durch 400 teilbar sein, handelt es sich dennoch um ein Schaltjahr.
 
 ## Aufgabe 6 - Mehr Schleifen und Funktionen
 
