@@ -2,6 +2,8 @@
 
 Diese Woche dient als Einstieg in die Entwicklung mit einer für Sie neuen Sprache, darum werden wir lediglich die Grundlagen behandeln. In der übernächsten Woche geht es dann an konkretere Umsetzungen für die Kapitelaufgabe.
 
+[Beispiellösungen](https://github.com/Plagiatus/GIS-SoSe-2021/blob/main/Aufgabe2_1/beispielloesung.md){:target="_blank"}
+
 **Halten Sie für alle Aufgaben, in denen Sie keinen eigenen Code schreiben müssen und wo es sinnvoll ist, Ihre Ergebnisse als Kommentar im Code zu der Aufgabe fest, so dass diese für uns als Betreuer nachvollziehbar sind.** Gerne überall anwenden, besonders aber bei den mit (K) gekennzeichneten Aufgaben.
 
 ## Aufgabe 1 - Basics
