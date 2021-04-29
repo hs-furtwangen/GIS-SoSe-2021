@@ -639,10 +639,10 @@ Der Typ des Schlüsselwertes den for-in ausgibt, ist immer ein String.
 
 ## Canvas
 
-Der Canvas (engl.: Leinwand) ist ein HTML Element, welches es erlaubt auf ihm zu zeichnen und Bilder anzeigen zu lassen. Dieses kann man einfach in sein HTML Dokument einfügen und dann im JS/TS nutzen. Dabei ist es ratsam, dem canvas eine feste ID zu geben, um ihn einfacher aus dem Dokument heraus zu finden. Dem Canvas sollte außerdem eine Höhe und Breite gegben werden.
+Der Canvas (engl.: Leinwand) ist ein HTML Element, welches es erlaubt auf ihm zu zeichnen und Bilder anzeigen zu lassen. Dieses kann man einfach in sein HTML Dokument einfügen und dann im JS/TS nutzen. Dabei ist es ratsam, dem canvas eine feste ID zu geben, um ihn einfacher aus dem Dokument heraus zu finden. Dem Canvas sollte außerdem eine Höhe und Breite gegben werden, ausnahmsweise im HTML statt im CSS.
 
 ```html
-<canvas id="myFirstCanvas" width="500px" height="400px"></canvas>
+<canvas id="myFirstCanvas" width="500" height="400"></canvas>
 ```
 
 So kann dann aus dem Dokument der Canvas wie folgt herausgefunden werden (mehr zu diesen Befehlen in der kommenden Woche):
