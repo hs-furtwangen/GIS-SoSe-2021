@@ -21,7 +21,7 @@ Testen Sie Ihre Funktion mit `50` und `75`. Was passiert bei `-1`? Warum? Könne
 2. Erschaffen Sie drei verschiedene Studierende, befüllen Sie diese mit sinnvollen Werten und speichern Sie diese in Variablen.
 3. Erschaffen Sie aus diesen drei Studierenden ein Studierenden Array _(Typisierung!)_. Fügen Sie dem Array einen weiteren Studierenden hinzu ohne diesen zunächst in einer Variable abzulegen. Geben Sie einige Attribute / Eigenschaften dieser Studierenden auf der Konsole aus.
 4. Schreiben sie eine Funktion `showInfo(...)` mit geeigneten Übergabeparametern, welche wichtige Infos über einen Studierenden auf der Konsole ausgibt. Rufen Sie diese Funktion einmal für jeden Studierenden auf.
-5. Wenn Sie können, ändern Sie das interface in eine Klasse mit Konstruktur. Verschieben Sie außerdem die `showInfo` Funktion innerhalb die Klasse und machen Sie damit eine Methode daraus.
+5. Wenn Sie können, ändern Sie das interface in eine Klasse mit Konstruktor. Verschieben Sie außerdem die `showInfo` Funktion innerhalb die Klasse und machen Sie damit eine Methode daraus.
 
 
 ## Aufgabe 2 - Arrays
@@ -63,7 +63,7 @@ Für diese Aufgabe soll der Canvas genutzt werden (siehe *Canvas* in 2.2).
 
 **b)** Entwerfen Sie ein Interface, welches auf sinnvolle Weise ein beliebiges Rechteck abbilden kann. _Bonus: Machen Sie statt einem Interface eine Klasse und, statt globaler Funktionen denen die Rechtecke übergeben werden in den folgenden Teilaufgaben, Methoden der Klasse selbst._
 
-**c)** Schreiben Sie eine Funktion `createRect()`, welche Ihnen ohne Übergabeparameter ein zufällig (aber sinnvoll) befülltes Rechteck zurück gibt. _Für die Klasse wäre dies der Konstruktor._
+**c)** Schreiben Sie eine Funktion `createRect()`, welche Ihnen ohne Übergabeparameter ein zufällig (aber sinnvoll) befülltes Rechteck zurück gibt. _Wenn Sie mit einer Klasse statt einem Interface arbeiten, schreiben Sie stattdessen einen Konstruktor welcher ohne Übergabeparameter das zufällige Rechteck erstellt._
 
 **d)** Schreiben Sie eine Funktion `drawRect(...)`, welche das ihr übergebene Rechteck auf dem Canvas malt.
 
