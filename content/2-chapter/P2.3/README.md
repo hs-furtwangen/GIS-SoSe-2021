@@ -2,11 +2,13 @@
 
 ## Aufgabe 1
 
-Wiederholen Sie Aufgabe 3 von [letzter Woche](#P2.2). Nutzen Sie aber statt dem Canvas `<div>`s (oder andere DOM Elemente): erzeugen Sie diese dynamisch, setzen Sie die richtige Position und Farbe, etc.
+Erschaffen Sie wieder einige zufällige Rechtecke auf der Seite. Nutzen Sie aber nicht wie letzte Woche den Canvas, sondern `<div>`s (oder andere DOM Elemente): erzeugen Sie diese dynamisch (d.h. durch Typescript Code, nicht im HTML selbst), setzen Sie so die richtige Position und Farbe, etc.
 
 Fügen Sie außerdem ganz am Anfang der Seite zwei Buttons ein und installieren Sie auf diesen je einen Eventlistener:
 - Der erste Button soll ein weiteres Rechteck hinzufügen.
 - Der zweite Button soll die Seite zurücksetzen.
+
+_Bonus: Lassen Sie auch diese Rechtecke sich bewegen._
 
 ## Aufgabe 2
 
