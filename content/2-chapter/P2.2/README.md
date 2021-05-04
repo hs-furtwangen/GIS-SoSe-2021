@@ -4,6 +4,8 @@ Nutzen Sie für jede Kaptielaufgabe einen gemeinsamen Namesraum. Es ist außerde
 
 Auch diese Woche leisten wir noch keine direkte Vorarbeit zur Kapitelaufgabe, legen aber wichtige Grundsteine dafür.
 
+[Beispiellösungen](https://github.com/Plagiatus/GIS-SoSe-2021/blob/main/Aufgabe2_2/beispielloesung.md){:target="_blank"}
+
 ## Aufgabe 1 - Mehr "langweilige" Konsolenausgaben
 
 **a)** Schreiben Sie eine Funktion `min(...)`, welche eine beliebige Anzahl an Übergabeparametern entgegen nimmt und aus allen übergebenen Zahlen das Minimum zurück gibt.
