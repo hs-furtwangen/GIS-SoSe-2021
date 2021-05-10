@@ -1,5 +1,7 @@
 <!-- # Praktukumsaufgabe 2.3 -->
 
+[Beispiellösung](https://github.com/Plagiatus/GIS-SoSe-2021/blob/main/Woche2_3/beispielloesung.md)
+
 ## Aufgabe 1
 
 Erschaffen Sie wieder einige zufällige Rechtecke auf der Seite. Nutzen Sie aber nicht wie letzte Woche den Canvas, sondern `<div>`s (oder andere DOM Elemente): erzeugen Sie diese dynamisch (d.h. durch Typescript Code, nicht im HTML selbst), setzen Sie so die richtige Position und Farbe, etc.
