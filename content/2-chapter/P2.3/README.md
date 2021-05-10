@@ -1,6 +1,6 @@
 <!-- # Praktukumsaufgabe 2.3 -->
 
-[Beispiellösung](https://github.com/Plagiatus/GIS-SoSe-2021/blob/main/Woche2_3/beispielloesung.md)
+[Beispiellösung](https://github.com/Plagiatus/GIS-SoSe-2021/blob/main/Woche2_3/beispielloesung.md){:target="_blank"}
 
 ## Aufgabe 1
 
