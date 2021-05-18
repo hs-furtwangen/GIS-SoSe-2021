@@ -1,5 +1,7 @@
 <!-- # Praktukumsaufgabe 2.4 -->
 
+[Beispiellösung](https://github.com/Plagiatus/GIS-SoSe-2021/blob/main/Woche2_4/beispielloesung.md){:target="_blank"}
+
 ## Aufgabe 1
 
 **a)** Konvertieren Sie die Variable in der `data.ts` Datei, in der Sie zuvor die Daten gespeichert haben, in einen JSON string und schreiben Sie eine Funktion in Ihrem Hauptprogramm, welches die Daten aus dem JSON String in ein Objekt ihres Interfaces / ihrer Klasse konvertiert. An dieser Stelle sollte die Seite wieder genau so funktionieren wie die Woche davor.
