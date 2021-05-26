@@ -66,7 +66,7 @@ Jedes `entry`-Objekt ist also ein kleines Array mit zwei Einträgen, an Stelle 0
 Jetzt haben Sie einige Werkzeuge an der Hand um synchrone oder asynchrone Kommunikation von der Clientseite aus zu starten, also eine Request zu verschicken und eine Response vom Server zu erhalten. Derzeit wird nur die Get-Methode betrachtet, bei der die Nutzdaten in den URL-String eingebettet werden. Bei der asynchronen Kommunikation muss dies nun noch getan werden. Dazu sollte zunächst der Aufbau des URL näher untersucht werden.
 > - Studieren Sie den Aufbau des URL anhand der folgenden Grafik.  
 
-![URL](https://github.com/hs-furtwangen/GIS-SoSe-2021/blob/main/content/3-chapter/L3.1/URL.png)
+![URL](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/3-chapter/L3.1/URL.png)
 
 ### Teil 1 der URL
 Protocol, Authentifizierung und Host werden benötigt, um eine Verbindung zu einem Server aufzubauen. Häufig genügt allerdings bereits die Angabe des Hostnamen, z.B. www.hs-furtwangen.de, um Browser und Server zur Kommunikation zu bewegen.  
@@ -181,7 +181,7 @@ Mittlerweile gibt es aber auch einen großen Markt für "Platform As A Service" 
     -  Der Name Ihrer App muss einzigartig sein und darf nur kleine Buchstaben nutzen
     -  Wählen Sie die Region Europe
     -  Dann "create app"
-    ![New App](https://github.com/hs-furtwangen/GIS-SoSe-2021/blob/main/content/3-chapter/L3.1/new-app.JPG)
+    ![New App](https://hs-furtwangen.github.io/GIS-SoSe-2021/content/3-chapter/L3.1/new-app.JPG)
 -  In Ihrem persönliches Dashboard (Steuerpult) interessiert Sie zunächst nur die Seite "Deploy"
   -  Um nun Ihren Code auf Heroku zu laden, wählen Sie dort "Connect to Github"
   -  Klicken Sie darunter erneut auf "Connect to Github"
