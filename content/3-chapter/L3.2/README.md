@@ -60,7 +60,7 @@ console.log(qdata.monat);
 
 > Siehe auch nochmal das Diagramm zum URL (*Uniform Resource Locator* in 3.1).
 
-![properties of URL](Properties_URL_Module.png)
+![properties of URL](https://github.com/hs-furtwangen/GIS-SoSe-2021/blob/main/content/3-chapter/L3.2/Properties_URL_Module.png)
 
 > - Untersuchen Sie folgende Tabelle und vergleichen Sie mit dem Beispiel. Wie können Sie auf den Port des URL im Beispiel oben zugreifen? Wie auf das mitgelieferte Custom-Attribut `jahr`?
 > - Fangen Sie die URL eines Klienten ab und testen Sie, ob Sie einen über ein per HTML Formular und `GET` gesendeten URL in die Einzelteile zerlegen können.
