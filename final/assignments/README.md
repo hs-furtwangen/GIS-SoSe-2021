@@ -4,7 +4,7 @@ Zur Erinnerung: _Sie müssen nur **eine** dieser drei Aufgaben bearbeiten._
 
 ---
 
-## Aufgabe A: Online-Verwaltung für den AStA-Verleih
+## Aufgabe A: Online Memory Spiel
 
 Erstellen Sie ein vereinfachtes Websystem, das es erlaubt den Verleih verschiedener Artikel (Geräte und Gegenstände) des AStA an der Hochschule Furtwangen zu unterstützen.
 Das System soll den Studierenden eine Webseite zur Reservierung von Artikeln zur Verfügung stellen sowie den Mitgliedern des AStA eine Webseite zur Verwaltung der Reservierungen.
@@ -22,7 +22,7 @@ Als *reserviert* registrierte Artikel können über diese Seite in den Status *a
 
 ---
 
-## Aufgabe B: Twitter für Anfänger
+## Aufgabe B: Online Rezepte Sammlung
 
 Erstellen Sie ein Twitter-ähnliches Websystem, mit dem registrierte Nutzer kurze Textbeiträge posten und einsehen können.
 Das sehr vereinfachte System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung mit denen Nutzer interagieren können.

@@ -1,6 +1,6 @@
 <!-- # Über die Prüfungsabgabe -->
 
-Zu diesem ersten Teil der Modulprüfung stehen Ihnen drei Aufgabenstellungen zur Wahl (siehe *Aufgaben zur Wahl*), die Sie selbstständig bearbeiten sollen. Die Lösung der Aufgabe ist im besten Fall eine lauffähige Anwendung, die der jeweiligen Beschreibung genügt (siehe *Über die Prüfungsabgabe*).
+Zu diesem ersten Teil der Modulprüfung stehen Ihnen zwei Aufgabenstellungen zur Wahl (siehe *Aufgaben zur Wahl*), die Sie selbstständig bearbeiten sollen. Die Lösung der Aufgabe ist im besten Fall eine lauffähige Anwendung, die der jeweiligen Beschreibung genügt (siehe *Über die Prüfungsabgabe*).
 
 Die Bewertung der Aufgabenlösungen folgt einem einheitlichen Kriterienkatalog (siehe *Bewertungskriterien*). Sie werden in der mündlichen Prüfung aufgefordert die Details der Implementierung Ihrer Lösung zu erläutern.
 
