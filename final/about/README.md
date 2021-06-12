@@ -6,7 +6,7 @@ Die Bewertung der Aufgabenlösungen folgt einem einheitlichen Kriterienkatalog (
 
 Bitte beachten Sie folgende Hinweise:
 
-- Da jeder Kandidat selbstständig eine **eigene Lösung** erarbeiten soll, ist Gruppenarbeit nur sehr eingeschränkt möglich und auf allgemeine Aspekte Lösung möglich.
+- Da jeder Kandidat selbstständig eine **eigene Lösung** erarbeiten soll, ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich.
 So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
 - Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von *HTML*, *CSS*, *TypeScript*, *NodeJS* und *MongoDB*.
@@ -18,6 +18,9 @@ So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zw
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
 - Fremder Code ist nur unter zwei Voraussetzungen akzeptabel: Zum einen (1.) muss dieser klar als Zitat gekennzeichnet sein und eine Quelle angegeben werden, zum anderen (2.) müssen Sie trotzdem erklären können, was er tut. Ist ersteres nicht der Fall liegt bei schwereren Verstößen der Verdacht eines Plagiats vor, welcher desaströse Auswirkungen auf Ihr Studium haben könnte.
+	- Daraus folgt: npm Module (mit Außnahme der in der Veranstaltung genutzten @types sowie mongodb module) oder sonstige server-seitige Bibliotheken dürfen nur als Ausnahme nach Absprache mit den Dozenten verwendet werden und sind ansonsten verboten.
+	- Gleiches gilt für irgendwelche client-seitigen Bibliotheken (JS wie auch CSS) wie jQuery, Bootstrap, Vue, etc.
+
 
 ---
 
@@ -37,7 +40,7 @@ So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zw
 
 - Die Anleitung (2.), der Link (3.) und die Datenbankstruktur (4.) können gerne in ein Dokument zusammengefaßt werden (z.B. PDF, MarkDown, TXT), so dass es sich hier um 3 bis 5 Dokumente handelt.
 
-- Achten Sie auf eine sinnvolle Ordner-/Dateistruktur für ihren Quellcode sowie für das gesamte Archiv Ihrer Abgabe.
+- Achten Sie auf eine sinnvolle/übersichtliche Ordner-/Dateistruktur für ihren Quellcode sowie für das gesamte Archiv Ihrer Abgabe.
 
 - Benennen Sie das Datenarchiv nach folgendem Schema: `<Nachname>_<Vorname>_<Matrikelnummer>.zip`
 
@@ -75,6 +78,6 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 11. Schnittstellen/Kommunikationsbedarf zwischen Client und Server definieren
 12. Server-Client Kommunikation implementieren
 
-**Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Email oder Discord Fragen stellen.
+**Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Email oder Discord Fragen stellen. Denken Sie an die "magische" Grenze von 15 Minuten.
 
 **[TypeScript Dokumentation](https://www.typescriptlang.org/){:target="_blank"}**

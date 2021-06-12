@@ -8,7 +8,7 @@ Die jeweils maximale Punktzahl kann erreicht werden, wenn ein Kriterium erfüllt
 
 | Name                   | Beschreibung | Punkte   |
 |------------------------|--------------|----------|
-| Aufgabenstellung       | die Lösung implementiert die in der gewählten Aufgabenstellung (A, B, C) erwähnten Eigenschaften |30|
+| Aufgabenstellung       | die Lösung implementiert die in der gewählten Aufgabenstellung (A, B) erwähnten Eigenschaften |30|
 | Trennung HTML/CSS/Script/Data | die verschiedenen Aspekte der Lösung sind in verschiedenen Dateien implementiert – Inhalt (HTML), Logik (TS/JS), grafische Gestaltung (CSS), Daten (JSON/DB). |2|
 | HTML Standards         | syntaktisch und semantisch korrektes sowie angemessen gegliedertes HTML |2|
 | kein W3 oder JS Error  | der [W3 Validierer](https://validator.w3.org/){:target="_blank"} gibt keine Fehlermeldungen für die Lösung aus, außerdem gibt es keine Fehlermeldungen in der Konsole|2|
