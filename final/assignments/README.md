@@ -6,74 +6,27 @@ Zur Erinnerung: _Sie müssen nur **eine** dieser zwei Aufgaben bearbeiten._
 
 ## Aufgabe A: Online Memory Spiel
 
-Erstellen Sie ein Einzelspieler Memory Spiel, das man über Maus-Interaktionen spielen kann. Das System soll den Benutzern eine Seite zum Spielen zur Verfügung stellen, eine Seite um sich die Highscores der schnellsten Spieler anzusehen, eine Admin-Seite auf der die Bilder verwaltet werden können sowie eine Übersichtsseite von der man die Unterseiten erreicht. Jede dieser Seiten soll schön mit CSS gestaltet werden.
+Erstellen Sie ein [Memory Spiel](https://de.wikipedia.org/wiki/Memory_(Spiel)){:target="_blank"} für Einzelspieler:innen, das man über Maus-Interaktionen spielen kann. Das System soll den Benutzer:innen drei verschiedene Webseiten zur Verfügung stellen:
+- eine *Spielseite* zum Spielen,
+- eine *Score-Seite* um sich die Highscores der schnellsten Spieler:innen anzusehen
+- eine *Admin-Seite*, auf der die Bilder des Spiels verwaltet werden können
 
-Startet man ein neues Spiel, so sollen zunächst eine Menge von Bild-Links aus der Datenbank zufällig geladen werden (ein Memory Spiel sollte aus mindestens 8 Pärchen bestehen), welche dann als Karten in zufälliger Reihenfolge auf der Seite angeordnet werden. Dabei sind die Bilder selbstverständlich nicht sichtbar. Beim Klicken wird die angeklickte Karte enthüllt. Nach jeder zweiten angeklickten Karte wird geprüft, ob es sich um das gleiche Bild handelt. Ist dies der Fall, kommen die Karten aus dem Spiel. Ist dies nicht der Fall, werden beide Karten wieder verdeckt. Die Positionen der Karten dürfen sich im Laufe des Spiels nicht ändern.
+Diese drei Webseiten sollen über eine (vierte) Übersichtsseite erreicht werden können. Jede dieser Webseiten soll mit CSS möglichst ansprechend grafisch gestaltet werden.
 
-Sobald das letzte Pärchen aufgedeckt wurde, wird der Spieler auf eine weitere Seite weitergeleitet auf der er seinen Namen eingeben muss und die Zeit, die er gebraucht hat, angezeigt bekommt. Nach Bestätigung dieses Namens wird der Punktestand in der Datenbank gespeichert und der Spieler auf die Highscore Liste weitergeleitet, auf der mindestens die 10 schnellsten Zeiten mit Namen der Benutzer angezeigt werden. Von hier kann ein neues Spiel gestartet werden.
+Wenn auf der Spielseite ein neues Spiel gestartet wird, wird zunächst eine zufällige Reihe von Bild-Links (d.h. Verweise auf öffentlich zugängliche Bilddateien in Form einer URL) aus der Datenbank geladen. Ein Memory Spiel sollte aus mindestens 8 Pärchen (d.h. 2 Karten mit dem gleichen Bild) bestehen. Die Karten werden am Spielanfang in zufälliger Reihenfolge verdeckt auf dem Bildschirm angeordnet, so dass die Bilder nicht sichbar sind. Beim Klicken auf eine Karte wird das dazugehörige Bild aufgedeckt. Nachdem jeweils zwei Karten angeklickt wurden, wird geprüft, ob es sich um ein Pärchen handelt. Ist dies der Fall, werden die Karten aus dem Spiel genommen. Andernfalls werden beide Karten wieder verdeckt. Die Positionen der Karten dürfen sich im Laufe des Spiels nicht ändern.
 
-Auf der Administrativen Seite werden alle in der Datenbank vorhandenen Bilder (bzw Bild-Links) angezeigt. Außerdem können diese Bilder aus der Datenbank entfernt werden oder neue Bilder hinzugefügt werden.
+Sobald das letzte Pärchen aufgedeckt wurde, werden die Spieler:innen auf eine weitere Webseite weitergeleitet, auf der die Dauer des Spiels angezeigt wird und sie ihren Namen eingeben müssen. Nach Eingabe des Namens, wird der Punktestand in der Datenbank gespeichert und die Spieler:innen auf die Highscore Liste weitergeleitet, auf der mindestens die 10 schnellsten Zeiten mit Namen der Benutzer angezeigt werden. Von hier kann ein neues Spiel gestartet werden.
 
-
-## Aufgabe B: Online Rezepte Sammlung
-
-Erstellen Sie ein Websystem, in dem registrierte Nutzer Rezepte teilen, ändern, einsehen und favorisieren können.
-Das System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung mit denen Nutzer interagieren können. Alle diese Seiten (außer Login) müssen untereinander über ein Menü erreichbar sein.
-
-Auf einer Login-Seite können Nutzer ein neues Nutzerkonto anlegen oder sich mit einem bestehenden Konto über die Datenbank einloggen (ein Nutzername kann natürlich nur einmal registriert werden).
-
-Nach einem erfolgreichen Zugang über die Login Seite kommt der Nutzer zunächst auf eine Hauptseite, auf der alle Rezepte des Systems angezeigt werden. Hier kann der Nutzer über einen "Favorisieren" Button ein Rezept zu seiner persönlichen Sammlung hinzufügen.
-
-Auf einer "Meine Sammlung" Seite kann der eingeloggte Nutzer seine favorisierten Rezepte einsehen und auch wieder aus der Liste entfernen.
-
-Auf einer "Meine Rezepte" Seite können neue Rezepte erstellt und mit der Seite geteilt werden sowie die eigenen bereits geteilten Rezepte bearbeitet werden. Ein Rezept besteht aus mindestens einer Zutatenliste (variable Länge bzw wenn statisch dann mindestens 10 Eingabefelder) sowie einer Zubereitungsanweisung.
-
-<!-- 
-## Aufgabe A: Online Memory Spiel
-
-Erstellen Sie ein vereinfachtes Websystem, das es erlaubt den Verleih verschiedener Artikel (Geräte und Gegenstände) des AStA an der Hochschule Furtwangen zu unterstützen.
-Das System soll den Studierenden eine Webseite zur Reservierung von Artikeln zur Verfügung stellen sowie den Mitgliedern des AStA eine Webseite zur Verwaltung der Reservierungen.
-Um die Implementierung zu vereinfachen gibt es für die Reservierung und Verwaltung keinen Kalender, sondern für jeden Artikel nur einen aktuellen Status, *frei*, *reserviert* oder *ausgeliehen*.
-
-Erstellen Sie für die ausleihenden Studierenden eine mit CSS wohlgestaltete Webseite, die eine Liste von mindestens 9 zur Ausleihe angebotenen Artikel präsentiert.
-Die Liste wird beim Aufruf der Webseite aus dem Inhalt einer Datenbank dynamisch generiert, wobei zu jedem Artikel mindestens ein Titel, eine kurze Beschreibung, ein Bild und eine Ausleihgebühr angeführt wird.
-Artikel, die nicht *frei* sind, werden in der Liste entsprechend markiert (z.B. ausgegraut).
-Die Nutzer können auf der Webseite einen oder mehrere freie Artikel zur Reservierung auswählen.
-Die ausgewählten Artikel werden herausgehoben oder markiert und die der Auswahl entsprechene Ausleihgebühr (Summe) angezeigt.
-Die Nutzer können dann auf einer zweiten Seite einen Namen angeben und die Reservierung abschicken, die damit für jeden der ausgewählten Artikel in der Datenbank registriert wird.
-
-Erstellen Sie eine weitere mit CSS wohlgestaltete Webseite auf der die Mitglieder des AStA einsehen können, welche Artikel momentan *frei*, *reserviert* oder *ausgeliehen* sind.
-Als *reserviert* registrierte Artikel können über diese Seite in den Status *ausgeliehen* versetzt werden und ausgeliehene Artikel – bei Rückgabe – wieder als *frei* registrierte werden, wobei für Artikel, die nicht frei sind, der Name des Nutzers angegeben wird, der sie reserviert oder bereits ausgeliehen hat.
-
----
+Auf der Admin-Webseite werden alle Bilder der in der Datenbank vorhandenen Links angezeigt. Einzelne Bilder können aus der Datenbank entfernt werden und neue Bild-Links hinzugefügt werden (z.B. über ein Eingabefeld, in das eine URL eingegeben werden kann).
 
 ## Aufgabe B: Online Rezepte Sammlung
 
-Erstellen Sie ein Twitter-ähnliches Websystem, mit dem registrierte Nutzer kurze Textbeiträge posten und einsehen können.
-Das sehr vereinfachte System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung mit denen Nutzer interagieren können.
+Erstellen Sie ein Websystem, das es registrierten Nutzer:innen erlaubt Rezepte zu teilen, zu ändern, einzusehen und in eine Sammlung von Favoriten aufzunehmen. Das System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung, mit denen die Nutzer:innen interagieren. Mit Ausnahme der Login-Seite, gibt es auf allen Webseiten des Systems gibt es ein einheitliches Menü zur Navigation, über das die Seiten des Systems erreichbar sind.
 
-Auf der *Login*-Seite können Nutzer ein neues Nutzerkonto anlegen oder sich mit einem bestehenden Konto über die Datenbank einloggen (ein Nutzernahme kann natürlich nur einmal registriert werden).
+Auf der Login-Seite können Nutzer:innen ein neues Konto mit einem Nutzernamen und einem Passwort anlegen oder sich mit einem bestehenden Konto über die Datenbank verbinden. Ein Name kann hier selbstverständlich nur einmal registriert werden und der Versuch einen bereits registrierten Namen erneut zu registrieren führt zu einer Fehlermeldung auf der Login-Seite.
 
-Nach einem erfolgreichen Zugang über die Login-Seite kommt der Nutzer zunächst auf die *Hauptseite*, wo der Fluß der Beiträge der abonnierten Nutzer (siehe unten) angezeigt wird.
-Außerdem kann der Nutzer auf dieser Seite selbst Beiträge (Posts) abschicken, die mit den Beitägen der anderen Nutzer in der Datenbank gespeichert werden.
+Nach einem erfolgreichen Zugang über die Login-Seite, kommen die Nutzer:innen zunächst auf die Seite *Alle Rezepte*, auf der alle Rezepte angezeigt werden, die sich aktuell in der Datenbank befinden. Hier können die Nutzer:innen über den Button *Favorisieren* ein Rezept zur ihrer persönlichen Sammlung von Lieblingsrezepten hinzufügen.
 
-Ein Link auf der Hauptseite führt zur *Follow*-Seite, wo eine Liste aller registrierten Nutzer angezeigt wird.
-Zu jedem Nutzer in der Liste gibt es einen "Folgen/Entfolgen" Button, mit dem die Beiträge des entsprechenden Nutzers abonniert werden können. Ein zweiter Link auf der Hauptseite führt auf die *Profil*-Seite, wo das Profil des Nutzers angepasst werden kann. Zu einem Nutzerprofil gehören mindestens ein Name, ein Studiengang und eine Semesterangabe.
+Auf der Seite *Meine Lieblingsrezepte* können eingeloggte (!) Nutzer:innen ihre Sammlung favorisierter Rezepte einsehen und auch wieder aus der Sammlung entfernen.
 
----
-
-## Aufgabe C: Moorhuhn Shooter
-
-Erstellen Sie eine mit CSS wohlgestaltete Webseite mit einem Moorhun-Minigame, dessen Grafik auf dem Canvas-Element beruht.
-
-Vor Beginn des Spiels geben die Nutzer ihren Namen ein, der ggf. in der Anzeige der Highscores benutzt wird (siehe unten).
-Im Spiel kann der Nutzer in Ego-Perspektive Projektile wie z.B. Schneebälle, Torten, Gemüse oder Kugeln auf vorbeifliegende oder vorbeilaufende Ziele wie Moorhühner oder Schneemänner werfen oder schießen.
-
-Die Ziele bewegen sich in unterschiedlichen Richtungen zufällig über den Bildschirm und sind unterschiedlich groß und unterschiedlich schnell (skalieren Sie die Parameter zufällig zwischen einem minimalen und maximalen Wert).
-Die Flugzeit der Projektile beträgt mindestens 1 Sekunde.
-
-Wird ein Ziel getroffen, verschwindet es vom Bildschirm und der Score wird entsprechend der Treffer-Schwierigkeit erhöht.
-Die Treffer-Schwierigkeit varriert z.B. mit der Größe und Geschwindigkeit des Ziels.
-
-Nach Ende des Spiels werden die Highscores (die besten 10) auf einer seperaten Seite angezeigt.
-Dazu wird die erreichte Punktzahl mit in einer Datenbank gespeicheten Highscores verglichen und ggf. mit dem eingangs vom Nutzer angegebenen Namen in die Liste der Highscores in der Datenbank eingefügt. -->
+Auf der Seite *Meine Rezepte* können neue Rezepte erstellt und geteilt (d.h. in die Datenbank eingefügt) werden sowie die eigenen bereits geteilten Rezepte bearbeitet und gelöscht werden. Ein Rezept besteht mindestens aus  einer Zutatenliste sowie einer Zubereitungsanweisung. Die Zutatenliste wird entweder über eine variable Anzahl von Eingabefeldern (z.B. mit einem "+" Button) oder über mindestens 10 statische Eingabefelder erstellt.
