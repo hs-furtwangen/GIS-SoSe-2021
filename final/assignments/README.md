@@ -17,7 +17,7 @@ Wenn auf der Spielseite ein neues Spiel gestartet wird, wird zunächst eine zuf�
 
 Sobald das letzte Pärchen aufgedeckt wurde, werden die Spieler:innen auf eine weitere Webseite weitergeleitet, auf der die Dauer des Spiels angezeigt wird und sie ihren Namen eingeben müssen. Nach Eingabe des Namens, wird der Punktestand in der Datenbank gespeichert und die Spieler:innen auf die Highscore Liste weitergeleitet, auf der mindestens die 10 schnellsten Zeiten mit Namen der Benutzer angezeigt werden. Von hier kann ein neues Spiel gestartet werden.
 
-Auf der Admin-Webseite werden alle Bilder der in der Datenbank vorhandenen Links angezeigt. Einzelne Bilder können aus der Datenbank entfernt werden und neue Bild-Links hinzugefügt werden (z.B. über ein Eingabefeld, in das eine URL eingegeben werden kann).
+Auf der Admin-Webseite werden alle Bilder der in der Datenbank vorhandenen Links angezeigt. Einzelne Bilder (d.h. ihre Links) können aus der Datenbank entfernt werden und Links auf neue Bilder hinzugefügt werden (z.B. über ein Eingabefeld, in das eine URL eingegeben werden kann).
 
 ## Aufgabe B: Online Rezepte Sammlung
 
