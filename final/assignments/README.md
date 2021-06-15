@@ -25,8 +25,8 @@ Erstellen Sie ein Websystem, das es registrierten Nutzer:innen erlaubt Rezepte z
 
 Auf der Login-Seite können Nutzer:innen ein neues Konto mit einem Nutzernamen und einem Passwort anlegen oder sich mit einem bestehenden Konto über die Datenbank verbinden. Ein Name kann hier selbstverständlich nur einmal registriert werden und der Versuch einen bereits registrierten Namen erneut zu registrieren führt zu einer Fehlermeldung auf der Login-Seite.
 
-Nach einem erfolgreichen Zugang über die Login-Seite, kommen die Nutzer:innen zunächst auf die Seite *Alle Rezepte*, auf der alle Rezepte angezeigt werden, die sich aktuell in der Datenbank befinden. Hier können die Nutzer:innen über den Button *Favorisieren* ein Rezept zur ihrer persönlichen Sammlung von Lieblingsrezepten hinzufügen.
+Nach einem erfolgreichen Zugang über die Login-Seite, kommen die Nutzer:innen zunächst auf die Seite *Alle Rezepte*, auf der alle Rezepte angezeigt werden, die sich aktuell in der Datenbank befinden. Hier können die Nutzer:innen über den Button *Favorisieren* ein Rezept zur ihrer persönlichen Sammlung favorisierter Rezepte hinzufügen.
 
-Auf der Seite *Meine Lieblingsrezepte* können eingeloggte (!) Nutzer:innen ihre Sammlung favorisierter Rezepte einsehen und auch wieder aus der Sammlung entfernen.
+Auf der Seite *Meine Favoriten* können eingeloggte (!) Nutzer:innen ihre Sammlung favorisierter Rezepte einsehen und auch wieder aus der Sammlung entfernen.
 
-Auf der Seite *Meine Rezepte* können neue Rezepte erstellt und geteilt (d.h. in die Datenbank eingefügt) werden sowie die eigenen bereits geteilten Rezepte bearbeitet und gelöscht werden. Ein Rezept besteht mindestens aus  einer Zutatenliste sowie einer Zubereitungsanweisung. Die Zutatenliste wird entweder über eine variable Anzahl von Eingabefeldern (z.B. mit einem "+" Button) oder über mindestens 10 statische Eingabefelder erstellt.
+Auf der Seite *Meine Rezepte* können neue eigene Rezepte erstellt und geteilt (d.h. in die Datenbank eingefügt) werden sowie die eigenen bereits geteilten Rezepte bearbeitet und gelöscht werden. Ein Rezept besteht mindestens aus einer Zutatenliste sowie einer Zubereitungsanweisung. Die Zutatenliste wird entweder über eine variable Anzahl von Eingabefeldern (z.B. mit einem "+" Button) oder über mindestens 10 statische Eingabefelder erstellt.
