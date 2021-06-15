@@ -6,7 +6,7 @@ Der letztmögliche **Abgabetermin für die Lösung der Prüfungsabgabe** ist **S
 
 Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls.
 
-Die **mündlichen Prüfungen** finden am **19., 20. und 21. Juli** über Videokonferenz statt (weitere Prüfungstermine am 18. Februar sind möglich).
+Die **mündlichen Prüfungen** finden am **19., 20. und 21. Juli** über Videokonferenz statt (weitere Prüfungstermine am 22. Juli sind je nach Teilnehmerzahl möglich).
 
 Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 11. Juli 2021 einschreiben (siehe Abschnitt *Prüfungseinschreibung*). Sollten Sie nicht daran teilnehmen wollen, müssen Sie sich bis spätestens zum 10. Juli 2021 beim Prüfungsamt davon abmelden.
 

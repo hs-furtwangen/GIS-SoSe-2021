@@ -21,7 +21,7 @@ Auf der Admin-Webseite werden alle Bilder der in der Datenbank vorhandenen Links
 
 ## Aufgabe B: Online Rezepte Sammlung
 
-Erstellen Sie ein Websystem, das es registrierten Nutzer:innen erlaubt Rezepte zu teilen, zu ändern, einzusehen und in eine Sammlung von Favoriten aufzunehmen. Das System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung, mit denen die Nutzer:innen interagieren. Mit Ausnahme der Login-Seite, gibt es auf allen Webseiten des Systems gibt es ein einheitliches Menü zur Navigation, über das die Seiten des Systems erreichbar sind.
+Erstellen Sie ein Websystem, das es registrierten Nutzer:innen erlaubt Rezepte zu teilen, zu ändern, einzusehen und in eine Sammlung von Favoriten aufzunehmen. Das System stellt mehrere mit CSS wohlgestaltete Webseiten zur Verfügung, mit denen die Nutzer:innen interagieren. Mit Ausnahme der Login-Seite gibt es auf allen Webseiten des Systems ein einheitliches Menü zur Navigation, über das die Seiten des Systems erreichbar sind.
 
 Auf der Login-Seite können Nutzer:innen ein neues Konto mit einem Nutzernamen und einem Passwort anlegen oder sich mit einem bestehenden Konto über die Datenbank verbinden. Ein Name kann hier selbstverständlich nur einmal registriert werden und der Versuch einen bereits registrierten Namen erneut zu registrieren führt zu einer Fehlermeldung auf der Login-Seite.
 
