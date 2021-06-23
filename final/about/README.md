@@ -36,7 +36,7 @@ So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zw
     - Muss ein *LiveServer* verwendet werden?
   3. einen (*GitHub Pages*) Link auf die möglichst lauffähige und vollständige Lösung
   4. eine einfache Beschreibung/Darstellung ihrer Datenbankstruktur in JSON-ähnlicher Syntax oder als Graphen (Baumstruktur)
-  5. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser Vorlage](ee.pdf))
+  5. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser Vorlage](https://hs-furtwangen.github.io/GIS-SoSe-2021/final/ee.pdf))
 
 - Die Anleitung (2.), der Link (3.) und die Datenbankstruktur (4.) können gerne in ein Dokument zusammengefaßt werden (z.B. PDF, MarkDown, TXT), so dass es sich hier um 3 bis 5 Dokumente handelt.
 
