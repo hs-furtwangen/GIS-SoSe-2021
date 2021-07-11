@@ -2,7 +2,7 @@
 
 Die Modulprüfung zu GIS besteht aus einer **Prüfungsaufgabe** und einer **mündlichen Prüfung**. Zum Bestehen der Modulprüfung müssen beide Prüfungsteile erfolgreich abgeschlossen werden.
 
-Der letztmögliche **Abgabetermin für die Lösung der Prüfungsabgabe** ist **Sonntag, 11. Juli 2021 um 23:59.**. Alle nötigen Informationen über die Prüfungsaufgaben und die Abgabe Ihrer Lösung finden Sie im Abschnitt *Prüfungsabgabe*.
+Der letztmögliche **Abgabetermin für die Lösung der Prüfungsabgabe** ist **Sonntag, 11. Juli 2021 um 23:59 Uhr**. Alle nötigen Informationen über die Prüfungsaufgaben und die Abgabe Ihrer Lösung finden Sie im Abschnitt *Prüfungsabgabe*.
 
 Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls.
 
